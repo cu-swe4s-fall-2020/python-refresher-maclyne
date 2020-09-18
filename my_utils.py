@@ -1,4 +1,4 @@
-def get_column(file_name, query_column, query_value, result_column):
+def get_column(file_name, query_column, query_value, result_column=1):
     f = open(file_name, 'r')
     out_list = []
     for l in f:
