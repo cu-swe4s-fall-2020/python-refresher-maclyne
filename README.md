@@ -37,3 +37,8 @@ File: test_print_cases.sh	usses Stupid Simple Bash Testing for function tests
 
 File: test_my_utils.py		unit tests for my_utils.py
 				not completely comprehensive, could use some better testing tbh
+
+File: .travis.yml		uses Travis CI (continuous integration) test driven devo
+				runs essentially same things as bash file run.sh, but does in Travis CI
+				https://travis-ci.com (has access to github repo)
+
