@@ -1,17 +1,30 @@
 """Various utilities
 
     * get_column - reads a CSV file and gets results filtered by query value
-
+    * has_decreasing_values - tells if array of ints has any decreasing vals \
+                              when read in order(returns bool)
+    * get_daily_count - takes cumulative values of cases deliminated daily \
+                        and returns daily numbers (today minus yesterday)
+    * running_average - running average of an array (moving forward) using \
+                        a given window size \
+                        note: moving window covers only past and current values
 """
 import array
 import numpy as np
 import sys
+import datetime
+from datetime import date
 
 
-def get_column(file_name, query_column, query_value, result_column=1):
+def get_column(file_name, query_column, query_value, result_column=1,
+               date_column=0):
     """
     Reads a CSV file and outputs the values of the results corresponding \
             to the lines in which the query value is met
+
+    Robust to missing or out of order dates:
+    gaps (missing) dates padded in with no new cases
+    our of order dates raises a ValueError and exits
 
     required imports:
     ---------
@@ -27,11 +40,14 @@ def get_column(file_name, query_column, query_value, result_column=1):
 
     results_column: int     index number of column results in CSV file
 
+    date_column: int        index number of column dates in CSV file
+                            dates must be in isoformat (strings)
+
     Returns
     ---------
     out_array: array of integers    values from  results column \
                                     filtered by lines that have the query_value
-
+                                    gaps in dates are filled in
     """
     # catch possible exceptions when opening files
     try:
@@ -46,15 +62,34 @@ def get_column(file_name, query_column, query_value, result_column=1):
     # open and read file
     f = open(file_name, 'r')
     out_array = array.array('i', [])
+    dates_list = []
     # parse through file lines
-    for l in f:
-        A = l.rstrip().split(',')
+    for line in f:
+        A = line.rstrip().split(',')
         # filter by where query_value is met and append results to output
         if A[query_column] == query_value:
-            out_array.append(int(A[result_column]))
+            # just append data the first time query value is reached
+            if dates_list == []:
+                dates_list.append(A[date_column])
+                out_array.append(int(A[result_column]))
+            # track dates to make sure no gaps, and fill gaps if there are
+            else:
+                date_last = date.fromisoformat(dates_list[-1])
+                dates_list.append(A[date_column])
+                date_now = date.fromisoformat(A[date_column])
+                delta = date_now - date_last
+                gap = delta.days
+                if gap < 0:
+                    ValueError
+                    print('dates out of order, system exit')
+                    sys.exit(4)
+                else:
+                    while gap > 1:
+                        out_array.append(out_array[-1])
+                        gap = gap - 1
+                    out_array.append(int(A[result_column]))
 
     f.close()
-
     return out_array
 
 
@@ -91,6 +126,7 @@ def get_daily_count(cumulative_values):
     daily_values: array of int      number of daily new cases
     """
     if has_decreasing_values(cumulative_values) is True:
+        ValueError
         print('cumulative_values are decreasing somewhere. sys.exit(2)')
         sys.exit(2)
 
@@ -98,7 +134,6 @@ def get_daily_count(cumulative_values):
     daily_values[0] = cumulative_values[0]
     for d in np.arange(1, len(cumulative_values)):
         daily_values[d] = cumulative_values[d] - cumulative_values[d-1]
-        # TODO: add a way to work bug if cumulative_values is ever decreasing
     return daily_values
 
 

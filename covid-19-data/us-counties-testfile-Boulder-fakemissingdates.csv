@@ -1,0 +1,10 @@
+date,county,state,fips,cases,deaths 
+2020-08-28,FakePlace,Colorado,08013,2283,79
+2020-08-29,Boulder,Colorado,08013,2289,79
+2020-09-01,Boulder,Colorado,08013,2324,79
+2020-09-02,Boulder,Colorado,08013,2344,79
+2020-09-03,Boulder,Colorado,08013,2361,79
+2020-09-04,Boulder,Colorado,08013,2399,79
+2020-09-09,Boulder,Colorado,08013,2574,79
+2020-09-10,FakePlace,Colorado,08013,2621,79
+2020-09-11,Boulder,Colorado,08013,2671,79

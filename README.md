@@ -30,10 +30,13 @@ File: run.sh		runs print_cases.py
 File: covid-19-data/us-counties-testfile-Boulder.csv 	testfile used for some unit tests
 							mainly used for test_get_column()
 
-File: make_newtestfile.py	python script I used to make my testfile of covid19 data
+File: make_newtestfile.py	python script I used to make my initial testfile of covid19 data
+				note: other testfiles were manually edited from this product
 
 File: test_print_cases.sh	usses Stupid Simple Bash Testing for function tests
-				not completely comprehensive, could use some better testing tbh				
 
 File: test_my_utils.py		unit tests for my_utils.py
-				not completely comprehensive, could use some better testing tbh
+
+File: .travis.yml		uses Travis CI (continuous integration) test driven devo
+				runs essentially same things as bash file run.sh, but does in Travis CI
+				https://travis-ci.com (has access to github repo)
