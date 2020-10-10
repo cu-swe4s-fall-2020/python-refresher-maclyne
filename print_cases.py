@@ -50,6 +50,11 @@ parser.add_argument('--window',
                     default=5,
                     help='Window size of running average')
 
+parser.add_argument('--date_column',
+                    type=int,
+                    default=0,
+                    help='column number in CSV file denoting date')
+
 # parse arguments and store them in args
 args = parser.parse_args()
 
@@ -61,10 +66,11 @@ cases_column = args.cases_column
 print_daily = args.daily
 print_running_avg = args.running_avg
 window = args.window
+date_column = args.date_column
 
 # call function to run
 cases = get_column(file_name, county_column,
-                   county, result_column=cases_column)
+                   county, result_column=cases_column, date_column=date_column)
 
 # print daily cases option
 if print_daily is True:

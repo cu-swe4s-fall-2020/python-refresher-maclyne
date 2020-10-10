@@ -19,4 +19,11 @@ run test_badfile python print_cases.py --file_name 'name-of-some-file-that-doesn
 assert_in_stdout "Couldn't find file "
 assert_exit_code 1
 
+run test_decreasing_exit python print_cases.py --file_name covid-19-data/us-counties-testfile-Boulder-fakemissingdates-decreasing.csv --county Boulder --county_column 1 --cases_column 4 --daily True --running_avg True --window 5 --date_column 0
+assert_in_stdout 'cumulative_values are decreasing somewhere. sys.exit(2)'
+assert_exit_code 2
+
+run test_date_out_of_order python print_cases.py --file_name covid-19-data/us-counties-testfile-Boulder-fakemissingdates-badorder.csv --county Boulder --county_column 1 --cases_column 4 --daily True --running_avg True --window 5 --date_column 0
+assert_in_stdout 'dates out of order, system exit'
+assert_exit_code 4
 
