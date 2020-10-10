@@ -11,6 +11,7 @@ before_install:
     - conda install --yes python=3.6
     - conda install -y pycodestyle
     - conda install --yes numpy
+    - conda install --yes datetime
 
 script:
     - python test_my_utils.py
