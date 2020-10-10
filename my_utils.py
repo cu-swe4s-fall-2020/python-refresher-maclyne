@@ -1,11 +1,12 @@
 """Various utilities
 
     * get_column - reads a CSV file and gets results filtered by query value
-    * has_decreasing_values - determines if array of integers has any decreasing values \
+    * has_decreasing_values - tells if array of ints has any decreasing vals \
                               when read in order(returns bool)
     * get_daily_count - takes cumulative values of cases deliminated daily \
-            and returns daily numbers (today minus yesterday)
-    * running_average - running average of an array (moving forward) using a given window size \
+                        and returns daily numbers (today minus yesterday)
+    * running_average - running average of an array (moving forward) using \
+                        a given window size \
                         note: moving window covers only past and current values
 """
 import array
@@ -13,12 +14,14 @@ import numpy as np
 import sys
 from datetime import date
 
-def get_column(file_name, query_column, query_value, result_column=1, date_column=0):
+
+def get_column(file_name, query_column, query_value, result_column=1,
+               date_column=0):
     """
     Reads a CSV file and outputs the values of the results corresponding \
             to the lines in which the query value is met
 
-    Robust to missing or out of order dates: 
+    Robust to missing or out of order dates:
     gaps (missing) dates padded in with no new cases
     our of order dates raises a ValueError and exits
 
@@ -60,29 +63,29 @@ def get_column(file_name, query_column, query_value, result_column=1, date_colum
     out_array = array.array('i', [])
     dates_list = []
     # parse through file lines
-    for l in f:
-        A = l.rstrip().split(',')
+    for line in f:
+        A = line.rstrip().split(',')
         # filter by where query_value is met and append results to output
         if A[query_column] == query_value:
             # just append data the first time query value is reached
             if dates_list == []:
                 dates_list.append(A[date_column])
                 out_array.append(int(A[result_column]))
-            # track dates to make sure no gaps, and fill gaps if there are    
+            # track dates to make sure no gaps, and fill gaps if there are
             else:
                 date_last = date.fromisoformat(dates_list[-1])
                 dates_list.append(A[date_column])
-                date_now =  date.fromisoformat(A[date_column])
+                date_now = date.fromisoformat(A[date_column])
                 delta = date_now - date_last
                 gap = delta.days
-                if gap <0:
+                if gap < 0:
                     ValueError
                     print('dates out of order, system exit')
                     sys.exit(4)
                 else:
                     while gap > 1:
                         out_array.append(out_array[-1])
-                        gap = gap -1
+                        gap = gap - 1
                     out_array.append(int(A[result_column]))
 
     f.close()

@@ -22,29 +22,26 @@ class TestCalc(unittest.TestCase):
                          0, '2020-09-04', result_column=4),
                          array.array('i', [2399]))
 
-
     def test_get_column_querynotmatched(self):
         # empty array of int if the query value is not in the file.
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
                          1, 'Denver', result_column=4), array.array('i', []))
 
-    
     def test_get_column_badfile(self):
         # error mode raised if file not found
         self.assertRaises(FileNotFoundError, my_utils.get_column(
                          'name-of-some-file-that-doesnt-exist-in-path.csv',
                           0, '2020-09-04', result_column=4))
 
-
     def test_get_column_missingdates(self):
         self.assertEqual(my_utils.get_column(
-                         'covid-19-data/us-counties-testfile-Boulder-fakemissingdates.csv',
+                         'covid-19-data/'
+                         + 'us-counties-testfile-Boulder-fakemissingdates.csv',
                          1, 'Boulder', result_column=4, date_column=0),
                          array.array('i', [2289, 2289, 2289, 2324, 2344,
-                                          2361, 2399, 2399, 2399, 2399,
-                                          2399, 2574, 2574, 2671]))
-
+                                           2361, 2399, 2399, 2399, 2399,
+                                           2399, 2574, 2574, 2671]))
 
     def test_get_daily_count(self):
         # if only one day of cases input, daily count is that single number
@@ -69,12 +66,10 @@ class TestCalc(unittest.TestCase):
         daily_out = array.array('i', [r1, r2, r3, r4])
         self.assertTrue(all(my_utils.get_daily_count(cumul_in) == daily_out))
 
-
     def test_get_daily_count_decreasing(self):
         # test error mode for decreasing cases (exit code 2)
         with self.assertRaises(ValueError):
             my_utils.get_daily_count(array.array('i', [0, 2, 1]))
-
 
     def test_running_avg(self):
         self.assertTrue(all(my_utils.running_average(np.array([0, 1, 2, 3, 4]),
