@@ -21,14 +21,30 @@ class TestCalc(unittest.TestCase):
                         'covid-19-data/us-counties-testfile-Boulder.csv',
                          0, '2020-09-04', result_column=4),
                          array.array('i', [2399]))
+
+
+    def test_get_column_querynotmatched(self):
         # empty array of int if the query value is not in the file.
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
                          1, 'Denver', result_column=4), array.array('i', []))
+
+    
+    def test_get_column_badfile(self):
         # error mode raised if file not found
         self.assertRaises(FileNotFoundError, my_utils.get_column(
                          'name-of-some-file-that-doesnt-exist-in-path.csv',
                           0, '2020-09-04', result_column=4))
+
+
+    def test_get_column_missingdates(self):
+        self.assertEqual(my_utils.get_column(
+                         'covid-19-data/us-counties-testfile-Boulder-fakemissingdates.csv',
+                         1, 'Boulder', result_column=4, date_column=0),
+                         array.array('i', [2289, 2289, 2289, 2324, 2344,
+                                          2361, 2399, 2399, 2399, 2399,
+                                          2399, 2574, 2574, 2671]))
+
 
     def test_get_daily_count(self):
         # if only one day of cases input, daily count is that single number
@@ -42,6 +58,8 @@ class TestCalc(unittest.TestCase):
         self.assertTrue(all(my_utils.get_daily_count(array.array('i',
                                                                  [0, 2, 2]))
                             == array.array('i', [0, 2, 0])))
+
+    def test_get_daily_count_randomness(self):
         # include randomness in tests
         r1 = random.randint(0, 100)
         r2 = random.randint(0, 100)
@@ -51,12 +69,12 @@ class TestCalc(unittest.TestCase):
         daily_out = array.array('i', [r1, r2, r3, r4])
         self.assertTrue(all(my_utils.get_daily_count(cumul_in) == daily_out))
 
-        # TODO: test error modes (if any)
-        # I am confused because I put an if statement for not decreasing \
-        # and then exiting with code 2, but not sure how this all fits together
-        self.assertTrue(all(my_utils.get_daily_count(array.array('i',
-                                                                 [0, 2, 1]))
-                            == array.array('i', [0, 2, 0])))  # exit w/ code 2
+
+    def test_get_daily_count_decreasing(self):
+        # test error mode for decreasing cases (exit code 2)
+        with self.assertRaises(ValueError):
+            my_utils.get_daily_count(array.array('i', [0, 2, 1]))
+
 
     def test_running_avg(self):
         self.assertTrue(all(my_utils.running_average(np.array([0, 1, 2, 3, 4]),
