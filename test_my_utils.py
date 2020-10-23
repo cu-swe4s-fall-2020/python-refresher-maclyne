@@ -2,6 +2,8 @@
 
     Initial date: 1 Oct 2020
     Author: Margot Clyne
+    
+    Updated Oct 22 get_column to take a list or target columns and return a list of lists
 
 """
 import unittest
@@ -19,29 +21,45 @@ class TestCalc(unittest.TestCase):
         # for comparing tests with (subset of last 20 days of Boulder county)
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
-                         0, '2020-09-04', result_column=4),
-                         array.array('i', [2399]))
+                         0, '2020-09-04', result_columns=[4]),
+                        [[2399]])
+    
+    def test_get_column_multipleresultcolumns(self):
+        # test that I get what I think for result_columns of len>1
+        self.assertEqual(my_utils.get_column(
+                        'covid-19-data/us-counties-testfile-Boulder.csv',
+                        0, '2020-09-04', result_columns=[4,5]),
+                        [[2399],[79]])
 
     def test_get_column_querynotmatched(self):
         # empty array of int if the query value is not in the file.
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
-                         1, 'Denver', result_column=4), array.array('i', []))
+                         1, 'Denver', result_columns=[4]), [[]])
 
     def test_get_column_badfile(self):
         # error mode raised if file not found
         self.assertRaises(FileNotFoundError, my_utils.get_column(
                          'name-of-some-file-that-doesnt-exist-in-path.csv',
-                          0, '2020-09-04', result_column=4))
+                          0, '2020-09-04', result_columns=[4]))
 
     def test_get_column_missingdates(self):
         self.assertEqual(my_utils.get_column(
                          'covid-19-data/'
                          + 'us-counties-testfile-Boulder-fakemissingdates.csv',
-                         1, 'Boulder', result_column=4, date_column=0),
-                         array.array('i', [2289, 2289, 2289, 2324, 2344,
-                                           2361, 2399, 2399, 2399, 2399,
-                                           2399, 2574, 2574, 2671]))
+                         1, 'Boulder', result_columns=[4], date_column=0),
+                         [[2289, 2289, 2289, 2324, 2344,
+                           2361, 2399, 2399, 2399, 2399,
+                           2399, 2574, 2574, 2671]])
+
+    def test_get_column_withdeaths(self):
+        # test this works for missing dates and two result_columns 
+        self.assertEqual(my_utils.get_column(
+                         'covid-19-data/'
+                         + 'us-counties-testfile-Boulder-shorter.csv',
+                         1, 'Boulder', result_columns=[4,5], date_column=0),
+                         [[2289, 2324, 2344, 2361, 2399, 2574, 2671],
+                          [79, 79, 79, 80, 80, 81, 83]])
 
     def test_get_daily_count(self):
         # if only one day of cases input, daily count is that single number

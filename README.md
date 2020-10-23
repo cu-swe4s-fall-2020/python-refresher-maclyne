@@ -10,7 +10,7 @@ School assignment: For Assignment #3 of class MCDB6440: Software Engineering for
 
 
 File: my_utils.py	This file imports a CSV file and outputs desired data
-			includes function get_column(file_name, query_column, query_value, result_column=1)
+			includes function get_column(file_name, query_column, query_value, result_columns=[1])
 			includes function has_decreasing_values() for an array of int
 			includes function get_daily_count(cumulative_values)
 			includes function running_average(daily_values, window=5)

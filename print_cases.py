@@ -70,7 +70,7 @@ date_column = args.date_column
 
 # call function to run
 cases = get_column(file_name, county_column,
-                   county, result_column=cases_column, date_column=date_column)
+                   county, result_columns=[cases_column], date_column=date_column)
 
 # print daily cases option
 if print_daily is True:
