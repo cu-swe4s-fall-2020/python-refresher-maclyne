@@ -8,6 +8,8 @@
     * running_average - running average of an array (moving forward) using \
                         a given window size \
                         note: moving window covers only past and current values
+    * binary_search - a binary search of sorted data
+
 """
 import array
 import numpy as np
@@ -16,8 +18,8 @@ import datetime
 from datetime import date
 
 
-def get_column(file_name, query_column, query_value, result_column=1,
-               date_column=0):
+def get_column(file_name, query_column, query_value, result_columns=[1],
+               date_column=None):
     """
     Reads a CSV file and outputs the values of the results corresponding \
             to the lines in which the query value is met
@@ -32,22 +34,29 @@ def get_column(file_name, query_column, query_value, result_column=1,
 
     Parameters
     ----------
-    file_name: string       name of the CSV file (including path if needed)
+    file_name: string       
+               name of the CSV file (including path if needed)
 
-    query_column: int       index number of column query in CSV file
+    query_column: int       
+                  index number of column query in CSV file
 
-    query_value: string     the desired value to flter the query_column by
+    query_value: string     
+                 the desired value to flter the query_column by
 
-    results_column: int     index number of column results in CSV file
+    results_columns: list of int     
+                     index numbers of columns results in CSV file
 
-    date_column: int        index number of column dates in CSV file
-                            dates must be in isoformat (strings)
+    date_column: int (or None)
+                 index number of column dates in CSV file
+                 dates must be in isoformat (strings).
+                            
 
     Returns
     ---------
-    out_array: array of integers    values from  results column \
-                                    filtered by lines that have the query_value
-                                    gaps in dates are filled in
+    hits: list of list of int    
+               of values from  results columns \
+               filtered by lines that have the query_value
+               gaps in dates are filled in
     """
     # catch possible exceptions when opening files
     try:
@@ -61,36 +70,53 @@ def get_column(file_name, query_column, query_value, result_column=1,
 
     # open and read file
     f = open(file_name, 'r')
-    out_array = array.array('i', [])
+    hits = []
+    for result_column in result_columns:
+        hits.append([])
     dates_list = []
-    # parse through file lines
-    for line in f:
-        A = line.rstrip().split(',')
-        # filter by where query_value is met and append results to output
-        if A[query_column] == query_value:
-            # just append data the first time query value is reached
-            if dates_list == []:
-                dates_list.append(A[date_column])
-                out_array.append(int(A[result_column]))
-            # track dates to make sure no gaps, and fill gaps if there are
-            else:
-                date_last = date.fromisoformat(dates_list[-1])
-                dates_list.append(A[date_column])
-                date_now = date.fromisoformat(A[date_column])
-                delta = date_now - date_last
-                gap = delta.days
-                if gap < 0:
-                    ValueError
-                    print('dates out of order, system exit')
-                    sys.exit(4)
+    # if date_column == None, do short version
+    if date_column == None:
+        # parse through file lines
+        for line in f:
+            A = line.rstrip().split(',')
+            # filter by where query_value is met
+            if A[query_column] == query_value:
+                for result_column_ind in np.arange(len(result_columns)):
+                    hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
+    # if there is a date_column, ensure no gaps and in order
+    else:
+        # parse through file lines
+        for line in f:
+            A = line.rstrip().split(',')
+            # filter by where query_value is met
+            if A[query_column] == query_value:
+                # simply append data first time query value is reached
+                if dates_list == []:
+                    dates_list.append(A[date_column])
+                    for result_column_ind in np.arange(len(result_columns)):
+                        hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
+                # track dates and fill any gaps
                 else:
-                    while gap > 1:
-                        out_array.append(out_array[-1])
-                        gap = gap - 1
-                    out_array.append(int(A[result_column]))
+                    date_last = date.fromisoformat(dates_list[-1])
+                    dates_list.append(A[date_column])
+                    date_now = date.fromisoformat(A[date_column])
+                    delta = date_now - date_last
+                    gap = delta.days
+                    if gap < 0:
+                        ValueError
+                        print('dates out of order, system exit')
+                        sys.exit(4)
+                    else:
+                        while gap > 1:
+                            for result_column_ind in np.arange(len(result_columns)):
+                                hits[result_column_ind].append(hits[result_column_ind][-1])
+                            gap = gap - 1
+                        # now that gap is closed, append new data
+                        for result_column_ind in np.arange(len(result_columns)):
+                            hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
 
     f.close()
-    return out_array
+    return hits
 
 
 def has_decreasing_values(A):
@@ -166,6 +192,31 @@ def running_average(daily_values, window=5):
 
     return running_avg_values
 
+def binary_search(key,data):
+    """
+    binary search of sorted data
+
+    Parameters:
+    -----------
+    key - the value we want to find
+
+    data - a sorted list or array we are searching through
+
+    Outputs:
+    ----------
+
+    """
+    low = -1
+    high = len(data)
+    while (high - low > 1):
+        mid = (high + low) // 2
+        if key == data[mid][0]:
+            return data[mid][1]
+        if (key < data[mid][0]):
+            high = mid
+        else:
+            low = mid
+    return -1
 
 def main():
     """
