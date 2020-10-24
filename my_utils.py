@@ -19,7 +19,7 @@ from datetime import date
 
 
 def get_column(file_name, query_column, query_value, result_columns=[1],
-               date_column=None):
+               date_column=None, return_dates=False):
     """
     Reads a CSV file and outputs the values of the results corresponding \
             to the lines in which the query value is met
@@ -35,21 +35,25 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
     Parameters
     ----------
     file_name: string       
-               name of the CSV file (including path if needed)
+                name of the CSV file (including path if needed)
 
     query_column: int       
-                  index number of column query in CSV file
+                index number of column query in CSV file
 
     query_value: string     
-                 the desired value to flter the query_column by
+                the desired value to flter the query_column by
 
     results_columns: list of int     
-                     index numbers of columns results in CSV file
+                index numbers of columns results in CSV file
 
     date_column: int (or None)
-                 index number of column dates in CSV file
-                 dates must be in isoformat (strings).
-                            
+                index number of column dates in CSV file
+                dates must be in isoformat (strings).
+
+    return_dates: bool
+                if True, function returns dates_list as the
+                final list in the returned list of lists
+
 
     Returns
     ---------
@@ -92,13 +96,15 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
             if A[query_column] == query_value:
                 # simply append data first time query value is reached
                 if dates_list == []:
-                    dates_list.append(A[date_column])
+                    dates_list.append(date.fromisoformat(A[date_column]))
+                    ##dates_list.append(A[date_column])
                     for result_column_ind in np.arange(len(result_columns)):
                         hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
                 # track dates and fill any gaps
                 else:
-                    date_last = date.fromisoformat(dates_list[-1])
-                    dates_list.append(A[date_column])
+                    date_last = dates_list[-1]
+                    ##date_last = date.fromisoformat(dates_list[-1])
+                    ##dates_list.append(A[date_column])
                     date_now = date.fromisoformat(A[date_column])
                     delta = date_now - date_last
                     gap = delta.days
@@ -110,12 +116,16 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
                         while gap > 1:
                             for result_column_ind in np.arange(len(result_columns)):
                                 hits[result_column_ind].append(hits[result_column_ind][-1])
+                                dates_list.append(date_last) 
                             gap = gap - 1
                         # now that gap is closed, append new data
                         for result_column_ind in np.arange(len(result_columns)):
                             hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
-
+                            dates_list.append(date_now) 
     f.close()
+    if return_dates is True:
+        hits.append(dates_list)
+    
     return hits
 
 
@@ -200,10 +210,13 @@ def binary_search(key,data):
     -----------
     key - the value we want to find
 
-    data - a sorted list or array we are searching through
+    data - a sorted list of lists we are searching through
+            of format [[keys],[values]]
 
     Outputs:
     ----------
+    value - the value of data matching the key.
+            note: returns None if value not found
 
     """
     low = -1
@@ -211,12 +224,13 @@ def binary_search(key,data):
     while (high - low > 1):
         mid = (high + low) // 2
         if key == data[mid][0]:
-            return data[mid][1]
+            value = data[mid][1]
+            return value
         if (key < data[mid][0]):
             high = mid
         else:
             low = mid
-    return -1
+    return None
 
 def main():
     """
