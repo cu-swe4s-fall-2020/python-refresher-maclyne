@@ -10,6 +10,7 @@
                         note: moving window covers only past and current values
     * binary_search - a binary search of sorted data
 
+    * plot_lines - Take a list of list of points and plot each list as a line
 """
 import array
 import numpy as np
@@ -19,7 +20,7 @@ from datetime import date
 
 
 def get_column(file_name, query_column, query_value, result_columns=[1],
-               date_column=None):
+               date_column=None, return_dates=False):
     """
     Reads a CSV file and outputs the values of the results corresponding \
             to the lines in which the query value is met
@@ -34,33 +35,38 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
 
     Parameters
     ----------
-    file_name: string       
-               name of the CSV file (including path if needed)
+    file_name       : string
+                    name of the CSV file (including path if needed)
 
-    query_column: int       
-                  index number of column query in CSV file
+    query_column    : int
+                    index number of column query in CSV file
 
-    query_value: string     
-                 the desired value to flter the query_column by
+    query_value     : string
+                    the desired value to flter the query_column by
 
-    results_columns: list of int     
-                     index numbers of columns results in CSV file
+    results_columns : list of int
+                    index numbers of columns results in CSV file
 
-    date_column: int (or None)
-                 index number of column dates in CSV file
-                 dates must be in isoformat (strings).
-                            
+    date_column     : int (or None)
+                    index number of column dates in CSV file
+                    dates must be in isoformat (strings).
+
+    return_dates    : bool
+                    if True, function returns dates_list as the
+                    final list in the returned list of lists
+
 
     Returns
     ---------
-    hits: list of list of int    
-               of values from  results columns \
-               filtered by lines that have the query_value
-               gaps in dates are filled in
+    hits            : list of list of int
+                    of values from  results columns
+                    filtered by lines that have the query_value
+                    gaps in dates are filled in
     """
     # catch possible exceptions when opening files
     try:
-        f = open(file_name, 'r')
+        f = open(file_name, 'r', encoding='ISO-8859-1')
+        f.close()  # NOTE: added line to rm file not closed error. idk if right
     except FileNotFoundError:
         print("Couldn't find file " + file_name)
         sys.exit(1)
@@ -69,20 +75,20 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
         sys.exit(1)
 
     # open and read file
-    f = open(file_name, 'r')
+    f = open(file_name, 'r', encoding='ISO-8859-1')
     hits = []
     for result_column in result_columns:
         hits.append([])
     dates_list = []
     # if date_column == None, do short version
-    if date_column == None:
+    if date_column is None:
         # parse through file lines
         for line in f:
             A = line.rstrip().split(',')
             # filter by where query_value is met
             if A[query_column] == query_value:
-                for result_column_ind in np.arange(len(result_columns)):
-                    hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
+                for ind in np.arange(len(result_columns)):
+                    hits[ind].append(A[result_columns[ind]])
     # if there is a date_column, ensure no gaps and in order
     else:
         # parse through file lines
@@ -92,13 +98,12 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
             if A[query_column] == query_value:
                 # simply append data first time query value is reached
                 if dates_list == []:
-                    dates_list.append(A[date_column])
-                    for result_column_ind in np.arange(len(result_columns)):
-                        hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
+                    dates_list.append(date.fromisoformat(A[date_column]))
+                    for ind in np.arange(len(result_columns)):
+                        hits[ind].append(A[result_columns[ind]])
                 # track dates and fill any gaps
                 else:
-                    date_last = date.fromisoformat(dates_list[-1])
-                    dates_list.append(A[date_column])
+                    date_last = dates_list[-1]
                     date_now = date.fromisoformat(A[date_column])
                     delta = date_now - date_last
                     gap = delta.days
@@ -108,14 +113,18 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
                         sys.exit(4)
                     else:
                         while gap > 1:
-                            for result_column_ind in np.arange(len(result_columns)):
-                                hits[result_column_ind].append(hits[result_column_ind][-1])
+                            for ind in np.arange(len(result_columns)):
+                                hits[ind].append(hits[ind][-1])
+                                dates_list.append(date_last)
                             gap = gap - 1
                         # now that gap is closed, append new data
-                        for result_column_ind in np.arange(len(result_columns)):
-                            hits[result_column_ind].append(int(A[result_columns[result_column_ind]]))
-
+                        for ind in np.arange(len(result_columns)):
+                            hits[ind].append(A[result_columns[ind]])
+                            dates_list.append(date_now)
     f.close()
+    if return_dates is True:
+        hits.append(dates_list)
+
     return hits
 
 
@@ -144,12 +153,14 @@ def get_daily_count(cumulative_values):
 
     Parameters
     ----------
-    cumulative_values: array of int      cumulative daily cases
-                                        (example: output from get_column() )
+    cumulative_values   : array of int
+                        cumulative daily cases
+                        (example: output from get_column() )
 
     Returns
     ----------
-    daily_values: array of int      number of daily new cases
+    daily_values        : array of int
+                        number of daily new cases
     """
     if has_decreasing_values(cumulative_values) is True:
         ValueError
@@ -172,14 +183,16 @@ def running_average(daily_values, window=5):
 
     Parameters
     ----------
-    daily_values:   array of int       number daily new cases (or deaths, etc)
+    daily_values        : array of int
+                        number daily new cases (or deaths, etc)
 
-    window: int     number of days over which to do the running average window
+    window              : int
+                        number of days to do the running average window
 
     Returns
     ---------
-    running_avg_values: array of floats     running average at each day \
-                                                for the given window size
+    running_avg_values  : array of floats
+                        running average at each day for given window size
     """
     running_avg_values = np.zeros(len(daily_values))
     # running avg while cumulative number of days < window:
@@ -192,31 +205,76 @@ def running_average(daily_values, window=5):
 
     return running_avg_values
 
-def binary_search(key,data):
+
+def binary_search(key, data):
     """
     binary search of sorted data
 
     Parameters:
     -----------
-    key - the value we want to find
+    key     : str or int
+            the value we want to find
 
-    data - a sorted list or array we are searching through
+    data    : list of two lists
+            a sorted list of lists we are searching through
+            of format [[keys],[values]]
 
     Outputs:
     ----------
+    value   :
+            the value of data matching the key.
+            note: returns None if value not found
 
     """
     low = -1
-    high = len(data)
+    high = len(data[0])
     while (high - low > 1):
         mid = (high + low) // 2
-        if key == data[mid][0]:
-            return data[mid][1]
-        if (key < data[mid][0]):
+        if key == data[0][mid]:
+            value = data[1][mid]
+            return value
+        if (key < data[0][mid]):
             high = mid
         else:
             low = mid
-    return -1
+    return None
+
+
+def plot_lines(points, labels, file_name):
+    """Take a list of list of points and plot each list as a line.
+    Parameters
+    ----------
+    points    : list of list of points
+                Each sublist corresponds to the points for one element.
+                Each point has two values, the first will be the X value
+                and the second the Y value
+    labels    : list of strings
+                Each element in lables corresponds to the sublist at the
+                same poisiting in data
+    file_name : string
+                Name of the output file.
+    """
+    import matplotlib
+    matplotlib.use('Agg')
+    import matplotlib.pylab as plt
+
+    fig = plt.figure(figsize=(10, 3), dpi=300)
+    ax = fig.add_subplot(1, 1, 1)
+    i = 0
+    for pairs in points:
+        X = []
+        Y = []
+        for pair in pairs:
+            X.append(pair[0])
+            Y.append(pair[1])
+
+        ax.plot(X, Y, lw=0.5)
+        ax.text(X[-1], Y[-1], labels[i], size=5)
+
+        i += 1
+
+    plt.savefig(file_name, bbox_inches='tight')
+
 
 def main():
     """

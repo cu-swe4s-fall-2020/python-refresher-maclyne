@@ -69,8 +69,10 @@ window = args.window
 date_column = args.date_column
 
 # call function to run
-cases = get_column(file_name, county_column,
-                   county, result_columns=[cases_column], date_column=date_column)
+cases = get_column(file_name, county_column, county,
+                   result_columns=[cases_column], date_column=date_column)
+# convert cases from type str to int
+cases = list(map(int, cases[0]))
 
 # print daily cases option
 if print_daily is True:

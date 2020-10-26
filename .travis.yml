@@ -11,10 +11,13 @@ before_install:
     - conda install --yes python=3.6
     - conda install -y pycodestyle
     - conda install --yes numpy
+    - conda install --yes datetime
 
 script:
     - python test_my_utils.py
     - bash test_print_cases.sh
+    - bash test_get_rates.sh
     - pycodestyle my_utils.py
     - pycodestyle print_cases.py
+    - pycodestyle get_rates.py
     - pycodestyle test_my_utils.py

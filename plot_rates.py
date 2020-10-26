@@ -6,6 +6,7 @@
 
 """
 from my_utils import get_column
+import get_rates
 import sys
 import argparse
 from operator import itemgetter
@@ -13,7 +14,6 @@ from datetime import datetime
 import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pylab as plt
-
 
 def plot_lines(points, labels, file_name):
 """Take a list of list of points and plot each list as a line.
@@ -46,4 +46,15 @@ def plot_lines(points, labels, file_name):
 
     plt.savefig(file_name, bbox_inches='tight')
 
+    return per_capita_rates
 
+### run it
+per_capita_rates, dates = get_rates() # NOTE: idk how to do this
+points = dates.append(per_capita_rates)
+labels = ['dates', 'per_capita_rates']
+file_name = 'plot_rates_outfile_v1'
+####
+
+
+if __name__ == '__main__':
+    main()
