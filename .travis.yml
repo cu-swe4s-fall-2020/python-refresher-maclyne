@@ -17,7 +17,9 @@ script:
     - python test_my_utils.py
     - python test_hash_table.py
     - bash test_print_cases.sh
+    - bash test_get_rates.sh
     - pycodestyle my_utils.py
     - pycodestyle print_cases.py
     - pycodestyle test_my_utils.py
+    - pycodestyle get_rates.py
     - pycodestyle hash_table.py
