@@ -11,6 +11,8 @@ import my_utils
 import array
 import random
 import numpy as np
+import datetime
+from datetime import date
 # Not sure if I am allowed to import numpy here, \
 # but I need it for running_average, so...
 
@@ -22,14 +24,14 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
                          0, '2020-09-04', result_columns=[4]),
-                        [[2399]])
+                        [['2399']])
     
     def test_get_column_multipleresultcolumns(self):
         # test that I get what I think for result_columns of len>1
         self.assertEqual(my_utils.get_column(
                         'covid-19-data/us-counties-testfile-Boulder.csv',
                         0, '2020-09-04', result_columns=[4,5]),
-                        [[2399],[79]])
+                        [['2399'],['79']])
 
     def test_get_column_querynotmatched(self):
         # empty array of int if the query value is not in the file.
@@ -48,9 +50,33 @@ class TestCalc(unittest.TestCase):
                          'covid-19-data/'
                          + 'us-counties-testfile-Boulder-fakemissingdates.csv',
                          1, 'Boulder', result_columns=[4], date_column=0),
-                         [[2289, 2289, 2289, 2324, 2344,
-                           2361, 2399, 2399, 2399, 2399,
-                           2399, 2574, 2574, 2671]])
+                         [['2289', '2289', '2289', '2324', '2344',
+                           '2361', '2399', '2399', '2399', '2399',
+                           '2399', '2574', '2574', '2671']])
+
+    def test_get_column_missingdates_returndates(self):
+        self.assertEqual(my_utils.get_column(
+                        'covid-19-data/'
+                        + 'us-counties-testfile-Boulder-fakemissingdates.csv',
+                        1, 'Boulder', result_columns=[4], date_column=0,
+                        return_dates=True),
+                        [['2289', '2289', '2289', '2324', '2344',
+                          '2361', '2399', '2399', '2399', '2399',
+                          '2399', '2574', '2574', '2671'],
+                         [date.fromisoformat('2020-08-29'),
+                          date.fromisoformat('2020-08-30'),
+                          date.fromisoformat('2020-08-31'),
+                          date.fromisoformat('2020-09-01'),
+                          date.fromisoformat('2020-09-02'),
+                          date.fromisoformat('2020-09-03'),
+                          date.fromisoformat('2020-09-04'),
+                          date.fromisoformat('2020-09-05'),
+                          date.fromisoformat('2020-09-06'),
+                          date.fromisoformat('2020-09-07'),
+                          date.fromisoformat('2020-09-08'),
+                          date.fromisoformat('2020-09-09'),
+                          date.fromisoformat('2020-09-10'),
+                          date.fromisoformat('2020-09-11')]])
 
     def test_get_column_withdeaths(self):
         # test this works for missing dates and two result_columns 
@@ -58,8 +84,8 @@ class TestCalc(unittest.TestCase):
                          'covid-19-data/'
                          + 'us-counties-testfile-Boulder-shorter.csv',
                          1, 'Boulder', result_columns=[4,5], date_column=0),
-                         [[2289, 2324, 2344, 2361, 2399, 2574, 2671],
-                          [79, 79, 79, 80, 80, 81, 83]])
+                         [['2289', '2324', '2344', '2361', '2399', '2574', '2671'],
+                          ['79', '79', '79', '80', '80', '81', '83']])
 
     def test_get_daily_count(self):
         # if only one day of cases input, daily count is that single number
