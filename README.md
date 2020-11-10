@@ -36,7 +36,9 @@ File: make_newtestfile.py	python script I used to make my initial testfile of co
 File: test_print_cases.sh	usses Stupid Simple Bash Testing for function tests
 
 File: test_my_utils.py		unit tests for my_utils.py
+				updated tests to be comparing strings for get_column() outputs on Nov 9 2020
 
 File: .travis.yml		uses Travis CI (continuous integration) test driven devo
 				runs essentially same things as bash file run.sh, but does in Travis CI
 				https://travis-ci.com (has access to github repo)
+				updated python version to 3.8 on Nov 9 2020
