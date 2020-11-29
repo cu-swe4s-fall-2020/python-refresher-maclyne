@@ -5,14 +5,15 @@ Objective: become familiar with python
 Initial date: 17 Sept 2020
 Author: Margot Clyne
 
-Updated date: 8 Oct 2020
+Updated date: 28 Nov 2020
 School assignment: For Assignment #3 of class MCDB6440: Software Engineering for Scientists
 
 
 File: my_utils.py	This file imports a CSV file and outputs desired data
+			function make_statefile to copy covid19 case State data to its own CSV file
 			includes function get_column(file_name, query_column, query_value, result_columns=[1])
 			includes function has_decreasing_values() for an array of int
-			includes function get_daily_count(cumulative_values)
+			includes function get_daily_count(cumulative_values, allow_decreasing=True)
 			includes function running_average(daily_values, window=5)
 			now satisfies Pep8
 
