@@ -1,0 +1,3 @@
+[submodule "ss_plots"]
+	path = ss_plots
+	url = https://github.com/swe4s/ss_plots

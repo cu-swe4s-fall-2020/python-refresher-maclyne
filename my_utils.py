@@ -1,5 +1,7 @@
 """Various utilities
 
+    * make_statefile - extracts and makes state file of covid CSV file county \
+                       data specifically from covid-19-data/us-counties.csv
     * get_column - reads a CSV file and gets results filtered by query value
     * has_decreasing_values - tells if array of ints has any decreasing vals \
                               when read in order(returns bool)
@@ -17,7 +19,48 @@ import numpy as np
 import sys
 import datetime
 from datetime import date
+from datetime import timedelta
 
+def make_statefile(state):
+    '''
+    extracts and makes state file of covid CSV file county \
+    data specifically from covid-19-data/us-counties.csv
+    
+    Parameters:
+    ------------
+    state   : str
+              USA State name (capitalized first letter)
+    
+    Out:
+    -----------
+    state_outfile_name: str
+                        copies data to outfile_name
+    '''
+    infile_name = 'covid-19-data/us-counties.csv'
+    state_outfile_name = 'covid-19-data/'+state+'-counties.csv'
+    query_column = 2
+    query_value = state
+    
+    f = open(infile_name, 'r')
+    out_line_list = []
+    # parse through file lines
+    for l in f:
+        A = l.rstrip().split(',')
+        # filter lines by where query_value is met and append results to output array
+        if A[query_column] == query_value:
+            out_line_list.append(l)
+
+    f.close()
+
+    fout = open(state_outfile_name, 'w')
+    # write header
+    fout.write("date,county,state,fips,cases,deaths \n" )
+    # print all lines where query_column == query_value
+    for line in range(len(out_line_list)):
+        fout.write(out_line_list[line])
+
+    fout.close()
+    return state_outfile_name
 
 def get_column(file_name, query_column, query_value, result_columns=[1],
                date_column=None, return_dates=False):
@@ -112,10 +155,13 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
                         print('dates out of order, system exit')
                         sys.exit(4)
                     else:
+                        add_day = 1 # added 11/9
                         while gap > 1:
                             for ind in np.arange(len(result_columns)):
                                 hits[ind].append(hits[ind][-1])
-                                dates_list.append(date_last)
+                                dates_list.append(date_last + datetime.timedelta(days=add_day)) #added 11/9
+                                ##dates_list.append(date_last)
+                            add_day = add_day + 1 # added 11/9
                             gap = gap - 1
                         # now that gap is closed, append new data
                         for ind in np.arange(len(result_columns)):
@@ -146,7 +192,7 @@ def has_decreasing_values(A):
     return any(A[i] > A[i+1] for i in range(len(A)-1))
 
 
-def get_daily_count(cumulative_values):
+def get_daily_count(cumulative_values, allow_decreasing=True):
     """
     takes cumulative values of cases deliminated daily \
             and returns daily numbers (today minus yesterday)
@@ -157,18 +203,32 @@ def get_daily_count(cumulative_values):
                         cumulative daily cases
                         (example: output from get_column() )
 
+    allow_decreasing    : bool
+                        If True: allow for decreasing cumulative values
+                        and do not call function has_decreasing_values
+                        If False: check has_decreasing_values() and may
+                        have Value Error sys.exit(2).
+                        (This bool option was added because the covid case
+                        data has non-uniform adjustments that may cause
+                        cumulative decreasing values)
+
     Returns
     ----------
     daily_values        : array of int
                         number of daily new cases
     """
-    if has_decreasing_values(cumulative_values) is True:
-        ValueError
-        print('cumulative_values are decreasing somewhere. sys.exit(2)')
-        sys.exit(2)
+    if allow_decreasing is False:
+        if has_decreasing_values(cumulative_values) is True:
+            ValueError
+            print('Warning: cumulative_values are decreasing somewhere.')
+            sys.exit(2)
 
     daily_values = np.zeros(len(cumulative_values))
-    daily_values[0] = cumulative_values[0]
+    try:
+        daily_values[0] = cumulative_values[0]
+    except IndexError:
+        return None
+
     for d in np.arange(1, len(cumulative_values)):
         daily_values[d] = cumulative_values[d] - cumulative_values[d-1]
     return daily_values
