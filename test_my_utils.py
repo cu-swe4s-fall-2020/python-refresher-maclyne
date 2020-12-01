@@ -133,6 +133,19 @@ class TestCalc(unittest.TestCase):
         # TODO: test error modes (if any)
         # I dont see how this would have any other error modes
 
+    def test_binary_search(self):
+        self.assertEqual(my_utils.binary_search('c',[['a','b','c','d','e'],
+                                                     [2, 4, 5, 6, 7]]), 5)
+
+        self.assertEqual(my_utils.binary_search('2020-09-16',[['2020-09-05', 
+                                                               '2020-09-06',
+                                                               '2020-09-10',
+                                                               '2020-09-14',
+                                                               '2020-09-16',
+                                                               '2020-09-19'],
+                                                               [0, 3, 4, 10,
+                                                                15, 20]]
+                                                ), 15)
 
 if __name__ == '__main__':
     unittest.main()

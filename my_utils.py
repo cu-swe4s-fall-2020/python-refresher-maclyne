@@ -13,6 +13,9 @@
     * binary_search - a binary search of sorted data
 
     * plot_lines - Take a list of list of points and plot each list as a line
+    * remove_list_duplicates - take a list and remove duplicate entries \
+                        so all remaining entries are unique
+
 """
 import array
 import numpy as np
@@ -335,6 +338,26 @@ def plot_lines(points, labels, file_name):
 
     plt.savefig(file_name, bbox_inches='tight')
 
+def remove_list_duplicates(in_list):
+    """
+    Take a list and remove duplicate entries \
+                        so all remaining entries are unique.
+    
+    Method: Create a dictionary, using the List items as keys. \
+            This will automatically remove any duplicates because \
+            dictionaries cannot have duplicate keys.
+
+    Parameters:
+    -----------
+    in_list: list   list that may contain duplicates
+
+    Returns:
+    --------
+    unique_list: list   copy of that list with only unique 
+                        entries remaining
+    """
+    unique_list = list(dict.fromkeys(in_list))
+    return unique_list
 
 def main():
     """

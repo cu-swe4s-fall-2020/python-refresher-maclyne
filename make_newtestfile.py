@@ -1,9 +1,15 @@
 import array
 
-file_name = 'covid-19-data/us-counties-Copy1.csv'
-outfile_name = 'covid-19-data/us-counties-testfile-Boulder.csv'
-query_column = 1
-query_value = 'Boulder'
+file_name = 'covid-19-data/us-counties.csv'
+outfile_name = 'covid-19-data/us-counties-testfile-Colorado2.csv'
+query_column = 2
+query_value = 'Colorado'
+#outfile_name = 'covid-19-data/us-counties-testfile-Boulder.csv'
+#query_column = 1
+#query_value = 'Boulder'
+#outfile_name = 'covid-19-data/us-counties-testfile-Sedgwick.csv'
+#query_column = 1
+#query_value = 'Sedgwick'
 
 f = open(file_name, 'r')
 out_line_list = []
@@ -21,6 +27,7 @@ fout = open(outfile_name, 'w')
 fout.write("date,county,state,fips,cases,deaths \n" )
 # print last 20 lines where query_column == query_value
 for line in range(len(out_line_list)-20,len(out_line_list)):
+##for line in range(len(out_line_list)):
     fout.write(out_line_list[line])
 
 fout.close()

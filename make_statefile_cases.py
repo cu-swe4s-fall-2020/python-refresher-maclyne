@@ -1,10 +1,10 @@
 import array
 import sys
 
-state = sys.args[1]
+state = sys.argv[1]
 
 file_name = 'covid-19-data/us-counties.csv'
-outfile_name = 'covid-19-data/us-counties-' + state +'.csv'
+outfile_name = 'covid-19-data/'+state+'-counties.csv'
 query_column = 2
 query_value = state
 
