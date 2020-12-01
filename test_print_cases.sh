@@ -1,7 +1,7 @@
 test -e ssshtest || wget -q https://raw.githubusercontent.com/ryanlayer/ssshtest/master/ssshtest
 . ssshtest
 
-# TODO: add functional tests for print_cases.py
+# functional tests for print_cases.py
 run test_shouldwork python print_cases.py --file_name covid-19-data/us-counties-testfile-Boulder.csv --county Boulder --county_column 1 --cases_column 4
 assert_in_stdout 'cumulative cases by each date:'
 assert_no_stderr 
