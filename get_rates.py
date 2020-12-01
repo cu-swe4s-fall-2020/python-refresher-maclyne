@@ -1,7 +1,11 @@
-""" get Covid19 rates and plot them
+""" get Covid19 rates for plotting
+    Per Captia Rates are per 100,000 people
 
-    Initial date: 22 Oct 2020
+    Initial date: 22 Oct 2020 for HW5
     Author: Margot Clyne
+    Updated: Nov 29 add ability to get and plot multiple counties
+            Also consolidate required vs optional args in argparse
+            No longer plots in this script
 
     File get_rates.py
 """
@@ -12,68 +16,88 @@ import sys
 import argparse
 from operator import itemgetter
 from datetime import datetime
-import matplotlib
-import matplotlib.pylab as plt
-matplotlib.use('Agg')
-
+import numpy as np
 
 def main():
     """
     get Covid19 case data and census data and convert to per-capita rates
-    data are from two different files
+    data are from two different files.
+    Per Capita Rates are per 100,000 people
+
+    Required Args:
+    ---------------
+    state: str        Name of USA State (No abbreviations)
+    coviddata_countys_list: list of str
+    
+    Optional Args (have defaults): see argparser section
+    -------------------------------------------
+    covid_file_name: str
+    census_file_name: str
+    daily_new: bool     default=True
+    running_avg: bool   default=False
+    window: int
+    coviddata_county_column: int *
+    cases_column: int *
+    date_column: int *
+    census_state_column: int *
+    census_county_column: int *
+    pop_column: int *
+
+    Note: *= only needs to be changed if format of
+         covid19 and census data files are changed
 
     Returns:
     ---------
+    out_data : list of lists of lists:
+                [census_countys_list,
+                 [[dates for c1],[dates for c2],..],
+                 [per_capita_rates c1],[per_capita_rates c2],...]
+    Where:
+    ------
     per_capita_rates: list
             list of cases / population
+            (these are per 100,000 people)
 
     dates: list
             list of dates in format datetime.date(YYYY, MM, D)
 
     """
-    # TODO: add main def docstring
-
     # parse command line arguments
     parser = argparse.ArgumentParser(description='process args for \
                                      reading covid data CSV file')
-
-    parser.add_argument('--covid_file_name',
-                        type=str,
-                        help='Name of the input covid cases data file',
-                        required=True)
-
-    parser.add_argument('--census_file_name',
-                        type=str,
-                        help='Name of the input census data file',
-                        required=True)
-
-    parser.add_argument('--plot_file_name',
-                        type=str,
-                        help='output plot file generated',
-                        required=True)
 
     parser.add_argument('--state',
                         type=str,
                         help='Name of the State',
                         required=True)
 
-    parser.add_argument('--coviddata_county',
+    parser.add_argument('--coviddata_countys_list',
                         type=str,
-                        help='Name of the county in covid CSV file',
+                        nargs='+',
+                        help='list of strings for \
+                        Name(s) of the county(s) in covid CSV file \
+                        that we want to look at',
                         required=True)
 
-    parser.add_argument('--census_county',
+    parser.add_argument('--covid_file_name',
                         type=str,
-                        help='Name of the county in census CSV file',
-                        required=True)
+                        help='Name of the input covid cases data file',
+                        default='covid-19-data/us-counties.csv')
+
+    parser.add_argument('--census_file_name',
+                        type=str,
+                        help='Name of the input census data file',
+                        default='census-data/co-est2019-alldata.csv')
 
     parser.add_argument('--coviddata_county_column',
                         type=int,
-                        help='column ind for county names in covid CSVfile')
+                        help='column ind for county names in covid CSVfile',
+                        default=1)
 
     parser.add_argument('--cases_column',
                         type=int,
-                        help='column ind for number of cases in covid CSVfile')
+                        help='column ind for number of cases in covid CSVfile',
+                        default=4)
 
     parser.add_argument('--date_column',
                         type=int,
@@ -82,19 +106,22 @@ def main():
 
     parser.add_argument('--census_state_column',
                         type=int,
-                        help='column ind for state names in census CSV file')
+                        help='column ind for state names in census CSV file',
+                        default=5)
 
     parser.add_argument('--census_county_column',
                         type=int,
-                        help='column ind for county names in census CSV file')
+                        help='column ind for county names in census CSV file',
+                        default=6)
 
     parser.add_argument('--pop_column',
                         type=int,
-                        help='column ind for populaiton in census CSV file')
+                        help='column ind for populaiton in census CSV file',
+                        default=7)
 
     parser.add_argument('--daily_new',
                         type=bool,
-                        default=False,
+                        default=True,
                         help='daily newcases. default is cumulativ dailycases')
 
     parser.add_argument('--running_avg',
@@ -112,10 +139,10 @@ def main():
     args = parser.parse_args()
 
     # assign arguments
+    state = args.state
+    coviddata_countys_list = list(args.coviddata_countys_list) #NOTE: error is here: reading in wrong not as list
     coviddata_file_name = args.covid_file_name
     coviddata_county_column = args.coviddata_county_column
-    plot_file_name = args.plot_file_name
-    coviddata_county_name = args.coviddata_county
     cases_column = args.cases_column
     date_column = args.date_column
     daily_new = args.daily_new
@@ -123,80 +150,86 @@ def main():
     window = args.window
     census_file_name = args.census_file_name
     census_state_column = args.census_state_column
-    state = args.state
-    census_county_name = args.census_county
     census_county_column = args.census_county_column
     pop_column = args.pop_column
 
-    # run get_column() on covid data and census data
-    cases_data_cumulative = get_column(coviddata_file_name,
-                                       coviddata_county_column,
-                                       coviddata_county_name,
-                                       result_columns=[cases_column],
-                                       date_column=date_column,
-                                       return_dates=True)
-
+    # get census data for all counties in the state
     census_state_data = get_column(census_file_name, census_state_column,
                                    state,
                                    result_columns=[census_county_column,
                                                    pop_column],
                                    date_column=None)
-
-    # convert cases from type str to int
-    cases_data_cumulative[0] = list(map(int, cases_data_cumulative[0]))
-
-    # dates are stored in last index of list, in datetime format
-    dates = cases_data_cumulative[-1]
-
-    # daily cases option
-    if daily_new is True:
-        from my_utils import get_daily_count
-        cases = get_daily_count(cases_data_cumulative[0])  # not dates column
-    else:
-        cases = cases_data_cumulative[0]
-
-    # print runing average cases option
-    if running_avg is True:
-        from my_utils import running_average
-        cases = running_average(cases, window)
-
-    # census_state_data is of list [[county_names], [census2010pops])
+   
     # sort census_state_data by county name
+    # census_state_data is of list [[county_names], [census2010pops])
     sorted_pairs = sorted(zip(census_state_data[0], census_state_data[1]))
     tuples = zip(*sorted_pairs)
     list1, list2 = [list(tuple) for tuple in tuples]
     census_state_data_sorted = [list1, list2]
 
-    # use binary search to get county pop census data out of state data
-    county_pop = binary_search(census_county_name, census_state_data_sorted)
+    # pre-allocate structure of out_data list of lists of lists
+    #   out_data[0] will be coviddata_countys_list
+    #   out_data[1] will be list of dates for each county
+    #   out_data[2] will be list of per_capita_rates for each county
+    out_data = [[], [], []]
 
-    # raise error if county census not found
-    if county_pop is None:
-        ValueError
-        print('county census not found')
-        sys.exit(1)
+    # run for each county
+    for county_index in range(0, len(coviddata_countys_list)):
+        coviddata_county_name = coviddata_countys_list[county_index]
+        out_data[0].append(coviddata_county_name)
+        # run get_column() on covid data and census data
+        cases_data_cumulative = get_column(coviddata_file_name,
+                                           coviddata_county_column,
+                                           coviddata_county_name,
+                                           result_columns=[cases_column],
+                                           date_column=date_column,
+                                           return_dates=True)
 
-    county_pop = int(county_pop)
+        # convert cases from type str to int
+        cases_data_cumulative[0] = list(map(int, cases_data_cumulative[0]))
 
-    # convert cases to per-capita rates by dividing county case by population
-    if type(cases) == list:
-        cases = np.asarray(cases)
+        # dates are stored in last index of list, in datetime format
+        dates = cases_data_cumulative[-1]
 
-    per_capita_rates = cases / county_pop
+        # daily cases option
+        if daily_new is True:
+            from my_utils import get_daily_count
+            cases = get_daily_count(cases_data_cumulative[0])  # not dates column
+        else:
+            cases = cases_data_cumulative[0]
 
-    # convert per_capita_rates back from nparray to list
-    per_capita_rates = per_capita_rates.tolist()
+        # print runing average cases option
+        if running_avg is True:
+            from my_utils import running_average
+            cases = running_average(cases, window)
 
-    # plot using plot_lines
-    plot_points = [[]]
-    for point in range(0, len(per_capita_rates)):
-        plot_points[0].append([dates[point], per_capita_rates[point]])
+        # use binary search to get county pop census data out of state data
+        census_county_name = coviddata_county_name + ' County'
+        county_pop = binary_search(census_county_name, census_state_data_sorted)
 
-    plot_labels = ['dates', 'per_capita_rates']
+        # raise error if county census not found
+        if county_pop is None:
+            ValueError
+            print('county census not found')
+            sys.exit(1)
 
-    plot = plot_lines(plot_points, plot_labels, plot_file_name)
+        county_pop = int(county_pop)
 
-    return plot  # NOTE: idk if this line is needed?
+        # convert cases to per-capita rates by dividing county case by population
+        if type(cases) == list:
+            cases = np.asarray(cases)
+
+        per_capita_rates = cases / county_pop * 100000
+
+        # convert per_capita_rates back from nparray to list
+        per_capita_rates = per_capita_rates.tolist()
+
+        # append to out_data lists
+        out_data[1].append([dates])
+        out_data[2].append([per_capita_rates])
+
+    print(out_data)
+    return out_data
 
 
 if __name__ == '__main__':
