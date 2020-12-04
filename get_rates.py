@@ -31,6 +31,7 @@ def main():
     
     Optional Args (have defaults): see argparser section
     -------------------------------------------
+    data_out_file: str  name of CSV file if want one to be made. or '[]'
     covid_file_name: str
     census_file_name: str
     daily_new: bool     default=True
@@ -79,6 +80,13 @@ def main():
                         that we want to look at',
                         required=True)
 
+    parser.add_argument('--data_out_file',
+                        type=str,
+                        help='Name of the CSV file to write this data \
+                                out to. If not wanted, is "[]", which\
+                                is coded to not return any data_out_file',
+                        default='[]')
+    
     parser.add_argument('--covid_file_name',
                         type=str,
                         help='Name of the input covid cases data file',
@@ -141,6 +149,7 @@ def main():
     # assign arguments
     state = args.state
     coviddata_countys_list = list(args.coviddata_countys_list) #NOTE: error is here: reading in wrong not as list
+    data_out_file = args.data_out_file
     coviddata_file_name = args.covid_file_name
     coviddata_county_column = args.coviddata_county_column
     cases_column = args.cases_column
@@ -219,7 +228,7 @@ def main():
         if type(cases) == list:
             cases = np.asarray(cases)
 
-        per_capita_rates = cases / county_pop * 100000
+        per_capita_rates = np.round(cases / county_pop * 100000,2)
 
         # convert per_capita_rates back from nparray to list
         per_capita_rates = per_capita_rates.tolist()
@@ -228,7 +237,19 @@ def main():
         out_data[1].append([dates])
         out_data[2].append([per_capita_rates])
 
-    print(out_data)
+##    print(out_data)
+
+    # write out_data to a CSV file in format 'County','date','per_capita_rate'
+    if data_out_file != '[]':
+        fout = open(data_out_file, 'w')
+        fout.write("county,date,per_capita_rate \n" )
+        for county_index in range(0, len(out_data[0])):
+            print(out_data[0][county_index],'out_data[0][county_index]')
+            for date_ind in range(0, len(out_data[1][county_index][0])):
+                #print(out_data[1][county_index][0][date_ind],'out_data[1][county_index][0][date_ind]')
+                fout.write(out_data[0][county_index]+','+ str(out_data[1][county_index][0][date_ind])+','+ str(out_data[2][county_index][0][date_ind])+'\n')
+        fout.close()
+
     return out_data
 
 
