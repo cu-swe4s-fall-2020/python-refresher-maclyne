@@ -12,6 +12,7 @@
 from my_utils import get_column
 from my_utils import binary_search
 from my_utils import plot_lines
+from my_utils import make_statefile
 import sys
 import argparse
 from operator import itemgetter
@@ -148,7 +149,7 @@ def main():
 
     # assign arguments
     state = args.state
-    coviddata_countys_list = list(args.coviddata_countys_list) #NOTE: error is here: reading in wrong not as list
+    coviddata_countys_list = args.coviddata_countys_list
     data_out_file = args.data_out_file
     coviddata_file_name = args.covid_file_name
     coviddata_county_column = args.coviddata_county_column
@@ -161,6 +162,32 @@ def main():
     census_state_column = args.census_state_column
     census_county_column = args.census_county_column
     pop_column = args.pop_column
+
+
+    # make CSV file copy of only state covid-19-data
+    # TODO: make this ^ into Snakefile
+    if coviddata_file_name == 'covid-19-data/us-counties.csv':
+        state_coviddata_file_name ='covid-19-data/'+state+'-counties.csv'
+        try:
+            f1 = open(state_coviddata_file_name, 'r')
+            f1.close()
+        except FileNotFoundError:
+            print('creating state_covidfile')
+            state_coviddata_file_name = make_statefile(state)
+            print(state_coviddata_file_name, 'state_coviddata_file_name')
+    
+    elif coviddata_file_name == 'covid-19-data/'+state+'-counties.csv':
+            state_coviddata_file_name = coviddata_file_name
+    else:
+        Warning('This script must be run on data within only \
+                one state or else has error if counties of \
+                the same name in different states across USA.\
+                if not using default args.covid_file_name, please\
+                check that county names are not duplicated.\
+                NOTE: Proceeding by assigning variable\
+                state_coviddata_file_name = args.covid_file_name ;\
+                Watch out for errors from this issue.')
+        state_coviddata_file_name = args.covid_file_name
 
     # get census data for all counties in the state
     census_state_data = get_column(census_file_name, census_state_column,
@@ -187,7 +214,7 @@ def main():
         coviddata_county_name = coviddata_countys_list[county_index]
         out_data[0].append(coviddata_county_name)
         # run get_column() on covid data and census data
-        cases_data_cumulative = get_column(coviddata_file_name,
+        cases_data_cumulative = get_column(state_coviddata_file_name,
                                            coviddata_county_column,
                                            coviddata_county_name,
                                            result_columns=[cases_column],
