@@ -1,0 +1,4037 @@
+county,date,per_capita_rate 
+Arapahoe,2020-03-09,0.17
+Arapahoe,2020-03-10,0.35
+Arapahoe,2020-03-11,0.52
+Arapahoe,2020-03-12,0.52
+Arapahoe,2020-03-13,1.22
+Arapahoe,2020-03-14,1.75
+Arapahoe,2020-03-15,2.62
+Arapahoe,2020-03-16,2.62
+Arapahoe,2020-03-17,3.15
+Arapahoe,2020-03-18,3.85
+Arapahoe,2020-03-19,3.85
+Arapahoe,2020-03-20,5.07
+Arapahoe,2020-03-21,6.99
+Arapahoe,2020-03-22,7.87
+Arapahoe,2020-03-23,9.96
+Arapahoe,2020-03-24,11.71
+Arapahoe,2020-03-25,14.86
+Arapahoe,2020-03-26,20.28
+Arapahoe,2020-03-27,25.87
+Arapahoe,2020-03-28,33.92
+Arapahoe,2020-03-29,39.51
+Arapahoe,2020-03-30,51.22
+Arapahoe,2020-03-31,58.04
+Arapahoe,2020-04-01,62.76
+Arapahoe,2020-04-02,73.25
+Arapahoe,2020-04-03,82.34
+Arapahoe,2020-04-04,89.51
+Arapahoe,2020-04-05,98.43
+Arapahoe,2020-04-06,103.85
+Arapahoe,2020-04-07,113.46
+Arapahoe,2020-04-08,118.18
+Arapahoe,2020-04-09,132.52
+Arapahoe,2020-04-10,135.66
+Arapahoe,2020-04-11,138.81
+Arapahoe,2020-04-12,147.2
+Arapahoe,2020-04-13,145.8
+Arapahoe,2020-04-14,145.63
+Arapahoe,2020-04-15,150.7
+Arapahoe,2020-04-16,157.52
+Arapahoe,2020-04-17,160.66
+Arapahoe,2020-04-18,165.38
+Arapahoe,2020-04-19,162.24
+Arapahoe,2020-04-20,166.08
+Arapahoe,2020-04-21,162.76
+Arapahoe,2020-04-22,166.61
+Arapahoe,2020-04-23,165.56
+Arapahoe,2020-04-24,192.13
+Arapahoe,2020-04-25,189.68
+Arapahoe,2020-04-26,188.29
+Arapahoe,2020-04-27,194.05
+Arapahoe,2020-04-28,197.38
+Arapahoe,2020-04-29,200.35
+Arapahoe,2020-04-30,197.55
+Arapahoe,2020-05-01,198.95
+Arapahoe,2020-05-02,197.03
+Arapahoe,2020-05-03,204.54
+Arapahoe,2020-05-04,202.1
+Arapahoe,2020-05-05,215.73
+Arapahoe,2020-05-06,220.28
+Arapahoe,2020-05-07,221.15
+Arapahoe,2020-05-08,195.45
+Arapahoe,2020-05-09,200.17
+Arapahoe,2020-05-10,194.4
+Arapahoe,2020-05-11,185.49
+Arapahoe,2020-05-12,184.96
+Arapahoe,2020-05-13,187.94
+Arapahoe,2020-05-14,184.26
+Arapahoe,2020-05-15,179.37
+Arapahoe,2020-05-16,179.54
+Arapahoe,2020-05-17,174.3
+Arapahoe,2020-05-18,176.4
+Arapahoe,2020-05-19,165.03
+Arapahoe,2020-05-20,159.44
+Arapahoe,2020-05-21,149.3
+Arapahoe,2020-05-22,144.4
+Arapahoe,2020-05-23,139.68
+Arapahoe,2020-05-24,134.09
+Arapahoe,2020-05-25,133.22
+Arapahoe,2020-05-26,131.29
+Arapahoe,2020-05-27,122.73
+Arapahoe,2020-05-28,118.01
+Arapahoe,2020-05-29,117.31
+Arapahoe,2020-05-30,122.55
+Arapahoe,2020-05-31,120.8
+Arapahoe,2020-06-01,113.46
+Arapahoe,2020-06-02,109.44
+Arapahoe,2020-06-03,106.12
+Arapahoe,2020-06-04,106.64
+Arapahoe,2020-06-05,107.87
+Arapahoe,2020-06-06,104.72
+Arapahoe,2020-06-07,104.54
+Arapahoe,2020-06-08,102.8
+Arapahoe,2020-06-09,98.95
+Arapahoe,2020-06-10,94.93
+Arapahoe,2020-06-11,91.26
+Arapahoe,2020-06-12,87.41
+Arapahoe,2020-06-13,76.05
+Arapahoe,2020-06-14,71.5
+Arapahoe,2020-06-15,70.28
+Arapahoe,2020-06-16,65.21
+Arapahoe,2020-06-17,63.81
+Arapahoe,2020-06-18,58.04
+Arapahoe,2020-06-19,54.89
+Arapahoe,2020-06-20,51.57
+Arapahoe,2020-06-21,53.15
+Arapahoe,2020-06-22,54.55
+Arapahoe,2020-06-23,53.5
+Arapahoe,2020-06-24,54.72
+Arapahoe,2020-06-25,59.96
+Arapahoe,2020-06-26,60.49
+Arapahoe,2020-06-27,59.27
+Arapahoe,2020-06-28,61.89
+Arapahoe,2020-06-29,61.89
+Arapahoe,2020-06-30,65.73
+Arapahoe,2020-07-01,65.21
+Arapahoe,2020-07-02,66.78
+Arapahoe,2020-07-03,69.06
+Arapahoe,2020-07-04,71.33
+Arapahoe,2020-07-05,72.2
+Arapahoe,2020-07-06,68.88
+Arapahoe,2020-07-07,74.82
+Arapahoe,2020-07-08,76.4
+Arapahoe,2020-07-09,77.62
+Arapahoe,2020-07-10,84.44
+Arapahoe,2020-07-11,87.41
+Arapahoe,2020-07-12,85.66
+Arapahoe,2020-07-13,89.16
+Arapahoe,2020-07-14,93.01
+Arapahoe,2020-07-15,97.03
+Arapahoe,2020-07-16,102.62
+Arapahoe,2020-07-17,110.84
+Arapahoe,2020-07-18,115.56
+Arapahoe,2020-07-19,118.53
+Arapahoe,2020-07-20,123.43
+Arapahoe,2020-07-21,125.7
+Arapahoe,2020-07-22,129.02
+Arapahoe,2020-07-23,133.92
+Arapahoe,2020-07-24,138.11
+Arapahoe,2020-07-25,147.38
+Arapahoe,2020-07-26,156.29
+Arapahoe,2020-07-27,155.24
+Arapahoe,2020-07-28,167.31
+Arapahoe,2020-07-29,167.83
+Arapahoe,2020-07-30,165.03
+Arapahoe,2020-07-31,164.86
+Arapahoe,2020-08-01,164.68
+Arapahoe,2020-08-02,169.93
+Arapahoe,2020-08-03,165.73
+Arapahoe,2020-08-04,166.61
+Arapahoe,2020-08-05,167.66
+Arapahoe,2020-08-06,160.49
+Arapahoe,2020-08-07,150.52
+Arapahoe,2020-08-08,142.66
+Arapahoe,2020-08-09,134.61
+Arapahoe,2020-08-10,134.61
+Arapahoe,2020-08-11,119.93
+Arapahoe,2020-08-12,114.68
+Arapahoe,2020-08-13,115.91
+Arapahoe,2020-08-14,108.39
+Arapahoe,2020-08-15,107.52
+Arapahoe,2020-08-16,103.15
+Arapahoe,2020-08-17,102.62
+Arapahoe,2020-08-18,96.68
+Arapahoe,2020-08-19,89.68
+Arapahoe,2020-08-20,89.51
+Arapahoe,2020-08-21,91.96
+Arapahoe,2020-08-22,88.29
+Arapahoe,2020-08-23,112.94
+Arapahoe,2020-08-24,113.64
+Arapahoe,2020-08-25,117.83
+Arapahoe,2020-08-26,116.43
+Arapahoe,2020-08-27,114.16
+Arapahoe,2020-08-28,117.66
+Arapahoe,2020-08-29,108.92
+Arapahoe,2020-08-30,105.07
+Arapahoe,2020-08-31,109.61
+Arapahoe,2020-09-01,110.31
+Arapahoe,2020-09-02,113.81
+Arapahoe,2020-09-03,111.89
+Arapahoe,2020-09-04,108.57
+Arapahoe,2020-09-05,109.79
+Arapahoe,2020-09-06,83.74
+Arapahoe,2020-09-07,80.42
+Arapahoe,2020-09-08,72.9
+Arapahoe,2020-09-09,74.3
+Arapahoe,2020-09-10,76.05
+Arapahoe,2020-09-11,70.8
+Arapahoe,2020-09-12,79.37
+Arapahoe,2020-09-13,80.59
+Arapahoe,2020-09-14,79.55
+Arapahoe,2020-09-15,82.34
+Arapahoe,2020-09-16,82.52
+Arapahoe,2020-09-17,93.01
+Arapahoe,2020-09-18,97.2
+Arapahoe,2020-09-19,94.23
+Arapahoe,2020-09-20,95.28
+Arapahoe,2020-09-21,107.87
+Arapahoe,2020-09-22,109.27
+Arapahoe,2020-09-23,119.4
+Arapahoe,2020-09-24,118.71
+Arapahoe,2020-09-25,127.62
+Arapahoe,2020-09-26,125.35
+Arapahoe,2020-09-27,126.57
+Arapahoe,2020-09-28,134.96
+Arapahoe,2020-09-29,137.24
+Arapahoe,2020-09-30,140.38
+Arapahoe,2020-10-01,137.41
+Arapahoe,2020-10-02,142.83
+Arapahoe,2020-10-03,142.83
+Arapahoe,2020-10-04,147.9
+Arapahoe,2020-10-05,151.75
+Arapahoe,2020-10-06,155.94
+Arapahoe,2020-10-07,153.5
+Arapahoe,2020-10-08,158.04
+Arapahoe,2020-10-09,165.21
+Arapahoe,2020-10-10,179.02
+Arapahoe,2020-10-11,185.49
+Arapahoe,2020-10-12,195.98
+Arapahoe,2020-10-13,205.07
+Arapahoe,2020-10-14,208.22
+Arapahoe,2020-10-15,218.88
+Arapahoe,2020-10-16,220.8
+Arapahoe,2020-10-17,240.03
+Arapahoe,2020-10-18,251.92
+Arapahoe,2020-10-19,246.33
+Arapahoe,2020-10-20,262.06
+Arapahoe,2020-10-21,273.43
+Arapahoe,2020-10-22,281.64
+Arapahoe,2020-10-23,278.32
+Arapahoe,2020-10-24,297.73
+Arapahoe,2020-10-25,319.75
+Arapahoe,2020-10-26,340.73
+Arapahoe,2020-10-27,354.19
+Arapahoe,2020-10-28,361.89
+Arapahoe,2020-10-29,393.18
+Arapahoe,2020-10-30,401.4
+Arapahoe,2020-10-31,449.3
+Arapahoe,2020-11-01,494.05
+Arapahoe,2020-11-02,524.47
+Arapahoe,2020-11-03,527.62
+Arapahoe,2020-11-04,573.07
+Arapahoe,2020-11-05,631.29
+Arapahoe,2020-11-06,677.44
+Arapahoe,2020-11-07,698.25
+Arapahoe,2020-11-08,718.53
+Arapahoe,2020-11-09,775.87
+Arapahoe,2020-11-10,784.79
+Arapahoe,2020-11-11,840.56
+Arapahoe,2020-11-12,881.11
+Arapahoe,2020-11-13,1023.95
+Arapahoe,2020-11-14,1041.6
+Arapahoe,2020-11-15,1045.8
+Arapahoe,2020-11-16,1084.78
+Arapahoe,2020-11-17,1130.76
+Arapahoe,2020-11-18,1161.01
+Arapahoe,2020-11-19,1196.85
+Arapahoe,2020-11-20,1225.69
+Arapahoe,2020-11-21,1281.81
+Arapahoe,2020-11-22,1296.32
+Arapahoe,2020-11-23,1282.16
+Arapahoe,2020-11-24,1317.65
+Arapahoe,2020-11-25,1294.22
+Arapahoe,2020-11-26,1301.92
+Arapahoe,2020-11-27,1224.99
+Arapahoe,2020-11-28,1204.54
+Arapahoe,2020-11-29,1199.47
+Arapahoe,2020-11-30,1200.17
+Arapahoe,2020-12-01,1217.13
+Arapahoe,2020-12-02,1166.43
+Arapahoe,2020-12-03,1133.39
+Arapahoe,2020-12-04,1141.78
+Arapahoe,2020-12-05,1114.5
+Boulder,2020-03-14,0.34
+Boulder,2020-03-15,2.38
+Boulder,2020-03-16,2.38
+Boulder,2020-03-17,2.72
+Boulder,2020-03-18,2.72
+Boulder,2020-03-19,3.73
+Boulder,2020-03-20,8.15
+Boulder,2020-03-21,10.18
+Boulder,2020-03-22,12.56
+Boulder,2020-03-23,13.24
+Boulder,2020-03-24,16.63
+Boulder,2020-03-25,17.31
+Boulder,2020-03-26,22.41
+Boulder,2020-03-27,25.8
+Boulder,2020-03-28,28.18
+Boulder,2020-03-29,28.18
+Boulder,2020-03-30,31.57
+Boulder,2020-03-31,33.61
+Boulder,2020-04-01,35.99
+Boulder,2020-04-02,41.08
+Boulder,2020-04-03,40.4
+Boulder,2020-04-04,43.79
+Boulder,2020-04-05,47.53
+Boulder,2020-04-06,50.92
+Boulder,2020-04-07,53.3
+Boulder,2020-04-08,52.96
+Boulder,2020-04-09,51.26
+Boulder,2020-04-10,53.64
+Boulder,2020-04-11,55.0
+Boulder,2020-04-12,59.07
+Boulder,2020-04-13,62.46
+Boulder,2020-04-14,63.14
+Boulder,2020-04-15,63.14
+Boulder,2020-04-16,61.11
+Boulder,2020-04-17,62.46
+Boulder,2020-04-18,62.13
+Boulder,2020-04-19,59.41
+Boulder,2020-04-20,58.05
+Boulder,2020-04-21,62.46
+Boulder,2020-04-22,71.29
+Boulder,2020-04-23,70.95
+Boulder,2020-04-24,80.12
+Boulder,2020-04-25,85.21
+Boulder,2020-04-26,80.12
+Boulder,2020-04-27,78.42
+Boulder,2020-04-28,84.87
+Boulder,2020-04-29,89.96
+Boulder,2020-04-30,90.98
+Boulder,2020-05-01,98.79
+Boulder,2020-05-02,103.2
+Boulder,2020-05-03,104.9
+Boulder,2020-05-04,108.29
+Boulder,2020-05-05,100.15
+Boulder,2020-05-06,96.07
+Boulder,2020-05-07,99.81
+Boulder,2020-05-08,92.68
+Boulder,2020-05-09,88.27
+Boulder,2020-05-10,90.64
+Boulder,2020-05-11,88.94
+Boulder,2020-05-12,83.17
+Boulder,2020-05-13,78.76
+Boulder,2020-05-14,76.38
+Boulder,2020-05-15,70.27
+Boulder,2020-05-16,64.16
+Boulder,2020-05-17,62.13
+Boulder,2020-05-18,60.43
+Boulder,2020-05-19,63.14
+Boulder,2020-05-20,60.43
+Boulder,2020-05-21,57.71
+Boulder,2020-05-22,52.62
+Boulder,2020-05-23,56.35
+Boulder,2020-05-24,54.66
+Boulder,2020-05-25,52.62
+Boulder,2020-05-26,51.94
+Boulder,2020-05-27,50.92
+Boulder,2020-05-28,51.26
+Boulder,2020-05-29,47.19
+Boulder,2020-05-30,47.19
+Boulder,2020-05-31,46.17
+Boulder,2020-06-01,43.11
+Boulder,2020-06-02,39.04
+Boulder,2020-06-03,39.72
+Boulder,2020-06-04,38.7
+Boulder,2020-06-05,37.34
+Boulder,2020-06-06,29.87
+Boulder,2020-06-07,29.87
+Boulder,2020-06-08,30.55
+Boulder,2020-06-09,29.2
+Boulder,2020-06-10,28.52
+Boulder,2020-06-11,28.52
+Boulder,2020-06-12,28.86
+Boulder,2020-06-13,30.89
+Boulder,2020-06-14,30.55
+Boulder,2020-06-15,35.31
+Boulder,2020-06-16,38.7
+Boulder,2020-06-17,48.21
+Boulder,2020-06-18,57.37
+Boulder,2020-06-19,68.91
+Boulder,2020-06-20,73.67
+Boulder,2020-06-21,77.06
+Boulder,2020-06-22,80.46
+Boulder,2020-06-23,86.57
+Boulder,2020-06-24,93.02
+Boulder,2020-06-25,95.39
+Boulder,2020-06-26,97.43
+Boulder,2020-06-27,95.73
+Boulder,2020-06-28,98.45
+Boulder,2020-06-29,94.72
+Boulder,2020-06-30,96.41
+Boulder,2020-07-01,89.62
+Boulder,2020-07-02,81.82
+Boulder,2020-07-03,72.31
+Boulder,2020-07-04,69.25
+Boulder,2020-07-05,65.52
+Boulder,2020-07-06,65.86
+Boulder,2020-07-07,61.45
+Boulder,2020-07-08,59.07
+Boulder,2020-07-09,58.05
+Boulder,2020-07-10,56.69
+Boulder,2020-07-11,59.41
+Boulder,2020-07-12,56.69
+Boulder,2020-07-13,59.41
+Boulder,2020-07-14,63.82
+Boulder,2020-07-15,65.86
+Boulder,2020-07-16,69.25
+Boulder,2020-07-17,72.65
+Boulder,2020-07-18,71.63
+Boulder,2020-07-19,73.67
+Boulder,2020-07-20,73.33
+Boulder,2020-07-21,74.35
+Boulder,2020-07-22,75.7
+Boulder,2020-07-23,76.04
+Boulder,2020-07-24,86.23
+Boulder,2020-07-25,85.89
+Boulder,2020-07-26,88.27
+Boulder,2020-07-27,88.27
+Boulder,2020-07-28,85.89
+Boulder,2020-07-29,82.83
+Boulder,2020-07-30,83.51
+Boulder,2020-07-31,85.55
+Boulder,2020-08-01,88.94
+Boulder,2020-08-02,96.75
+Boulder,2020-08-03,99.47
+Boulder,2020-08-04,97.43
+Boulder,2020-08-05,106.26
+Boulder,2020-08-06,106.94
+Boulder,2020-08-07,99.13
+Boulder,2020-08-08,94.72
+Boulder,2020-08-09,96.07
+Boulder,2020-08-10,96.41
+Boulder,2020-08-11,95.05
+Boulder,2020-08-12,95.39
+Boulder,2020-08-13,90.3
+Boulder,2020-08-14,83.85
+Boulder,2020-08-15,80.12
+Boulder,2020-08-16,70.61
+Boulder,2020-08-17,60.77
+Boulder,2020-08-18,62.46
+Boulder,2020-08-19,55.0
+Boulder,2020-08-20,52.62
+Boulder,2020-08-21,51.6
+Boulder,2020-08-22,54.66
+Boulder,2020-08-23,52.62
+Boulder,2020-08-24,51.94
+Boulder,2020-08-25,49.22
+Boulder,2020-08-26,46.17
+Boulder,2020-08-27,47.87
+Boulder,2020-08-28,49.56
+Boulder,2020-08-29,50.24
+Boulder,2020-08-30,50.58
+Boulder,2020-08-31,59.41
+Boulder,2020-09-01,58.05
+Boulder,2020-09-02,56.69
+Boulder,2020-09-03,59.41
+Boulder,2020-09-04,67.22
+Boulder,2020-09-05,67.22
+Boulder,2020-09-06,85.89
+Boulder,2020-09-07,82.49
+Boulder,2020-09-08,85.55
+Boulder,2020-09-09,107.96
+Boulder,2020-09-10,118.82
+Boulder,2020-09-11,131.72
+Boulder,2020-09-12,159.56
+Boulder,2020-09-13,169.4
+Boulder,2020-09-14,190.45
+Boulder,2020-09-15,225.76
+Boulder,2020-09-16,243.07
+Boulder,2020-09-17,262.42
+Boulder,2020-09-18,308.93
+Boulder,2020-09-19,317.75
+Boulder,2020-09-20,371.73
+Boulder,2020-09-21,431.48
+Boulder,2020-09-22,495.98
+Boulder,2020-09-23,500.73
+Boulder,2020-09-24,517.37
+Boulder,2020-09-25,542.83
+Boulder,2020-09-26,529.59
+Boulder,2020-09-27,536.72
+Boulder,2020-09-28,522.46
+Boulder,2020-09-29,496.66
+Boulder,2020-09-30,492.93
+Boulder,2020-10-01,479.01
+Boulder,2020-10-02,429.1
+Boulder,2020-10-03,428.76
+Boulder,2020-10-04,352.72
+Boulder,2020-10-05,307.23
+Boulder,2020-10-06,241.71
+Boulder,2020-10-07,226.77
+Boulder,2020-10-08,204.71
+Boulder,2020-10-09,174.49
+Boulder,2020-10-10,171.1
+Boulder,2020-10-11,156.16
+Boulder,2020-10-12,145.64
+Boulder,2020-10-13,146.66
+Boulder,2020-10-14,135.11
+Boulder,2020-10-15,138.85
+Boulder,2020-10-16,144.28
+Boulder,2020-10-17,146.32
+Boulder,2020-10-18,158.2
+Boulder,2020-10-19,152.77
+Boulder,2020-10-20,161.59
+Boulder,2020-10-21,160.24
+Boulder,2020-10-22,163.29
+Boulder,2020-10-23,178.57
+Boulder,2020-10-24,196.9
+Boulder,2020-10-25,205.73
+Boulder,2020-10-26,225.42
+Boulder,2020-10-27,224.06
+Boulder,2020-10-28,251.56
+Boulder,2020-10-29,246.46
+Boulder,2020-10-30,271.25
+Boulder,2020-10-31,303.5
+Boulder,2020-11-01,341.18
+Boulder,2020-11-02,346.95
+Boulder,2020-11-03,364.6
+Boulder,2020-11-04,376.48
+Boulder,2020-11-05,462.03
+Boulder,2020-11-06,473.58
+Boulder,2020-11-07,474.59
+Boulder,2020-11-08,491.23
+Boulder,2020-11-09,538.76
+Boulder,2020-11-10,601.56
+Boulder,2020-11-11,663.69
+Boulder,2020-11-12,739.05
+Boulder,2020-11-13,789.97
+Boulder,2020-11-14,851.42
+Boulder,2020-11-15,838.52
+Boulder,2020-11-16,873.15
+Boulder,2020-11-17,911.51
+Boulder,2020-11-18,966.84
+Boulder,2020-11-19,941.04
+Boulder,2020-11-20,1003.17
+Boulder,2020-11-21,1022.86
+Boulder,2020-11-22,1047.3
+Boulder,2020-11-23,1029.99
+Boulder,2020-11-24,1006.9
+Boulder,2020-11-25,965.48
+Boulder,2020-11-26,926.11
+Boulder,2020-11-27,884.01
+Boulder,2020-11-28,829.01
+Boulder,2020-11-29,821.88
+Boulder,2020-11-30,870.43
+Boulder,2020-12-01,856.51
+Boulder,2020-12-02,847.35
+Boulder,2020-12-03,827.32
+Boulder,2020-12-04,777.41
+Boulder,2020-12-05,767.23
+Broomfield,2020-03-20,1.79
+Broomfield,2020-03-21,1.79
+Broomfield,2020-03-22,1.79
+Broomfield,2020-03-23,3.58
+Broomfield,2020-03-24,8.95
+Broomfield,2020-03-25,14.31
+Broomfield,2020-03-26,17.89
+Broomfield,2020-03-27,23.26
+Broomfield,2020-03-28,28.63
+Broomfield,2020-03-29,30.42
+Broomfield,2020-03-30,32.21
+Broomfield,2020-03-31,35.79
+Broomfield,2020-04-01,37.57
+Broomfield,2020-04-02,53.68
+Broomfield,2020-04-03,62.62
+Broomfield,2020-04-04,76.94
+Broomfield,2020-04-05,87.67
+Broomfield,2020-04-06,85.88
+Broomfield,2020-04-07,80.52
+Broomfield,2020-04-08,78.73
+Broomfield,2020-04-09,91.25
+Broomfield,2020-04-10,98.41
+Broomfield,2020-04-11,103.78
+Broomfield,2020-04-12,114.51
+Broomfield,2020-04-13,112.72
+Broomfield,2020-04-14,121.67
+Broomfield,2020-04-15,127.04
+Broomfield,2020-04-16,116.3
+Broomfield,2020-04-17,110.93
+Broomfield,2020-04-18,101.99
+Broomfield,2020-04-19,91.25
+Broomfield,2020-04-20,94.83
+Broomfield,2020-04-21,100.2
+Broomfield,2020-04-22,103.78
+Broomfield,2020-04-23,93.04
+Broomfield,2020-04-24,103.78
+Broomfield,2020-04-25,109.14
+Broomfield,2020-04-26,103.78
+Broomfield,2020-04-27,107.36
+Broomfield,2020-04-28,101.99
+Broomfield,2020-04-29,98.41
+Broomfield,2020-04-30,98.41
+Broomfield,2020-05-01,105.57
+Broomfield,2020-05-02,110.93
+Broomfield,2020-05-03,114.51
+Broomfield,2020-05-04,114.51
+Broomfield,2020-05-05,128.83
+Broomfield,2020-05-06,125.25
+Broomfield,2020-05-07,130.62
+Broomfield,2020-05-08,116.3
+Broomfield,2020-05-09,107.36
+Broomfield,2020-05-10,105.57
+Broomfield,2020-05-11,105.57
+Broomfield,2020-05-12,100.2
+Broomfield,2020-05-13,100.2
+Broomfield,2020-05-14,96.62
+Broomfield,2020-05-15,89.46
+Broomfield,2020-05-16,82.31
+Broomfield,2020-05-17,82.31
+Broomfield,2020-05-18,82.31
+Broomfield,2020-05-19,64.41
+Broomfield,2020-05-20,62.62
+Broomfield,2020-05-21,57.26
+Broomfield,2020-05-22,51.89
+Broomfield,2020-05-23,44.73
+Broomfield,2020-05-24,39.36
+Broomfield,2020-05-25,37.57
+Broomfield,2020-05-26,41.15
+Broomfield,2020-05-27,41.15
+Broomfield,2020-05-28,41.15
+Broomfield,2020-05-29,44.73
+Broomfield,2020-05-30,48.31
+Broomfield,2020-05-31,51.89
+Broomfield,2020-06-01,51.89
+Broomfield,2020-06-02,53.68
+Broomfield,2020-06-03,53.68
+Broomfield,2020-06-04,59.05
+Broomfield,2020-06-05,57.26
+Broomfield,2020-06-06,59.05
+Broomfield,2020-06-07,62.62
+Broomfield,2020-06-08,62.62
+Broomfield,2020-06-09,60.83
+Broomfield,2020-06-10,57.26
+Broomfield,2020-06-11,57.26
+Broomfield,2020-06-12,51.89
+Broomfield,2020-06-13,50.1
+Broomfield,2020-06-14,42.94
+Broomfield,2020-06-15,41.15
+Broomfield,2020-06-16,42.94
+Broomfield,2020-06-17,44.73
+Broomfield,2020-06-18,35.79
+Broomfield,2020-06-19,39.36
+Broomfield,2020-06-20,42.94
+Broomfield,2020-06-21,41.15
+Broomfield,2020-06-22,42.94
+Broomfield,2020-06-23,42.94
+Broomfield,2020-06-24,46.52
+Broomfield,2020-06-25,50.1
+Broomfield,2020-06-26,53.68
+Broomfield,2020-06-27,48.31
+Broomfield,2020-06-28,55.47
+Broomfield,2020-06-29,57.26
+Broomfield,2020-06-30,53.68
+Broomfield,2020-07-01,55.47
+Broomfield,2020-07-02,64.41
+Broomfield,2020-07-03,59.05
+Broomfield,2020-07-04,62.62
+Broomfield,2020-07-05,64.41
+Broomfield,2020-07-06,64.41
+Broomfield,2020-07-07,67.99
+Broomfield,2020-07-08,71.57
+Broomfield,2020-07-09,82.31
+Broomfield,2020-07-10,80.52
+Broomfield,2020-07-11,89.46
+Broomfield,2020-07-12,82.31
+Broomfield,2020-07-13,80.52
+Broomfield,2020-07-14,89.46
+Broomfield,2020-07-15,91.25
+Broomfield,2020-07-16,84.1
+Broomfield,2020-07-17,91.25
+Broomfield,2020-07-18,82.31
+Broomfield,2020-07-19,80.52
+Broomfield,2020-07-20,82.31
+Broomfield,2020-07-21,78.73
+Broomfield,2020-07-22,84.1
+Broomfield,2020-07-23,71.57
+Broomfield,2020-07-24,71.57
+Broomfield,2020-07-25,66.2
+Broomfield,2020-07-26,73.36
+Broomfield,2020-07-27,73.36
+Broomfield,2020-07-28,66.2
+Broomfield,2020-07-29,62.62
+Broomfield,2020-07-30,67.99
+Broomfield,2020-07-31,71.57
+Broomfield,2020-08-01,85.88
+Broomfield,2020-08-02,100.2
+Broomfield,2020-08-03,98.41
+Broomfield,2020-08-04,101.99
+Broomfield,2020-08-05,116.3
+Broomfield,2020-08-06,128.83
+Broomfield,2020-08-07,137.77
+Broomfield,2020-08-08,146.72
+Broomfield,2020-08-09,162.82
+Broomfield,2020-08-10,164.61
+Broomfield,2020-08-11,173.56
+Broomfield,2020-08-12,169.98
+Broomfield,2020-08-13,161.03
+Broomfield,2020-08-14,153.88
+Broomfield,2020-08-15,148.51
+Broomfield,2020-08-16,132.41
+Broomfield,2020-08-17,134.19
+Broomfield,2020-08-18,137.77
+Broomfield,2020-08-19,110.93
+Broomfield,2020-08-20,107.36
+Broomfield,2020-08-21,100.2
+Broomfield,2020-08-22,91.25
+Broomfield,2020-08-23,69.78
+Broomfield,2020-08-24,71.57
+Broomfield,2020-08-25,73.36
+Broomfield,2020-08-26,69.78
+Broomfield,2020-08-27,71.57
+Broomfield,2020-08-28,78.73
+Broomfield,2020-08-29,73.36
+Broomfield,2020-08-30,76.94
+Broomfield,2020-08-31,76.94
+Broomfield,2020-09-01,75.15
+Broomfield,2020-09-02,76.94
+Broomfield,2020-09-03,66.2
+Broomfield,2020-09-04,59.05
+Broomfield,2020-09-05,62.62
+Broomfield,2020-09-06,64.41
+Broomfield,2020-09-07,62.62
+Broomfield,2020-09-08,48.31
+Broomfield,2020-09-09,53.68
+Broomfield,2020-09-10,55.47
+Broomfield,2020-09-11,48.31
+Broomfield,2020-09-12,60.83
+Broomfield,2020-09-13,67.99
+Broomfield,2020-09-14,64.41
+Broomfield,2020-09-15,57.26
+Broomfield,2020-09-16,66.2
+Broomfield,2020-09-17,67.99
+Broomfield,2020-09-18,82.31
+Broomfield,2020-09-19,84.1
+Broomfield,2020-09-20,84.1
+Broomfield,2020-09-21,84.1
+Broomfield,2020-09-22,100.2
+Broomfield,2020-09-23,116.3
+Broomfield,2020-09-24,118.09
+Broomfield,2020-09-25,127.04
+Broomfield,2020-09-26,128.83
+Broomfield,2020-09-27,134.19
+Broomfield,2020-09-28,137.77
+Broomfield,2020-09-29,144.93
+Broomfield,2020-09-30,144.93
+Broomfield,2020-10-01,168.19
+Broomfield,2020-10-02,157.45
+Broomfield,2020-10-03,162.82
+Broomfield,2020-10-04,169.98
+Broomfield,2020-10-05,175.35
+Broomfield,2020-10-06,169.98
+Broomfield,2020-10-07,164.61
+Broomfield,2020-10-08,173.56
+Broomfield,2020-10-09,169.98
+Broomfield,2020-10-10,169.98
+Broomfield,2020-10-11,168.19
+Broomfield,2020-10-12,169.98
+Broomfield,2020-10-13,171.77
+Broomfield,2020-10-14,173.56
+Broomfield,2020-10-15,159.24
+Broomfield,2020-10-16,162.82
+Broomfield,2020-10-17,168.19
+Broomfield,2020-10-18,177.14
+Broomfield,2020-10-19,184.29
+Broomfield,2020-10-20,220.08
+Broomfield,2020-10-21,246.92
+Broomfield,2020-10-22,261.23
+Broomfield,2020-10-23,282.7
+Broomfield,2020-10-24,279.12
+Broomfield,2020-10-25,291.65
+Broomfield,2020-10-26,334.59
+Broomfield,2020-10-27,354.27
+Broomfield,2020-10-28,409.74
+Broomfield,2020-10-29,418.69
+Broomfield,2020-10-30,490.26
+Broomfield,2020-10-31,524.25
+Broomfield,2020-11-01,540.36
+Broomfield,2020-11-02,576.14
+Broomfield,2020-11-03,560.04
+Broomfield,2020-11-04,554.67
+Broomfield,2020-11-05,577.93
+Broomfield,2020-11-06,590.46
+Broomfield,2020-11-07,635.19
+Broomfield,2020-11-08,656.66
+Broomfield,2020-11-09,631.61
+Broomfield,2020-11-10,669.18
+Broomfield,2020-11-11,649.5
+Broomfield,2020-11-12,701.39
+Broomfield,2020-11-13,731.81
+Broomfield,2020-11-14,744.33
+Broomfield,2020-11-15,749.7
+Broomfield,2020-11-16,774.75
+Broomfield,2020-11-17,794.43
+Broomfield,2020-11-18,821.27
+Broomfield,2020-11-19,842.74
+Broomfield,2020-11-20,885.68
+Broomfield,2020-11-21,950.1
+Broomfield,2020-11-22,960.83
+Broomfield,2020-11-23,971.57
+Broomfield,2020-11-24,942.94
+Broomfield,2020-11-25,937.57
+Broomfield,2020-11-26,951.89
+Broomfield,2020-11-27,901.79
+Broomfield,2020-11-28,885.68
+Broomfield,2020-11-29,880.32
+Broomfield,2020-11-30,882.11
+Broomfield,2020-12-01,905.37
+Broomfield,2020-12-02,883.89
+Broomfield,2020-12-03,908.94
+Broomfield,2020-12-04,887.47
+Broomfield,2020-12-05,840.95
+Clear Creek,2020-03-13,11.0
+Clear Creek,2020-03-14,11.0
+Clear Creek,2020-03-15,11.0
+Clear Creek,2020-03-16,11.0
+Clear Creek,2020-03-17,22.01
+Clear Creek,2020-03-18,22.01
+Clear Creek,2020-03-19,22.01
+Clear Creek,2020-03-20,22.01
+Clear Creek,2020-03-21,33.01
+Clear Creek,2020-03-22,33.01
+Clear Creek,2020-03-23,33.01
+Clear Creek,2020-03-24,33.01
+Clear Creek,2020-03-25,33.01
+Clear Creek,2020-03-26,33.01
+Clear Creek,2020-03-27,22.01
+Clear Creek,2020-03-28,22.01
+Clear Creek,2020-03-29,22.01
+Clear Creek,2020-03-30,22.01
+Clear Creek,2020-03-31,22.01
+Clear Creek,2020-04-01,44.01
+Clear Creek,2020-04-02,44.01
+Clear Creek,2020-04-03,44.01
+Clear Creek,2020-04-04,33.01
+Clear Creek,2020-04-05,33.01
+Clear Creek,2020-04-06,33.01
+Clear Creek,2020-04-07,44.01
+Clear Creek,2020-04-08,44.01
+Clear Creek,2020-04-09,77.02
+Clear Creek,2020-04-10,88.03
+Clear Creek,2020-04-11,88.03
+Clear Creek,2020-04-12,88.03
+Clear Creek,2020-04-13,88.03
+Clear Creek,2020-04-14,77.02
+Clear Creek,2020-04-15,55.02
+Clear Creek,2020-04-16,55.02
+Clear Creek,2020-04-17,55.02
+Clear Creek,2020-04-18,55.02
+Clear Creek,2020-04-19,55.02
+Clear Creek,2020-04-20,55.02
+Clear Creek,2020-04-21,44.01
+Clear Creek,2020-04-22,44.01
+Clear Creek,2020-04-23,22.01
+Clear Creek,2020-04-24,22.01
+Clear Creek,2020-04-25,22.01
+Clear Creek,2020-04-26,22.01
+Clear Creek,2020-04-27,22.01
+Clear Creek,2020-04-28,22.01
+Clear Creek,2020-04-29,22.01
+Clear Creek,2020-04-30,22.01
+Clear Creek,2020-05-01,22.01
+Clear Creek,2020-05-02,22.01
+Clear Creek,2020-05-03,22.01
+Clear Creek,2020-05-04,22.01
+Clear Creek,2020-05-05,22.01
+Clear Creek,2020-05-06,22.01
+Clear Creek,2020-05-07,11.0
+Clear Creek,2020-05-08,11.0
+Clear Creek,2020-05-09,11.0
+Clear Creek,2020-05-10,11.0
+Clear Creek,2020-05-11,11.0
+Clear Creek,2020-05-12,22.01
+Clear Creek,2020-05-13,22.01
+Clear Creek,2020-05-14,22.01
+Clear Creek,2020-05-15,22.01
+Clear Creek,2020-05-16,33.01
+Clear Creek,2020-05-17,33.01
+Clear Creek,2020-05-18,33.01
+Clear Creek,2020-05-19,33.01
+Clear Creek,2020-05-20,33.01
+Clear Creek,2020-05-21,33.01
+Clear Creek,2020-05-22,22.01
+Clear Creek,2020-05-23,22.01
+Clear Creek,2020-05-24,22.01
+Clear Creek,2020-05-25,22.01
+Clear Creek,2020-05-26,11.0
+Clear Creek,2020-05-27,11.0
+Clear Creek,2020-05-28,11.0
+Clear Creek,2020-05-29,11.0
+Clear Creek,2020-05-30,0.0
+Clear Creek,2020-05-31,0.0
+Clear Creek,2020-06-01,11.0
+Clear Creek,2020-06-02,11.0
+Clear Creek,2020-06-03,11.0
+Clear Creek,2020-06-04,11.0
+Clear Creek,2020-06-05,11.0
+Clear Creek,2020-06-06,11.0
+Clear Creek,2020-06-07,11.0
+Clear Creek,2020-06-08,11.0
+Clear Creek,2020-06-09,11.0
+Clear Creek,2020-06-10,11.0
+Clear Creek,2020-06-11,11.0
+Clear Creek,2020-06-12,11.0
+Clear Creek,2020-06-13,11.0
+Clear Creek,2020-06-14,11.0
+Clear Creek,2020-06-15,0.0
+Clear Creek,2020-06-16,0.0
+Clear Creek,2020-06-17,11.0
+Clear Creek,2020-06-18,11.0
+Clear Creek,2020-06-19,11.0
+Clear Creek,2020-06-20,11.0
+Clear Creek,2020-06-21,11.0
+Clear Creek,2020-06-22,11.0
+Clear Creek,2020-06-23,11.0
+Clear Creek,2020-06-24,11.0
+Clear Creek,2020-06-25,11.0
+Clear Creek,2020-06-26,11.0
+Clear Creek,2020-06-27,11.0
+Clear Creek,2020-06-28,11.0
+Clear Creek,2020-06-29,11.0
+Clear Creek,2020-06-30,22.01
+Clear Creek,2020-07-01,11.0
+Clear Creek,2020-07-02,11.0
+Clear Creek,2020-07-03,11.0
+Clear Creek,2020-07-04,33.01
+Clear Creek,2020-07-05,33.01
+Clear Creek,2020-07-06,33.01
+Clear Creek,2020-07-07,33.01
+Clear Creek,2020-07-08,33.01
+Clear Creek,2020-07-09,33.01
+Clear Creek,2020-07-10,33.01
+Clear Creek,2020-07-11,33.01
+Clear Creek,2020-07-12,33.01
+Clear Creek,2020-07-13,33.01
+Clear Creek,2020-07-14,22.01
+Clear Creek,2020-07-15,22.01
+Clear Creek,2020-07-16,44.01
+Clear Creek,2020-07-17,44.01
+Clear Creek,2020-07-18,22.01
+Clear Creek,2020-07-19,22.01
+Clear Creek,2020-07-20,33.01
+Clear Creek,2020-07-21,33.01
+Clear Creek,2020-07-22,33.01
+Clear Creek,2020-07-23,33.01
+Clear Creek,2020-07-24,33.01
+Clear Creek,2020-07-25,44.01
+Clear Creek,2020-07-26,55.02
+Clear Creek,2020-07-27,55.02
+Clear Creek,2020-07-28,55.02
+Clear Creek,2020-07-29,55.02
+Clear Creek,2020-07-30,33.01
+Clear Creek,2020-07-31,33.01
+Clear Creek,2020-08-01,44.01
+Clear Creek,2020-08-02,44.01
+Clear Creek,2020-08-03,33.01
+Clear Creek,2020-08-04,44.01
+Clear Creek,2020-08-05,44.01
+Clear Creek,2020-08-06,55.02
+Clear Creek,2020-08-07,66.02
+Clear Creek,2020-08-08,55.02
+Clear Creek,2020-08-09,44.01
+Clear Creek,2020-08-10,44.01
+Clear Creek,2020-08-11,44.01
+Clear Creek,2020-08-12,44.01
+Clear Creek,2020-08-13,55.02
+Clear Creek,2020-08-14,55.02
+Clear Creek,2020-08-15,44.01
+Clear Creek,2020-08-16,44.01
+Clear Creek,2020-08-17,44.01
+Clear Creek,2020-08-18,33.01
+Clear Creek,2020-08-19,33.01
+Clear Creek,2020-08-20,22.01
+Clear Creek,2020-08-21,11.0
+Clear Creek,2020-08-22,44.01
+Clear Creek,2020-08-23,44.01
+Clear Creek,2020-08-24,44.01
+Clear Creek,2020-08-25,44.01
+Clear Creek,2020-08-26,44.01
+Clear Creek,2020-08-27,33.01
+Clear Creek,2020-08-28,33.01
+Clear Creek,2020-08-29,44.01
+Clear Creek,2020-08-30,44.01
+Clear Creek,2020-08-31,44.01
+Clear Creek,2020-09-01,44.01
+Clear Creek,2020-09-02,44.01
+Clear Creek,2020-09-03,55.02
+Clear Creek,2020-09-04,55.02
+Clear Creek,2020-09-05,22.01
+Clear Creek,2020-09-06,22.01
+Clear Creek,2020-09-07,22.01
+Clear Creek,2020-09-08,22.01
+Clear Creek,2020-09-09,22.01
+Clear Creek,2020-09-10,22.01
+Clear Creek,2020-09-11,22.01
+Clear Creek,2020-09-12,11.0
+Clear Creek,2020-09-13,11.0
+Clear Creek,2020-09-14,11.0
+Clear Creek,2020-09-15,11.0
+Clear Creek,2020-09-16,11.0
+Clear Creek,2020-09-17,0.0
+Clear Creek,2020-09-18,0.0
+Clear Creek,2020-09-19,11.0
+Clear Creek,2020-09-20,11.0
+Clear Creek,2020-09-21,11.0
+Clear Creek,2020-09-22,11.0
+Clear Creek,2020-09-23,11.0
+Clear Creek,2020-09-24,11.0
+Clear Creek,2020-09-25,11.0
+Clear Creek,2020-09-26,11.0
+Clear Creek,2020-09-27,33.01
+Clear Creek,2020-09-28,33.01
+Clear Creek,2020-09-29,33.01
+Clear Creek,2020-09-30,44.01
+Clear Creek,2020-10-01,44.01
+Clear Creek,2020-10-02,77.02
+Clear Creek,2020-10-03,110.04
+Clear Creek,2020-10-04,110.04
+Clear Creek,2020-10-05,110.04
+Clear Creek,2020-10-06,110.04
+Clear Creek,2020-10-07,143.05
+Clear Creek,2020-10-08,154.05
+Clear Creek,2020-10-09,187.06
+Clear Creek,2020-10-10,231.07
+Clear Creek,2020-10-11,209.07
+Clear Creek,2020-10-12,220.07
+Clear Creek,2020-10-13,220.07
+Clear Creek,2020-10-14,231.07
+Clear Creek,2020-10-15,231.07
+Clear Creek,2020-10-16,198.06
+Clear Creek,2020-10-17,154.05
+Clear Creek,2020-10-18,176.06
+Clear Creek,2020-10-19,176.06
+Clear Creek,2020-10-20,176.06
+Clear Creek,2020-10-21,143.05
+Clear Creek,2020-10-22,143.05
+Clear Creek,2020-10-23,121.04
+Clear Creek,2020-10-24,110.04
+Clear Creek,2020-10-25,110.04
+Clear Creek,2020-10-26,121.04
+Clear Creek,2020-10-27,132.04
+Clear Creek,2020-10-28,154.05
+Clear Creek,2020-10-29,143.05
+Clear Creek,2020-10-30,275.09
+Clear Creek,2020-10-31,308.1
+Clear Creek,2020-11-01,330.11
+Clear Creek,2020-11-02,330.11
+Clear Creek,2020-11-03,341.11
+Clear Creek,2020-11-04,341.11
+Clear Creek,2020-11-05,352.11
+Clear Creek,2020-11-06,363.12
+Clear Creek,2020-11-07,352.11
+Clear Creek,2020-11-08,440.14
+Clear Creek,2020-11-09,440.14
+Clear Creek,2020-11-10,440.14
+Clear Creek,2020-11-11,429.14
+Clear Creek,2020-11-12,506.16
+Clear Creek,2020-11-13,528.17
+Clear Creek,2020-11-14,550.18
+Clear Creek,2020-11-15,528.17
+Clear Creek,2020-11-16,561.18
+Clear Creek,2020-11-17,561.18
+Clear Creek,2020-11-18,572.18
+Clear Creek,2020-11-19,671.21
+Clear Creek,2020-11-20,671.21
+Clear Creek,2020-11-21,715.23
+Clear Creek,2020-11-22,649.21
+Clear Creek,2020-11-23,649.21
+Clear Creek,2020-11-24,671.21
+Clear Creek,2020-11-25,704.23
+Clear Creek,2020-11-26,682.22
+Clear Creek,2020-11-27,550.18
+Clear Creek,2020-11-28,506.16
+Clear Creek,2020-11-29,528.17
+Clear Creek,2020-11-30,506.16
+Clear Creek,2020-12-01,528.17
+Clear Creek,2020-12-02,572.18
+Clear Creek,2020-12-03,462.15
+Clear Creek,2020-12-04,451.14
+Clear Creek,2020-12-05,473.15
+Denver,2020-03-06,0.33
+Denver,2020-03-07,0.33
+Denver,2020-03-08,0.33
+Denver,2020-03-09,0.5
+Denver,2020-03-10,0.67
+Denver,2020-03-11,1.0
+Denver,2020-03-12,1.5
+Denver,2020-03-13,2.83
+Denver,2020-03-14,3.83
+Denver,2020-03-15,4.67
+Denver,2020-03-16,4.67
+Denver,2020-03-17,6.83
+Denver,2020-03-18,7.5
+Denver,2020-03-19,10.16
+Denver,2020-03-20,12.83
+Denver,2020-03-21,16.0
+Denver,2020-03-22,20.49
+Denver,2020-03-23,24.16
+Denver,2020-03-24,28.66
+Denver,2020-03-25,34.66
+Denver,2020-03-26,42.16
+Denver,2020-03-27,49.15
+Denver,2020-03-28,57.32
+Denver,2020-03-29,63.32
+Denver,2020-03-30,72.81
+Denver,2020-03-31,82.98
+Denver,2020-04-01,90.14
+Denver,2020-04-02,96.97
+Denver,2020-04-03,106.14
+Denver,2020-04-04,111.8
+Denver,2020-04-05,116.64
+Denver,2020-04-06,116.47
+Denver,2020-04-07,117.97
+Denver,2020-04-08,118.8
+Denver,2020-04-09,128.13
+Denver,2020-04-10,133.46
+Denver,2020-04-11,135.8
+Denver,2020-04-12,139.8
+Denver,2020-04-13,146.79
+Denver,2020-04-14,143.8
+Denver,2020-04-15,146.96
+Denver,2020-04-16,150.96
+Denver,2020-04-17,153.29
+Denver,2020-04-18,158.96
+Denver,2020-04-19,159.79
+Denver,2020-04-20,172.12
+Denver,2020-04-21,186.62
+Denver,2020-04-22,190.62
+Denver,2020-04-23,190.12
+Denver,2020-04-24,211.94
+Denver,2020-04-25,217.44
+Denver,2020-04-26,222.61
+Denver,2020-04-27,222.61
+Denver,2020-04-28,231.44
+Denver,2020-04-29,236.94
+Denver,2020-04-30,241.94
+Denver,2020-05-01,242.6
+Denver,2020-05-02,249.77
+Denver,2020-05-03,260.1
+Denver,2020-05-04,257.93
+Denver,2020-05-05,256.93
+Denver,2020-05-06,267.1
+Denver,2020-05-07,271.1
+Denver,2020-05-08,251.1
+Denver,2020-05-09,252.27
+Denver,2020-05-10,247.77
+Denver,2020-05-11,239.27
+Denver,2020-05-12,232.61
+Denver,2020-05-13,227.27
+Denver,2020-05-14,226.27
+Denver,2020-05-15,226.61
+Denver,2020-05-16,220.94
+Denver,2020-05-17,218.44
+Denver,2020-05-18,215.28
+Denver,2020-05-19,207.28
+Denver,2020-05-20,197.28
+Denver,2020-05-21,191.45
+Denver,2020-05-22,193.95
+Denver,2020-05-23,191.62
+Denver,2020-05-24,183.78
+Denver,2020-05-25,182.95
+Denver,2020-05-26,180.29
+Denver,2020-05-27,176.95
+Denver,2020-05-28,179.12
+Denver,2020-05-29,186.12
+Denver,2020-05-30,190.28
+Denver,2020-05-31,186.45
+Denver,2020-06-01,180.29
+Denver,2020-06-02,177.29
+Denver,2020-06-03,176.45
+Denver,2020-06-04,171.45
+Denver,2020-06-05,164.12
+Denver,2020-06-06,154.63
+Denver,2020-06-07,155.46
+Denver,2020-06-08,153.63
+Denver,2020-06-09,151.13
+Denver,2020-06-10,147.96
+Denver,2020-06-11,132.96
+Denver,2020-06-12,114.64
+Denver,2020-06-13,101.81
+Denver,2020-06-14,92.48
+Denver,2020-06-15,95.64
+Denver,2020-06-16,91.14
+Denver,2020-06-17,87.98
+Denver,2020-06-18,85.98
+Denver,2020-06-19,87.31
+Denver,2020-06-20,87.31
+Denver,2020-06-21,87.31
+Denver,2020-06-22,87.48
+Denver,2020-06-23,87.31
+Denver,2020-06-24,95.14
+Denver,2020-06-25,100.47
+Denver,2020-06-26,107.31
+Denver,2020-06-27,107.64
+Denver,2020-06-28,112.8
+Denver,2020-06-29,114.8
+Denver,2020-06-30,114.97
+Denver,2020-07-01,117.3
+Denver,2020-07-02,122.47
+Denver,2020-07-03,119.47
+Denver,2020-07-04,119.3
+Denver,2020-07-05,118.97
+Denver,2020-07-06,121.47
+Denver,2020-07-07,129.47
+Denver,2020-07-08,131.3
+Denver,2020-07-09,135.96
+Denver,2020-07-10,142.96
+Denver,2020-07-11,147.46
+Denver,2020-07-12,149.13
+Denver,2020-07-13,147.79
+Denver,2020-07-14,153.29
+Denver,2020-07-15,158.13
+Denver,2020-07-16,155.96
+Denver,2020-07-17,161.96
+Denver,2020-07-18,166.79
+Denver,2020-07-19,171.12
+Denver,2020-07-20,172.79
+Denver,2020-07-21,175.79
+Denver,2020-07-22,181.12
+Denver,2020-07-23,192.95
+Denver,2020-07-24,196.61
+Denver,2020-07-25,211.44
+Denver,2020-07-26,217.11
+Denver,2020-07-27,217.28
+Denver,2020-07-28,229.27
+Denver,2020-07-29,230.61
+Denver,2020-07-30,227.44
+Denver,2020-07-31,228.11
+Denver,2020-08-01,228.77
+Denver,2020-08-02,234.44
+Denver,2020-08-03,230.61
+Denver,2020-08-04,223.94
+Denver,2020-08-05,219.61
+Denver,2020-08-06,207.11
+Denver,2020-08-07,197.11
+Denver,2020-08-08,178.62
+Denver,2020-08-09,169.79
+Denver,2020-08-10,167.79
+Denver,2020-08-11,155.29
+Denver,2020-08-12,147.96
+Denver,2020-08-13,149.46
+Denver,2020-08-14,141.3
+Denver,2020-08-15,135.8
+Denver,2020-08-16,132.3
+Denver,2020-08-17,132.3
+Denver,2020-08-18,129.13
+Denver,2020-08-19,120.47
+Denver,2020-08-20,113.3
+Denver,2020-08-21,111.14
+Denver,2020-08-22,111.47
+Denver,2020-08-23,112.8
+Denver,2020-08-24,111.3
+Denver,2020-08-25,119.8
+Denver,2020-08-26,108.47
+Denver,2020-08-27,108.47
+Denver,2020-08-28,112.64
+Denver,2020-08-29,114.64
+Denver,2020-08-30,108.8
+Denver,2020-08-31,109.64
+Denver,2020-09-01,109.3
+Denver,2020-09-02,107.97
+Denver,2020-09-03,105.64
+Denver,2020-09-04,104.64
+Denver,2020-09-05,106.14
+Denver,2020-09-06,99.81
+Denver,2020-09-07,104.31
+Denver,2020-09-08,90.14
+Denver,2020-09-09,95.14
+Denver,2020-09-10,91.64
+Denver,2020-09-11,89.64
+Denver,2020-09-12,93.98
+Denver,2020-09-13,98.47
+Denver,2020-09-14,102.97
+Denver,2020-09-15,111.47
+Denver,2020-09-16,119.3
+Denver,2020-09-17,130.3
+Denver,2020-09-18,136.96
+Denver,2020-09-19,138.96
+Denver,2020-09-20,153.63
+Denver,2020-09-21,159.46
+Denver,2020-09-22,168.62
+Denver,2020-09-23,187.62
+Denver,2020-09-24,199.61
+Denver,2020-09-25,209.94
+Denver,2020-09-26,208.45
+Denver,2020-09-27,216.61
+Denver,2020-09-28,226.27
+Denver,2020-09-29,220.28
+Denver,2020-09-30,224.77
+Denver,2020-10-01,228.44
+Denver,2020-10-02,232.77
+Denver,2020-10-03,240.27
+Denver,2020-10-04,235.27
+Denver,2020-10-05,240.27
+Denver,2020-10-06,240.77
+Denver,2020-10-07,248.93
+Denver,2020-10-08,259.6
+Denver,2020-10-09,253.93
+Denver,2020-10-10,275.76
+Denver,2020-10-11,284.09
+Denver,2020-10-12,288.09
+Denver,2020-10-13,300.75
+Denver,2020-10-14,307.75
+Denver,2020-10-15,324.41
+Denver,2020-10-16,334.75
+Denver,2020-10-17,344.24
+Denver,2020-10-18,361.74
+Denver,2020-10-19,360.07
+Denver,2020-10-20,369.24
+Denver,2020-10-21,373.73
+Denver,2020-10-22,380.4
+Denver,2020-10-23,404.39
+Denver,2020-10-24,434.05
+Denver,2020-10-25,471.71
+Denver,2020-10-26,485.21
+Denver,2020-10-27,506.03
+Denver,2020-10-28,524.7
+Denver,2020-10-29,546.36
+Denver,2020-10-30,591.84
+Denver,2020-10-31,619.34
+Denver,2020-11-01,686.99
+Denver,2020-11-02,709.48
+Denver,2020-11-03,748.14
+Denver,2020-11-04,789.63
+Denver,2020-11-05,869.6
+Denver,2020-11-06,887.93
+Denver,2020-11-07,939.25
+Denver,2020-11-08,985.91
+Denver,2020-11-09,1026.23
+Denver,2020-11-10,1066.55
+Denver,2020-11-11,1145.53
+Denver,2020-11-12,1225.01
+Denver,2020-11-13,1258.67
+Denver,2020-11-14,1295.99
+Denver,2020-11-15,1309.32
+Denver,2020-11-16,1379.47
+Denver,2020-11-17,1414.13
+Denver,2020-11-18,1480.94
+Denver,2020-11-19,1457.28
+Denver,2020-11-20,1552.09
+Denver,2020-11-21,1529.43
+Denver,2020-11-22,1544.09
+Denver,2020-11-23,1560.09
+Denver,2020-11-24,1571.25
+Denver,2020-11-25,1589.75
+Denver,2020-11-26,1495.94
+Denver,2020-11-27,1505.6
+Denver,2020-11-28,1485.61
+Denver,2020-11-29,1438.29
+Denver,2020-11-30,1396.13
+Denver,2020-12-01,1364.97
+Denver,2020-12-02,1308.99
+Denver,2020-12-03,1353.81
+Denver,2020-12-04,1213.85
+Denver,2020-12-05,1248.84
+Douglas,2020-03-05,0.35
+Douglas,2020-03-06,1.05
+Douglas,2020-03-07,1.05
+Douglas,2020-03-08,1.05
+Douglas,2020-03-09,1.05
+Douglas,2020-03-10,1.05
+Douglas,2020-03-11,1.05
+Douglas,2020-03-12,1.05
+Douglas,2020-03-13,1.4
+Douglas,2020-03-14,1.4
+Douglas,2020-03-15,2.8
+Douglas,2020-03-16,2.8
+Douglas,2020-03-17,3.15
+Douglas,2020-03-18,3.85
+Douglas,2020-03-19,4.55
+Douglas,2020-03-20,4.9
+Douglas,2020-03-21,8.41
+Douglas,2020-03-22,10.51
+Douglas,2020-03-23,15.76
+Douglas,2020-03-24,17.52
+Douglas,2020-03-25,19.27
+Douglas,2020-03-26,22.42
+Douglas,2020-03-27,26.27
+Douglas,2020-03-28,30.83
+Douglas,2020-03-29,32.93
+Douglas,2020-03-30,39.58
+Douglas,2020-03-31,47.29
+Douglas,2020-04-01,51.49
+Douglas,2020-04-02,55.0
+Douglas,2020-04-03,62.0
+Douglas,2020-04-04,63.76
+Douglas,2020-04-05,66.56
+Douglas,2020-04-06,62.7
+Douglas,2020-04-07,62.7
+Douglas,2020-04-08,65.16
+Douglas,2020-04-09,71.11
+Douglas,2020-04-10,71.11
+Douglas,2020-04-11,70.06
+Douglas,2020-04-12,68.66
+Douglas,2020-04-13,64.11
+Douglas,2020-04-14,58.5
+Douglas,2020-04-15,53.95
+Douglas,2020-04-16,55.35
+Douglas,2020-04-17,55.7
+Douglas,2020-04-18,52.9
+Douglas,2020-04-19,50.79
+Douglas,2020-04-20,53.95
+Douglas,2020-04-21,53.25
+Douglas,2020-04-22,51.85
+Douglas,2020-04-23,45.19
+Douglas,2020-04-24,46.24
+Douglas,2020-04-25,46.59
+Douglas,2020-04-26,49.39
+Douglas,2020-04-27,50.79
+Douglas,2020-04-28,49.74
+Douglas,2020-04-29,54.65
+Douglas,2020-04-30,52.2
+Douglas,2020-05-01,52.2
+Douglas,2020-05-02,55.35
+Douglas,2020-05-03,55.35
+Douglas,2020-05-04,52.55
+Douglas,2020-05-05,55.7
+Douglas,2020-05-06,57.45
+Douglas,2020-05-07,60.95
+Douglas,2020-05-08,59.55
+Douglas,2020-05-09,58.15
+Douglas,2020-05-10,56.75
+Douglas,2020-05-11,54.3
+Douglas,2020-05-12,53.95
+Douglas,2020-05-13,50.44
+Douglas,2020-05-14,50.09
+Douglas,2020-05-15,45.54
+Douglas,2020-05-16,41.69
+Douglas,2020-05-17,39.93
+Douglas,2020-05-18,41.34
+Douglas,2020-05-19,38.88
+Douglas,2020-05-20,36.08
+Douglas,2020-05-21,31.53
+Douglas,2020-05-22,29.78
+Douglas,2020-05-23,29.43
+Douglas,2020-05-24,25.92
+Douglas,2020-05-25,25.92
+Douglas,2020-05-26,26.62
+Douglas,2020-05-27,29.08
+Douglas,2020-05-28,27.32
+Douglas,2020-05-29,25.57
+Douglas,2020-05-30,27.32
+Douglas,2020-05-31,28.02
+Douglas,2020-06-01,26.27
+Douglas,2020-06-02,25.22
+Douglas,2020-06-03,25.92
+Douglas,2020-06-04,29.08
+Douglas,2020-06-05,28.73
+Douglas,2020-06-06,27.32
+Douglas,2020-06-07,28.37
+Douglas,2020-06-08,27.67
+Douglas,2020-06-09,28.37
+Douglas,2020-06-10,26.62
+Douglas,2020-06-11,28.02
+Douglas,2020-06-12,29.78
+Douglas,2020-06-13,27.67
+Douglas,2020-06-14,28.37
+Douglas,2020-06-15,29.08
+Douglas,2020-06-16,31.18
+Douglas,2020-06-17,30.48
+Douglas,2020-06-18,27.67
+Douglas,2020-06-19,28.02
+Douglas,2020-06-20,30.13
+Douglas,2020-06-21,33.63
+Douglas,2020-06-22,37.48
+Douglas,2020-06-23,36.78
+Douglas,2020-06-24,35.73
+Douglas,2020-06-25,40.64
+Douglas,2020-06-26,42.39
+Douglas,2020-06-27,44.84
+Douglas,2020-06-28,48.34
+Douglas,2020-06-29,48.69
+Douglas,2020-06-30,47.64
+Douglas,2020-07-01,50.44
+Douglas,2020-07-02,55.7
+Douglas,2020-07-03,56.75
+Douglas,2020-07-04,58.5
+Douglas,2020-07-05,56.4
+Douglas,2020-07-06,54.3
+Douglas,2020-07-07,60.6
+Douglas,2020-07-08,64.11
+Douglas,2020-07-09,64.11
+Douglas,2020-07-10,73.21
+Douglas,2020-07-11,74.26
+Douglas,2020-07-12,77.77
+Douglas,2020-07-13,81.27
+Douglas,2020-07-14,87.58
+Douglas,2020-07-15,91.08
+Douglas,2020-07-16,97.74
+Douglas,2020-07-17,105.09
+Douglas,2020-07-18,106.49
+Douglas,2020-07-19,111.4
+Douglas,2020-07-20,118.4
+Douglas,2020-07-21,117.35
+Douglas,2020-07-22,124.01
+Douglas,2020-07-23,124.36
+Douglas,2020-07-24,119.8
+Douglas,2020-07-25,126.11
+Douglas,2020-07-26,125.41
+Douglas,2020-07-27,122.96
+Douglas,2020-07-28,125.06
+Douglas,2020-07-29,123.66
+Douglas,2020-07-30,115.95
+Douglas,2020-07-31,113.15
+Douglas,2020-08-01,110.0
+Douglas,2020-08-02,110.7
+Douglas,2020-08-03,103.69
+Douglas,2020-08-04,102.64
+Douglas,2020-08-05,97.74
+Douglas,2020-08-06,94.23
+Douglas,2020-08-07,89.68
+Douglas,2020-08-08,81.27
+Douglas,2020-08-09,75.32
+Douglas,2020-08-10,75.32
+Douglas,2020-08-11,70.41
+Douglas,2020-08-12,65.86
+Douglas,2020-08-13,67.96
+Douglas,2020-08-14,65.51
+Douglas,2020-08-15,67.61
+Douglas,2020-08-16,65.16
+Douglas,2020-08-17,65.51
+Douglas,2020-08-18,62.7
+Douglas,2020-08-19,60.6
+Douglas,2020-08-20,60.95
+Douglas,2020-08-21,59.9
+Douglas,2020-08-22,58.85
+Douglas,2020-08-23,92.13
+Douglas,2020-08-24,93.53
+Douglas,2020-08-25,95.28
+Douglas,2020-08-26,97.03
+Douglas,2020-08-27,94.23
+Douglas,2020-08-28,96.33
+Douglas,2020-08-29,91.43
+Douglas,2020-08-30,89.33
+Douglas,2020-08-31,92.13
+Douglas,2020-09-01,94.23
+Douglas,2020-09-02,95.63
+Douglas,2020-09-03,98.44
+Douglas,2020-09-04,101.59
+Douglas,2020-09-05,106.14
+Douglas,2020-09-06,72.86
+Douglas,2020-09-07,74.26
+Douglas,2020-09-08,74.26
+Douglas,2020-09-09,74.62
+Douglas,2020-09-10,77.07
+Douglas,2020-09-11,73.21
+Douglas,2020-09-12,77.42
+Douglas,2020-09-13,78.47
+Douglas,2020-09-14,78.12
+Douglas,2020-09-15,81.27
+Douglas,2020-09-16,82.32
+Douglas,2020-09-17,86.88
+Douglas,2020-09-18,95.98
+Douglas,2020-09-19,94.93
+Douglas,2020-09-20,95.28
+Douglas,2020-09-21,105.79
+Douglas,2020-09-22,109.3
+Douglas,2020-09-23,117.7
+Douglas,2020-09-24,118.05
+Douglas,2020-09-25,129.96
+Douglas,2020-09-26,135.57
+Douglas,2020-09-27,138.72
+Douglas,2020-09-28,145.38
+Douglas,2020-09-29,148.18
+Douglas,2020-09-30,151.68
+Douglas,2020-10-01,150.28
+Douglas,2020-10-02,150.28
+Douglas,2020-10-03,150.28
+Douglas,2020-10-04,153.78
+Douglas,2020-10-05,147.83
+Douglas,2020-10-06,145.73
+Douglas,2020-10-07,143.28
+Douglas,2020-10-08,145.03
+Douglas,2020-10-09,141.87
+Douglas,2020-10-10,148.53
+Douglas,2020-10-11,146.08
+Douglas,2020-10-12,153.08
+Douglas,2020-10-13,152.38
+Douglas,2020-10-14,153.43
+Douglas,2020-10-15,162.19
+Douglas,2020-10-16,158.69
+Douglas,2020-10-17,164.99
+Douglas,2020-10-18,176.9
+Douglas,2020-10-19,175.85
+Douglas,2020-10-20,180.06
+Douglas,2020-10-21,178.66
+Douglas,2020-10-22,184.26
+Douglas,2020-10-23,190.57
+Douglas,2020-10-24,213.34
+Douglas,2020-10-25,239.96
+Douglas,2020-10-26,266.93
+Douglas,2020-10-27,284.8
+Douglas,2020-10-28,293.91
+Douglas,2020-10-29,305.12
+Douglas,2020-10-30,311.77
+Douglas,2020-10-31,359.41
+Douglas,2020-11-01,393.74
+Douglas,2020-11-02,427.37
+Douglas,2020-11-03,421.07
+Douglas,2020-11-04,483.77
+Douglas,2020-11-05,527.91
+Douglas,2020-11-06,564.69
+Douglas,2020-11-07,586.76
+Douglas,2020-11-08,606.38
+Douglas,2020-11-09,658.57
+Douglas,2020-11-10,668.38
+Douglas,2020-11-11,700.61
+Douglas,2020-11-12,743.7
+Douglas,2020-11-13,896.08
+Douglas,2020-11-14,936.02
+Douglas,2020-11-15,949.68
+Douglas,2020-11-16,979.45
+Douglas,2020-11-17,1044.96
+Douglas,2020-11-18,1071.58
+Douglas,2020-11-19,1142.0
+Douglas,2020-11-20,1168.62
+Douglas,2020-11-21,1210.31
+Douglas,2020-11-22,1239.73
+Douglas,2020-11-23,1247.79
+Douglas,2020-11-24,1283.52
+Douglas,2020-11-25,1299.98
+Douglas,2020-11-26,1348.33
+Douglas,2020-11-27,1263.9
+Douglas,2020-11-28,1232.73
+Douglas,2020-11-29,1231.67
+Douglas,2020-11-30,1229.22
+Douglas,2020-12-01,1253.04
+Douglas,2020-12-02,1208.9
+Douglas,2020-12-03,1119.58
+Douglas,2020-12-04,1163.37
+Douglas,2020-12-05,1118.53
+Eagle,2020-03-06,1.92
+Eagle,2020-03-07,1.92
+Eagle,2020-03-08,1.92
+Eagle,2020-03-09,3.83
+Eagle,2020-03-10,5.75
+Eagle,2020-03-11,7.66
+Eagle,2020-03-12,21.07
+Eagle,2020-03-13,30.65
+Eagle,2020-03-14,38.32
+Eagle,2020-03-15,45.98
+Eagle,2020-03-16,65.14
+Eagle,2020-03-17,65.14
+Eagle,2020-03-18,74.72
+Eagle,2020-03-19,97.71
+Eagle,2020-03-20,114.95
+Eagle,2020-03-21,139.85
+Eagle,2020-03-22,151.35
+Eagle,2020-03-23,172.42
+Eagle,2020-03-24,178.17
+Eagle,2020-03-25,222.23
+Eagle,2020-03-26,260.55
+Eagle,2020-03-27,295.04
+Eagle,2020-03-28,310.36
+Eagle,2020-03-29,312.28
+Eagle,2020-03-30,342.93
+Eagle,2020-03-31,369.75
+Eagle,2020-04-01,490.45
+Eagle,2020-04-02,503.86
+Eagle,2020-04-03,521.1
+Eagle,2020-04-04,496.2
+Eagle,2020-04-05,496.2
+Eagle,2020-04-06,503.86
+Eagle,2020-04-07,528.77
+Eagle,2020-04-08,486.62
+Eagle,2020-04-09,473.21
+Eagle,2020-04-10,490.45
+Eagle,2020-04-11,480.87
+Eagle,2020-04-12,507.69
+Eagle,2020-04-13,467.46
+Eagle,2020-04-14,461.71
+Eagle,2020-04-15,354.43
+Eagle,2020-04-16,316.11
+Eagle,2020-04-17,285.46
+Eagle,2020-04-18,287.37
+Eagle,2020-04-19,279.71
+Eagle,2020-04-20,250.97
+Eagle,2020-04-21,220.32
+Eagle,2020-04-22,218.4
+Eagle,2020-04-23,182.0
+Eagle,2020-04-24,153.27
+Eagle,2020-04-25,151.35
+Eagle,2020-04-26,155.18
+Eagle,2020-04-27,149.43
+Eagle,2020-04-28,137.94
+Eagle,2020-04-29,126.44
+Eagle,2020-04-30,136.02
+Eagle,2020-05-01,118.78
+Eagle,2020-05-02,120.7
+Eagle,2020-05-03,126.44
+Eagle,2020-05-04,126.44
+Eagle,2020-05-05,114.95
+Eagle,2020-05-06,122.61
+Eagle,2020-05-07,124.53
+Eagle,2020-05-08,93.88
+Eagle,2020-05-09,88.13
+Eagle,2020-05-10,47.9
+Eagle,2020-05-11,45.98
+Eagle,2020-05-12,40.23
+Eagle,2020-05-13,30.65
+Eagle,2020-05-14,26.82
+Eagle,2020-05-15,42.15
+Eagle,2020-05-16,45.98
+Eagle,2020-05-17,36.4
+Eagle,2020-05-18,34.48
+Eagle,2020-05-19,45.98
+Eagle,2020-05-20,38.32
+Eagle,2020-05-21,44.06
+Eagle,2020-05-22,42.15
+Eagle,2020-05-23,42.15
+Eagle,2020-05-24,44.06
+Eagle,2020-05-25,34.48
+Eagle,2020-05-26,36.4
+Eagle,2020-05-27,34.48
+Eagle,2020-05-28,38.32
+Eagle,2020-05-29,38.32
+Eagle,2020-05-30,32.57
+Eagle,2020-05-31,32.57
+Eagle,2020-06-01,32.57
+Eagle,2020-06-02,36.4
+Eagle,2020-06-03,51.73
+Eagle,2020-06-04,42.15
+Eagle,2020-06-05,49.81
+Eagle,2020-06-06,51.73
+Eagle,2020-06-07,51.73
+Eagle,2020-06-08,63.22
+Eagle,2020-06-09,61.31
+Eagle,2020-06-10,67.05
+Eagle,2020-06-11,63.22
+Eagle,2020-06-12,67.05
+Eagle,2020-06-13,68.97
+Eagle,2020-06-14,72.8
+Eagle,2020-06-15,74.72
+Eagle,2020-06-16,72.8
+Eagle,2020-06-17,63.22
+Eagle,2020-06-18,65.14
+Eagle,2020-06-19,68.97
+Eagle,2020-06-20,65.14
+Eagle,2020-06-21,78.55
+Eagle,2020-06-22,88.13
+Eagle,2020-06-23,91.96
+Eagle,2020-06-24,95.79
+Eagle,2020-06-25,101.54
+Eagle,2020-06-26,113.03
+Eagle,2020-06-27,118.78
+Eagle,2020-06-28,116.86
+Eagle,2020-06-29,118.78
+Eagle,2020-06-30,122.61
+Eagle,2020-07-01,116.86
+Eagle,2020-07-02,122.61
+Eagle,2020-07-03,116.86
+Eagle,2020-07-04,114.95
+Eagle,2020-07-05,107.29
+Eagle,2020-07-06,101.54
+Eagle,2020-07-07,105.37
+Eagle,2020-07-08,128.36
+Eagle,2020-07-09,130.28
+Eagle,2020-07-10,149.43
+Eagle,2020-07-11,145.6
+Eagle,2020-07-12,147.52
+Eagle,2020-07-13,149.43
+Eagle,2020-07-14,174.34
+Eagle,2020-07-15,195.41
+Eagle,2020-07-16,220.32
+Eagle,2020-07-17,237.56
+Eagle,2020-07-18,249.06
+Eagle,2020-07-19,272.05
+Eagle,2020-07-20,270.13
+Eagle,2020-07-21,268.21
+Eagle,2020-07-22,291.2
+Eagle,2020-07-23,316.11
+Eagle,2020-07-24,321.86
+Eagle,2020-07-25,350.59
+Eagle,2020-07-26,385.08
+Eagle,2020-07-27,394.66
+Eagle,2020-07-28,383.16
+Eagle,2020-07-29,396.57
+Eagle,2020-07-30,371.67
+Eagle,2020-07-31,387.0
+Eagle,2020-08-01,402.32
+Eagle,2020-08-02,387.0
+Eagle,2020-08-03,419.56
+Eagle,2020-08-04,454.05
+Eagle,2020-08-05,406.15
+Eagle,2020-08-06,388.91
+Eagle,2020-08-07,364.01
+Eagle,2020-08-08,337.18
+Eagle,2020-08-09,304.62
+Eagle,2020-08-10,291.2
+Eagle,2020-08-11,273.96
+Eagle,2020-08-12,250.97
+Eagle,2020-08-13,254.8
+Eagle,2020-08-14,227.98
+Eagle,2020-08-15,204.99
+Eagle,2020-08-16,197.33
+Eagle,2020-08-17,162.84
+Eagle,2020-08-18,120.7
+Eagle,2020-08-19,116.86
+Eagle,2020-08-20,99.62
+Eagle,2020-08-21,84.3
+Eagle,2020-08-22,84.3
+Eagle,2020-08-23,78.55
+Eagle,2020-08-24,80.46
+Eagle,2020-08-25,78.55
+Eagle,2020-08-26,67.05
+Eagle,2020-08-27,57.47
+Eagle,2020-08-28,55.56
+Eagle,2020-08-29,57.47
+Eagle,2020-08-30,51.73
+Eagle,2020-08-31,53.64
+Eagle,2020-09-01,55.56
+Eagle,2020-09-02,53.64
+Eagle,2020-09-03,55.56
+Eagle,2020-09-04,55.56
+Eagle,2020-09-05,49.81
+Eagle,2020-09-06,55.56
+Eagle,2020-09-07,51.73
+Eagle,2020-09-08,47.9
+Eagle,2020-09-09,53.64
+Eagle,2020-09-10,53.64
+Eagle,2020-09-11,55.56
+Eagle,2020-09-12,55.56
+Eagle,2020-09-13,55.56
+Eagle,2020-09-14,53.64
+Eagle,2020-09-15,59.39
+Eagle,2020-09-16,68.97
+Eagle,2020-09-17,70.89
+Eagle,2020-09-18,72.8
+Eagle,2020-09-19,76.63
+Eagle,2020-09-20,72.8
+Eagle,2020-09-21,84.3
+Eagle,2020-09-22,88.13
+Eagle,2020-09-23,91.96
+Eagle,2020-09-24,93.88
+Eagle,2020-09-25,84.3
+Eagle,2020-09-26,82.38
+Eagle,2020-09-27,88.13
+Eagle,2020-09-28,90.04
+Eagle,2020-09-29,80.46
+Eagle,2020-09-30,78.55
+Eagle,2020-10-01,78.55
+Eagle,2020-10-02,86.21
+Eagle,2020-10-03,84.3
+Eagle,2020-10-04,82.38
+Eagle,2020-10-05,72.8
+Eagle,2020-10-06,82.38
+Eagle,2020-10-07,82.38
+Eagle,2020-10-08,86.21
+Eagle,2020-10-09,109.2
+Eagle,2020-10-10,114.95
+Eagle,2020-10-11,105.37
+Eagle,2020-10-12,118.78
+Eagle,2020-10-13,130.28
+Eagle,2020-10-14,132.19
+Eagle,2020-10-15,134.11
+Eagle,2020-10-16,126.44
+Eagle,2020-10-17,126.44
+Eagle,2020-10-18,130.28
+Eagle,2020-10-19,132.19
+Eagle,2020-10-20,137.94
+Eagle,2020-10-21,151.35
+Eagle,2020-10-22,168.59
+Eagle,2020-10-23,182.0
+Eagle,2020-10-24,193.5
+Eagle,2020-10-25,201.16
+Eagle,2020-10-26,204.99
+Eagle,2020-10-27,197.33
+Eagle,2020-10-28,222.23
+Eagle,2020-10-29,249.06
+Eagle,2020-10-30,295.04
+Eagle,2020-10-31,325.69
+Eagle,2020-11-01,342.93
+Eagle,2020-11-02,346.76
+Eagle,2020-11-03,398.49
+Eagle,2020-11-04,396.57
+Eagle,2020-11-05,432.98
+Eagle,2020-11-06,434.89
+Eagle,2020-11-07,475.12
+Eagle,2020-11-08,500.03
+Eagle,2020-11-09,523.02
+Eagle,2020-11-10,555.59
+Eagle,2020-11-11,576.66
+Eagle,2020-11-12,620.73
+Eagle,2020-11-13,613.06
+Eagle,2020-11-14,657.13
+Eagle,2020-11-15,691.61
+Eagle,2020-11-16,706.94
+Eagle,2020-11-17,706.94
+Eagle,2020-11-18,756.75
+Eagle,2020-11-19,731.84
+Eagle,2020-11-20,739.51
+Eagle,2020-11-21,706.94
+Eagle,2020-11-22,720.35
+Eagle,2020-11-23,703.11
+Eagle,2020-11-24,837.21
+Eagle,2020-11-25,892.77
+Eagle,2020-11-26,858.29
+Eagle,2020-11-27,881.28
+Eagle,2020-11-28,929.17
+Eagle,2020-11-29,923.42
+Eagle,2020-11-30,950.25
+Eagle,2020-12-01,906.18
+Eagle,2020-12-02,900.43
+Eagle,2020-12-03,938.75
+Eagle,2020-12-04,931.09
+Eagle,2020-12-05,973.24
+El Paso,2020-03-06,0.16
+El Paso,2020-03-07,0.16
+El Paso,2020-03-08,0.16
+El Paso,2020-03-09,0.16
+El Paso,2020-03-10,0.16
+El Paso,2020-03-11,0.16
+El Paso,2020-03-12,0.16
+El Paso,2020-03-13,0.32
+El Paso,2020-03-14,0.48
+El Paso,2020-03-15,0.64
+El Paso,2020-03-16,0.96
+El Paso,2020-03-17,0.96
+El Paso,2020-03-18,1.29
+El Paso,2020-03-19,2.41
+El Paso,2020-03-20,4.18
+El Paso,2020-03-21,5.79
+El Paso,2020-03-22,8.04
+El Paso,2020-03-23,10.93
+El Paso,2020-03-24,16.87
+El Paso,2020-03-25,19.45
+El Paso,2020-03-26,21.86
+El Paso,2020-03-27,25.39
+El Paso,2020-03-28,29.09
+El Paso,2020-03-29,33.75
+El Paso,2020-03-30,38.41
+El Paso,2020-03-31,45.0
+El Paso,2020-04-01,49.18
+El Paso,2020-04-02,52.23
+El Paso,2020-04-03,55.76
+El Paso,2020-04-04,59.3
+El Paso,2020-04-05,61.71
+El Paso,2020-04-06,59.78
+El Paso,2020-04-07,56.41
+El Paso,2020-04-08,56.25
+El Paso,2020-04-09,63.8
+El Paso,2020-04-10,62.67
+El Paso,2020-04-11,63.32
+El Paso,2020-04-12,64.12
+El Paso,2020-04-13,63.64
+El Paso,2020-04-14,58.82
+El Paso,2020-04-15,56.89
+El Paso,2020-04-16,56.09
+El Paso,2020-04-17,53.68
+El Paso,2020-04-18,50.62
+El Paso,2020-04-19,47.57
+El Paso,2020-04-20,47.09
+El Paso,2020-04-21,46.12
+El Paso,2020-04-22,48.53
+El Paso,2020-04-23,42.43
+El Paso,2020-04-24,48.69
+El Paso,2020-04-25,45.64
+El Paso,2020-04-26,40.82
+El Paso,2020-04-27,38.25
+El Paso,2020-04-28,37.28
+El Paso,2020-04-29,38.41
+El Paso,2020-04-30,39.37
+El Paso,2020-05-01,41.14
+El Paso,2020-05-02,42.91
+El Paso,2020-05-03,42.27
+El Paso,2020-05-04,43.55
+El Paso,2020-05-05,45.64
+El Paso,2020-05-06,45.16
+El Paso,2020-05-07,45.16
+El Paso,2020-05-08,39.21
+El Paso,2020-05-09,39.69
+El Paso,2020-05-10,41.3
+El Paso,2020-05-11,41.46
+El Paso,2020-05-12,43.87
+El Paso,2020-05-13,43.07
+El Paso,2020-05-14,43.39
+El Paso,2020-05-15,46.12
+El Paso,2020-05-16,48.69
+El Paso,2020-05-17,51.43
+El Paso,2020-05-18,55.12
+El Paso,2020-05-19,52.87
+El Paso,2020-05-20,53.19
+El Paso,2020-05-21,56.09
+El Paso,2020-05-22,58.34
+El Paso,2020-05-23,61.71
+El Paso,2020-05-24,61.23
+El Paso,2020-05-25,63.96
+El Paso,2020-05-26,68.14
+El Paso,2020-05-27,68.3
+El Paso,2020-05-28,69.42
+El Paso,2020-05-29,67.98
+El Paso,2020-05-30,68.46
+El Paso,2020-05-31,67.17
+El Paso,2020-06-01,64.28
+El Paso,2020-06-02,64.92
+El Paso,2020-06-03,63.0
+El Paso,2020-06-04,57.85
+El Paso,2020-06-05,54.96
+El Paso,2020-06-06,52.07
+El Paso,2020-06-07,52.87
+El Paso,2020-06-08,52.55
+El Paso,2020-06-09,48.05
+El Paso,2020-06-10,46.28
+El Paso,2020-06-11,43.55
+El Paso,2020-06-12,39.53
+El Paso,2020-06-13,33.43
+El Paso,2020-06-14,32.14
+El Paso,2020-06-15,31.02
+El Paso,2020-06-16,31.98
+El Paso,2020-06-17,35.84
+El Paso,2020-06-18,37.93
+El Paso,2020-06-19,41.94
+El Paso,2020-06-20,42.1
+El Paso,2020-06-21,42.91
+El Paso,2020-06-22,40.34
+El Paso,2020-06-23,41.62
+El Paso,2020-06-24,45.8
+El Paso,2020-06-25,50.3
+El Paso,2020-06-26,55.6
+El Paso,2020-06-27,59.62
+El Paso,2020-06-28,63.48
+El Paso,2020-06-29,67.33
+El Paso,2020-06-30,66.53
+El Paso,2020-07-01,69.1
+El Paso,2020-07-02,72.32
+El Paso,2020-07-03,74.25
+El Paso,2020-07-04,87.1
+El Paso,2020-07-05,89.67
+El Paso,2020-07-06,94.82
+El Paso,2020-07-07,95.46
+El Paso,2020-07-08,101.73
+El Paso,2020-07-09,104.62
+El Paso,2020-07-10,110.4
+El Paso,2020-07-11,121.33
+El Paso,2020-07-12,122.13
+El Paso,2020-07-13,127.76
+El Paso,2020-07-14,136.6
+El Paso,2020-07-15,137.56
+El Paso,2020-07-16,143.99
+El Paso,2020-07-17,150.74
+El Paso,2020-07-18,141.74
+El Paso,2020-07-19,145.44
+El Paso,2020-07-20,155.88
+El Paso,2020-07-21,164.08
+El Paso,2020-07-22,162.79
+El Paso,2020-07-23,171.63
+El Paso,2020-07-24,172.76
+El Paso,2020-07-25,166.17
+El Paso,2020-07-26,172.27
+El Paso,2020-07-27,180.79
+El Paso,2020-07-28,183.68
+El Paso,2020-07-29,179.51
+El Paso,2020-07-30,177.9
+El Paso,2020-07-31,178.7
+El Paso,2020-08-01,181.76
+El Paso,2020-08-02,175.97
+El Paso,2020-08-03,170.35
+El Paso,2020-08-04,158.29
+El Paso,2020-08-05,171.15
+El Paso,2020-08-06,172.6
+El Paso,2020-08-07,167.29
+El Paso,2020-08-08,165.52
+El Paso,2020-08-09,157.49
+El Paso,2020-08-10,143.03
+El Paso,2020-08-11,138.37
+El Paso,2020-08-12,145.28
+El Paso,2020-08-13,139.49
+El Paso,2020-08-14,138.04
+El Paso,2020-08-15,135.47
+El Paso,2020-08-16,134.99
+El Paso,2020-08-17,129.85
+El Paso,2020-08-18,135.47
+El Paso,2020-08-19,117.8
+El Paso,2020-08-20,109.44
+El Paso,2020-08-21,109.12
+El Paso,2020-08-22,105.1
+El Paso,2020-08-23,101.24
+El Paso,2020-08-24,103.01
+El Paso,2020-08-25,102.37
+El Paso,2020-08-26,94.33
+El Paso,2020-08-27,97.23
+El Paso,2020-08-28,90.32
+El Paso,2020-08-29,86.14
+El Paso,2020-08-30,85.33
+El Paso,2020-08-31,87.1
+El Paso,2020-09-01,83.57
+El Paso,2020-09-02,83.41
+El Paso,2020-09-03,80.19
+El Paso,2020-09-04,73.12
+El Paso,2020-09-05,75.05
+El Paso,2020-09-06,79.71
+El Paso,2020-09-07,74.89
+El Paso,2020-09-08,66.85
+El Paso,2020-09-09,66.21
+El Paso,2020-09-10,58.98
+El Paso,2020-09-11,55.6
+El Paso,2020-09-12,57.05
+El Paso,2020-09-13,58.5
+El Paso,2020-09-14,58.01
+El Paso,2020-09-15,67.5
+El Paso,2020-09-16,70.39
+El Paso,2020-09-17,65.73
+El Paso,2020-09-18,70.07
+El Paso,2020-09-19,71.03
+El Paso,2020-09-20,71.03
+El Paso,2020-09-21,76.66
+El Paso,2020-09-22,82.76
+El Paso,2020-09-23,81.64
+El Paso,2020-09-24,88.07
+El Paso,2020-09-25,89.83
+El Paso,2020-09-26,90.48
+El Paso,2020-09-27,89.51
+El Paso,2020-09-28,76.33
+El Paso,2020-09-29,69.58
+El Paso,2020-09-30,71.51
+El Paso,2020-10-01,74.41
+El Paso,2020-10-02,80.51
+El Paso,2020-10-03,79.23
+El Paso,2020-10-04,81.16
+El Paso,2020-10-05,82.12
+El Paso,2020-10-06,85.98
+El Paso,2020-10-07,100.28
+El Paso,2020-10-08,100.92
+El Paso,2020-10-09,115.55
+El Paso,2020-10-10,121.97
+El Paso,2020-10-11,127.28
+El Paso,2020-10-12,147.69
+El Paso,2020-10-13,151.38
+El Paso,2020-10-14,157.81
+El Paso,2020-10-15,179.51
+El Paso,2020-10-16,194.77
+El Paso,2020-10-17,203.13
+El Paso,2020-10-18,212.93
+El Paso,2020-10-19,231.41
+El Paso,2020-10-20,253.27
+El Paso,2020-10-21,271.75
+El Paso,2020-10-22,297.14
+El Paso,2020-10-23,312.25
+El Paso,2020-10-24,327.19
+El Paso,2020-10-25,344.23
+El Paso,2020-10-26,352.42
+El Paso,2020-10-27,362.71
+El Paso,2020-10-28,373.48
+El Paso,2020-10-29,381.67
+El Paso,2020-10-30,396.78
+El Paso,2020-10-31,431.81
+El Paso,2020-11-01,453.67
+El Paso,2020-11-02,487.74
+El Paso,2020-11-03,550.89
+El Paso,2020-11-04,595.41
+El Paso,2020-11-05,627.23
+El Paso,2020-11-06,666.12
+El Paso,2020-11-07,679.46
+El Paso,2020-11-08,747.59
+El Paso,2020-11-09,814.29
+El Paso,2020-11-10,875.35
+El Paso,2020-11-11,909.9
+El Paso,2020-11-12,1037.18
+El Paso,2020-11-13,1089.89
+El Paso,2020-11-14,1117.86
+El Paso,2020-11-15,1131.19
+El Paso,2020-11-16,1168.8
+El Paso,2020-11-17,1191.78
+El Paso,2020-11-18,1201.9
+El Paso,2020-11-19,1263.94
+El Paso,2020-11-20,1315.68
+El Paso,2020-11-21,1361.16
+El Paso,2020-11-22,1324.84
+El Paso,2020-11-23,1334.48
+El Paso,2020-11-24,1337.38
+El Paso,2020-11-25,1378.84
+El Paso,2020-11-26,1334.16
+El Paso,2020-11-27,1340.75
+El Paso,2020-11-28,1354.41
+El Paso,2020-11-29,1383.82
+El Paso,2020-11-30,1392.66
+El Paso,2020-12-01,1363.89
+El Paso,2020-12-02,1435.73
+El Paso,2020-12-03,1428.5
+El Paso,2020-12-04,1330.47
+El Paso,2020-12-05,1396.03
+Huerfano,2020-03-24,14.9
+Huerfano,2020-03-25,14.9
+Huerfano,2020-03-26,14.9
+Huerfano,2020-03-27,14.9
+Huerfano,2020-03-28,14.9
+Huerfano,2020-03-29,14.9
+Huerfano,2020-03-30,14.9
+Huerfano,2020-03-31,14.9
+Huerfano,2020-04-01,14.9
+Huerfano,2020-04-02,14.9
+Huerfano,2020-04-03,14.9
+Huerfano,2020-04-04,14.9
+Huerfano,2020-04-05,14.9
+Huerfano,2020-04-06,14.9
+Huerfano,2020-04-07,0.0
+Huerfano,2020-04-08,0.0
+Huerfano,2020-04-09,0.0
+Huerfano,2020-04-10,0.0
+Huerfano,2020-04-11,0.0
+Huerfano,2020-04-12,0.0
+Huerfano,2020-04-13,0.0
+Huerfano,2020-04-14,0.0
+Huerfano,2020-04-15,0.0
+Huerfano,2020-04-16,0.0
+Huerfano,2020-04-17,0.0
+Huerfano,2020-04-18,0.0
+Huerfano,2020-04-19,0.0
+Huerfano,2020-04-20,0.0
+Huerfano,2020-04-21,0.0
+Huerfano,2020-04-22,0.0
+Huerfano,2020-04-23,0.0
+Huerfano,2020-04-24,0.0
+Huerfano,2020-04-25,14.9
+Huerfano,2020-04-26,14.9
+Huerfano,2020-04-27,14.9
+Huerfano,2020-04-28,14.9
+Huerfano,2020-04-29,14.9
+Huerfano,2020-04-30,14.9
+Huerfano,2020-05-01,14.9
+Huerfano,2020-05-02,14.9
+Huerfano,2020-05-03,14.9
+Huerfano,2020-05-04,14.9
+Huerfano,2020-05-05,14.9
+Huerfano,2020-05-06,14.9
+Huerfano,2020-05-07,14.9
+Huerfano,2020-05-08,29.8
+Huerfano,2020-05-09,14.9
+Huerfano,2020-05-10,14.9
+Huerfano,2020-05-11,14.9
+Huerfano,2020-05-12,14.9
+Huerfano,2020-05-13,14.9
+Huerfano,2020-05-14,14.9
+Huerfano,2020-05-15,14.9
+Huerfano,2020-05-16,14.9
+Huerfano,2020-05-17,14.9
+Huerfano,2020-05-18,14.9
+Huerfano,2020-05-19,14.9
+Huerfano,2020-05-20,14.9
+Huerfano,2020-05-21,14.9
+Huerfano,2020-05-22,0.0
+Huerfano,2020-05-23,0.0
+Huerfano,2020-05-24,0.0
+Huerfano,2020-05-25,0.0
+Huerfano,2020-05-26,0.0
+Huerfano,2020-05-27,0.0
+Huerfano,2020-05-28,0.0
+Huerfano,2020-05-29,0.0
+Huerfano,2020-05-30,0.0
+Huerfano,2020-05-31,0.0
+Huerfano,2020-06-01,0.0
+Huerfano,2020-06-02,0.0
+Huerfano,2020-06-03,0.0
+Huerfano,2020-06-04,0.0
+Huerfano,2020-06-05,0.0
+Huerfano,2020-06-06,0.0
+Huerfano,2020-06-07,0.0
+Huerfano,2020-06-08,0.0
+Huerfano,2020-06-09,0.0
+Huerfano,2020-06-10,0.0
+Huerfano,2020-06-11,0.0
+Huerfano,2020-06-12,0.0
+Huerfano,2020-06-13,0.0
+Huerfano,2020-06-14,0.0
+Huerfano,2020-06-15,0.0
+Huerfano,2020-06-16,0.0
+Huerfano,2020-06-17,0.0
+Huerfano,2020-06-18,0.0
+Huerfano,2020-06-19,0.0
+Huerfano,2020-06-20,14.9
+Huerfano,2020-06-21,14.9
+Huerfano,2020-06-22,14.9
+Huerfano,2020-06-23,14.9
+Huerfano,2020-06-24,14.9
+Huerfano,2020-06-25,14.9
+Huerfano,2020-06-26,14.9
+Huerfano,2020-06-27,14.9
+Huerfano,2020-06-28,14.9
+Huerfano,2020-06-29,14.9
+Huerfano,2020-06-30,14.9
+Huerfano,2020-07-01,14.9
+Huerfano,2020-07-02,14.9
+Huerfano,2020-07-03,14.9
+Huerfano,2020-07-04,0.0
+Huerfano,2020-07-05,0.0
+Huerfano,2020-07-06,0.0
+Huerfano,2020-07-07,0.0
+Huerfano,2020-07-08,0.0
+Huerfano,2020-07-09,0.0
+Huerfano,2020-07-10,0.0
+Huerfano,2020-07-11,0.0
+Huerfano,2020-07-12,0.0
+Huerfano,2020-07-13,14.9
+Huerfano,2020-07-14,14.9
+Huerfano,2020-07-15,14.9
+Huerfano,2020-07-16,14.9
+Huerfano,2020-07-17,14.9
+Huerfano,2020-07-18,14.9
+Huerfano,2020-07-19,14.9
+Huerfano,2020-07-20,14.9
+Huerfano,2020-07-21,14.9
+Huerfano,2020-07-22,14.9
+Huerfano,2020-07-23,29.8
+Huerfano,2020-07-24,29.8
+Huerfano,2020-07-25,29.8
+Huerfano,2020-07-26,29.8
+Huerfano,2020-07-27,14.9
+Huerfano,2020-07-28,14.9
+Huerfano,2020-07-29,14.9
+Huerfano,2020-07-30,14.9
+Huerfano,2020-07-31,14.9
+Huerfano,2020-08-01,14.9
+Huerfano,2020-08-02,14.9
+Huerfano,2020-08-03,14.9
+Huerfano,2020-08-04,14.9
+Huerfano,2020-08-05,29.8
+Huerfano,2020-08-06,29.8
+Huerfano,2020-08-07,29.8
+Huerfano,2020-08-08,29.8
+Huerfano,2020-08-09,29.8
+Huerfano,2020-08-10,29.8
+Huerfano,2020-08-11,29.8
+Huerfano,2020-08-12,29.8
+Huerfano,2020-08-13,29.8
+Huerfano,2020-08-14,29.8
+Huerfano,2020-08-15,29.8
+Huerfano,2020-08-16,29.8
+Huerfano,2020-08-17,29.8
+Huerfano,2020-08-18,29.8
+Huerfano,2020-08-19,14.9
+Huerfano,2020-08-20,0.0
+Huerfano,2020-08-21,0.0
+Huerfano,2020-08-22,0.0
+Huerfano,2020-08-23,0.0
+Huerfano,2020-08-24,0.0
+Huerfano,2020-08-25,0.0
+Huerfano,2020-08-26,0.0
+Huerfano,2020-08-27,0.0
+Huerfano,2020-08-28,14.9
+Huerfano,2020-08-29,14.9
+Huerfano,2020-08-30,14.9
+Huerfano,2020-08-31,14.9
+Huerfano,2020-09-01,14.9
+Huerfano,2020-09-02,14.9
+Huerfano,2020-09-03,14.9
+Huerfano,2020-09-04,14.9
+Huerfano,2020-09-05,14.9
+Huerfano,2020-09-06,14.9
+Huerfano,2020-09-07,29.8
+Huerfano,2020-09-08,29.8
+Huerfano,2020-09-09,29.8
+Huerfano,2020-09-10,29.8
+Huerfano,2020-09-11,14.9
+Huerfano,2020-09-12,14.9
+Huerfano,2020-09-13,14.9
+Huerfano,2020-09-14,14.9
+Huerfano,2020-09-15,14.9
+Huerfano,2020-09-16,44.7
+Huerfano,2020-09-17,59.6
+Huerfano,2020-09-18,59.6
+Huerfano,2020-09-19,59.6
+Huerfano,2020-09-20,59.6
+Huerfano,2020-09-21,44.7
+Huerfano,2020-09-22,59.6
+Huerfano,2020-09-23,134.11
+Huerfano,2020-09-24,134.11
+Huerfano,2020-09-25,149.01
+Huerfano,2020-09-26,193.71
+Huerfano,2020-09-27,193.71
+Huerfano,2020-09-28,193.71
+Huerfano,2020-09-29,208.61
+Huerfano,2020-09-30,178.81
+Huerfano,2020-10-01,163.91
+Huerfano,2020-10-02,178.81
+Huerfano,2020-10-03,178.81
+Huerfano,2020-10-04,178.81
+Huerfano,2020-10-05,178.81
+Huerfano,2020-10-06,163.91
+Huerfano,2020-10-07,89.41
+Huerfano,2020-10-08,104.31
+Huerfano,2020-10-09,89.41
+Huerfano,2020-10-10,44.7
+Huerfano,2020-10-11,44.7
+Huerfano,2020-10-12,44.7
+Huerfano,2020-10-13,44.7
+Huerfano,2020-10-14,44.7
+Huerfano,2020-10-15,44.7
+Huerfano,2020-10-16,44.7
+Huerfano,2020-10-17,44.7
+Huerfano,2020-10-18,59.6
+Huerfano,2020-10-19,44.7
+Huerfano,2020-10-20,59.6
+Huerfano,2020-10-21,59.6
+Huerfano,2020-10-22,44.7
+Huerfano,2020-10-23,44.7
+Huerfano,2020-10-24,104.31
+Huerfano,2020-10-25,104.31
+Huerfano,2020-10-26,104.31
+Huerfano,2020-10-27,89.41
+Huerfano,2020-10-28,89.41
+Huerfano,2020-10-29,89.41
+Huerfano,2020-10-30,89.41
+Huerfano,2020-10-31,104.31
+Huerfano,2020-11-01,134.11
+Huerfano,2020-11-02,149.01
+Huerfano,2020-11-03,149.01
+Huerfano,2020-11-04,208.61
+Huerfano,2020-11-05,268.22
+Huerfano,2020-11-06,298.02
+Huerfano,2020-11-07,238.41
+Huerfano,2020-11-08,253.32
+Huerfano,2020-11-09,268.22
+Huerfano,2020-11-10,372.52
+Huerfano,2020-11-11,491.73
+Huerfano,2020-11-12,581.14
+Huerfano,2020-11-13,625.84
+Huerfano,2020-11-14,730.14
+Huerfano,2020-11-15,715.24
+Huerfano,2020-11-16,759.95
+Huerfano,2020-11-17,819.55
+Huerfano,2020-11-18,789.75
+Huerfano,2020-11-19,759.95
+Huerfano,2020-11-20,804.65
+Huerfano,2020-11-21,998.36
+Huerfano,2020-11-22,998.36
+Huerfano,2020-11-23,1013.26
+Huerfano,2020-11-24,938.76
+Huerfano,2020-11-25,894.05
+Huerfano,2020-11-26,968.56
+Huerfano,2020-11-27,1087.77
+Huerfano,2020-11-28,983.46
+Huerfano,2020-11-29,1072.87
+Huerfano,2020-11-30,1177.17
+Huerfano,2020-12-01,1266.58
+Huerfano,2020-12-02,1281.48
+Huerfano,2020-12-03,1281.48
+Huerfano,2020-12-04,1385.78
+Huerfano,2020-12-05,1266.58
+Jefferson,2020-03-05,0.19
+Jefferson,2020-03-06,0.19
+Jefferson,2020-03-07,0.19
+Jefferson,2020-03-08,0.19
+Jefferson,2020-03-09,0.19
+Jefferson,2020-03-10,0.37
+Jefferson,2020-03-11,0.75
+Jefferson,2020-03-12,0.94
+Jefferson,2020-03-13,1.31
+Jefferson,2020-03-14,1.68
+Jefferson,2020-03-15,2.24
+Jefferson,2020-03-16,3.18
+Jefferson,2020-03-17,3.18
+Jefferson,2020-03-18,4.68
+Jefferson,2020-03-19,6.55
+Jefferson,2020-03-20,6.73
+Jefferson,2020-03-21,7.86
+Jefferson,2020-03-22,9.35
+Jefferson,2020-03-23,10.1
+Jefferson,2020-03-24,13.28
+Jefferson,2020-03-25,16.65
+Jefferson,2020-03-26,23.57
+Jefferson,2020-03-27,28.25
+Jefferson,2020-03-28,32.36
+Jefferson,2020-03-29,37.6
+Jefferson,2020-03-30,44.15
+Jefferson,2020-03-31,53.69
+Jefferson,2020-04-01,61.92
+Jefferson,2020-04-02,65.29
+Jefferson,2020-04-03,75.39
+Jefferson,2020-04-04,82.31
+Jefferson,2020-04-05,87.55
+Jefferson,2020-04-06,90.73
+Jefferson,2020-04-07,94.66
+Jefferson,2020-04-08,96.72
+Jefferson,2020-04-09,98.96
+Jefferson,2020-04-10,98.21
+Jefferson,2020-04-11,99.34
+Jefferson,2020-04-12,102.89
+Jefferson,2020-04-13,99.9
+Jefferson,2020-04-14,94.47
+Jefferson,2020-04-15,89.98
+Jefferson,2020-04-16,88.86
+Jefferson,2020-04-17,83.81
+Jefferson,2020-04-18,83.62
+Jefferson,2020-04-19,81.94
+Jefferson,2020-04-20,83.62
+Jefferson,2020-04-21,80.82
+Jefferson,2020-04-22,84.93
+Jefferson,2020-04-23,77.64
+Jefferson,2020-04-24,88.67
+Jefferson,2020-04-25,97.84
+Jefferson,2020-04-26,93.91
+Jefferson,2020-04-27,91.48
+Jefferson,2020-04-28,91.48
+Jefferson,2020-04-29,89.24
+Jefferson,2020-04-30,89.42
+Jefferson,2020-05-01,90.73
+Jefferson,2020-05-02,84.93
+Jefferson,2020-05-03,83.81
+Jefferson,2020-05-04,83.06
+Jefferson,2020-05-05,85.12
+Jefferson,2020-05-06,82.87
+Jefferson,2020-05-07,87.36
+Jefferson,2020-05-08,78.01
+Jefferson,2020-05-09,73.15
+Jefferson,2020-05-10,71.84
+Jefferson,2020-05-11,71.46
+Jefferson,2020-05-12,71.09
+Jefferson,2020-05-13,75.2
+Jefferson,2020-05-14,76.7
+Jefferson,2020-05-15,75.2
+Jefferson,2020-05-16,77.82
+Jefferson,2020-05-17,79.69
+Jefferson,2020-05-18,78.2
+Jefferson,2020-05-19,77.82
+Jefferson,2020-05-20,79.51
+Jefferson,2020-05-21,80.82
+Jefferson,2020-05-22,79.51
+Jefferson,2020-05-23,75.39
+Jefferson,2020-05-24,73.15
+Jefferson,2020-05-25,75.39
+Jefferson,2020-05-26,77.08
+Jefferson,2020-05-27,71.46
+Jefferson,2020-05-28,70.15
+Jefferson,2020-05-29,74.08
+Jefferson,2020-05-30,74.08
+Jefferson,2020-05-31,72.96
+Jefferson,2020-06-01,73.89
+Jefferson,2020-06-02,71.84
+Jefferson,2020-06-03,67.72
+Jefferson,2020-06-04,62.86
+Jefferson,2020-06-05,64.35
+Jefferson,2020-06-06,63.61
+Jefferson,2020-06-07,62.3
+Jefferson,2020-06-08,60.43
+Jefferson,2020-06-09,57.62
+Jefferson,2020-06-10,60.99
+Jefferson,2020-06-11,58.55
+Jefferson,2020-06-12,51.26
+Jefferson,2020-06-13,49.01
+Jefferson,2020-06-14,44.34
+Jefferson,2020-06-15,41.53
+Jefferson,2020-06-16,39.47
+Jefferson,2020-06-17,36.29
+Jefferson,2020-06-18,37.04
+Jefferson,2020-06-19,33.49
+Jefferson,2020-06-20,29.18
+Jefferson,2020-06-21,29.75
+Jefferson,2020-06-22,29.75
+Jefferson,2020-06-23,29.37
+Jefferson,2020-06-24,27.13
+Jefferson,2020-06-25,29.56
+Jefferson,2020-06-26,31.99
+Jefferson,2020-06-27,32.74
+Jefferson,2020-06-28,37.04
+Jefferson,2020-06-29,38.35
+Jefferson,2020-06-30,38.35
+Jefferson,2020-07-01,41.72
+Jefferson,2020-07-02,44.52
+Jefferson,2020-07-03,45.27
+Jefferson,2020-07-04,46.77
+Jefferson,2020-07-05,47.89
+Jefferson,2020-07-06,48.27
+Jefferson,2020-07-07,53.69
+Jefferson,2020-07-08,59.49
+Jefferson,2020-07-09,61.36
+Jefferson,2020-07-10,66.22
+Jefferson,2020-07-11,69.97
+Jefferson,2020-07-12,69.22
+Jefferson,2020-07-13,71.84
+Jefferson,2020-07-14,76.14
+Jefferson,2020-07-15,76.14
+Jefferson,2020-07-16,80.07
+Jefferson,2020-07-17,85.49
+Jefferson,2020-07-18,89.05
+Jefferson,2020-07-19,92.42
+Jefferson,2020-07-20,94.47
+Jefferson,2020-07-21,94.66
+Jefferson,2020-07-22,95.03
+Jefferson,2020-07-23,101.02
+Jefferson,2020-07-24,104.2
+Jefferson,2020-07-25,115.05
+Jefferson,2020-07-26,117.48
+Jefferson,2020-07-27,116.17
+Jefferson,2020-07-28,121.6
+Jefferson,2020-07-29,124.22
+Jefferson,2020-07-30,121.04
+Jefferson,2020-07-31,122.16
+Jefferson,2020-08-01,124.03
+Jefferson,2020-08-02,124.97
+Jefferson,2020-08-03,124.41
+Jefferson,2020-08-04,120.85
+Jefferson,2020-08-05,122.72
+Jefferson,2020-08-06,116.74
+Jefferson,2020-08-07,111.68
+Jefferson,2020-08-08,100.65
+Jefferson,2020-08-09,97.84
+Jefferson,2020-08-10,99.9
+Jefferson,2020-08-11,97.09
+Jefferson,2020-08-12,94.85
+Jefferson,2020-08-13,95.97
+Jefferson,2020-08-14,91.29
+Jefferson,2020-08-15,86.43
+Jefferson,2020-08-16,86.8
+Jefferson,2020-08-17,85.68
+Jefferson,2020-08-18,85.87
+Jefferson,2020-08-19,79.32
+Jefferson,2020-08-20,77.64
+Jefferson,2020-08-21,77.82
+Jefferson,2020-08-22,75.2
+Jefferson,2020-08-23,76.7
+Jefferson,2020-08-24,73.89
+Jefferson,2020-08-25,72.4
+Jefferson,2020-08-26,71.28
+Jefferson,2020-08-27,67.35
+Jefferson,2020-08-28,69.22
+Jefferson,2020-08-29,72.77
+Jefferson,2020-08-30,67.91
+Jefferson,2020-08-31,67.91
+Jefferson,2020-09-01,71.28
+Jefferson,2020-09-02,72.4
+Jefferson,2020-09-03,70.53
+Jefferson,2020-09-04,69.41
+Jefferson,2020-09-05,70.9
+Jefferson,2020-09-06,69.41
+Jefferson,2020-09-07,68.47
+Jefferson,2020-09-08,63.42
+Jefferson,2020-09-09,60.24
+Jefferson,2020-09-10,60.8
+Jefferson,2020-09-11,59.86
+Jefferson,2020-09-12,59.86
+Jefferson,2020-09-13,63.61
+Jefferson,2020-09-14,66.22
+Jefferson,2020-09-15,60.99
+Jefferson,2020-09-16,62.11
+Jefferson,2020-09-17,66.22
+Jefferson,2020-09-18,66.6
+Jefferson,2020-09-19,70.34
+Jefferson,2020-09-20,75.95
+Jefferson,2020-09-21,80.07
+Jefferson,2020-09-22,90.92
+Jefferson,2020-09-23,95.03
+Jefferson,2020-09-24,99.52
+Jefferson,2020-09-25,102.14
+Jefferson,2020-09-26,106.26
+Jefferson,2020-09-27,112.06
+Jefferson,2020-09-28,112.06
+Jefferson,2020-09-29,117.67
+Jefferson,2020-09-30,121.79
+Jefferson,2020-10-01,125.34
+Jefferson,2020-10-02,128.15
+Jefferson,2020-10-03,130.39
+Jefferson,2020-10-04,130.02
+Jefferson,2020-10-05,130.2
+Jefferson,2020-10-06,128.71
+Jefferson,2020-10-07,135.07
+Jefferson,2020-10-08,143.11
+Jefferson,2020-10-09,147.6
+Jefferson,2020-10-10,156.77
+Jefferson,2020-10-11,160.32
+Jefferson,2020-10-12,166.87
+Jefferson,2020-10-13,180.53
+Jefferson,2020-10-14,179.78
+Jefferson,2020-10-15,184.27
+Jefferson,2020-10-16,194.37
+Jefferson,2020-10-17,198.67
+Jefferson,2020-10-18,207.47
+Jefferson,2020-10-19,216.45
+Jefferson,2020-10-20,233.1
+Jefferson,2020-10-21,237.59
+Jefferson,2020-10-22,240.02
+Jefferson,2020-10-23,249.56
+Jefferson,2020-10-24,263.96
+Jefferson,2020-10-25,280.24
+Jefferson,2020-10-26,317.28
+Jefferson,2020-10-27,319.9
+Jefferson,2020-10-28,337.11
+Jefferson,2020-10-29,354.7
+Jefferson,2020-10-30,377.14
+Jefferson,2020-10-31,416.62
+Jefferson,2020-11-01,442.43
+Jefferson,2020-11-02,472.74
+Jefferson,2020-11-03,489.02
+Jefferson,2020-11-04,524.93
+Jefferson,2020-11-05,562.72
+Jefferson,2020-11-06,602.94
+Jefferson,2020-11-07,629.51
+Jefferson,2020-11-08,653.08
+Jefferson,2020-11-09,670.67
+Jefferson,2020-11-10,717.62
+Jefferson,2020-11-11,758.78
+Jefferson,2020-11-12,816.02
+Jefferson,2020-11-13,871.77
+Jefferson,2020-11-14,908.44
+Jefferson,2020-11-15,944.17
+Jefferson,2020-11-16,953.52
+Jefferson,2020-11-17,985.7
+Jefferson,2020-11-18,1013.76
+Jefferson,2020-11-19,1064.83
+Jefferson,2020-11-20,1097.57
+Jefferson,2020-11-21,1134.61
+Jefferson,2020-11-22,1145.28
+Jefferson,2020-11-23,1137.98
+Jefferson,2020-11-24,1135.36
+Jefferson,2020-11-25,1143.97
+Jefferson,2020-11-26,1160.43
+Jefferson,2020-11-27,1129.38
+Jefferson,2020-11-28,1112.54
+Jefferson,2020-11-29,1080.92
+Jefferson,2020-11-30,1091.4
+Jefferson,2020-12-01,1097.95
+Jefferson,2020-12-02,1077.37
+Jefferson,2020-12-03,1051.93
+Jefferson,2020-12-04,1036.59
+Jefferson,2020-12-05,1028.36
+La Plata,2020-03-23,1.95
+La Plata,2020-03-24,1.95
+La Plata,2020-03-25,1.95
+La Plata,2020-03-26,9.74
+La Plata,2020-03-27,25.32
+La Plata,2020-03-28,33.12
+La Plata,2020-03-29,40.91
+La Plata,2020-03-30,40.91
+La Plata,2020-03-31,44.8
+La Plata,2020-04-01,44.8
+La Plata,2020-04-02,46.75
+La Plata,2020-04-03,48.7
+La Plata,2020-04-04,48.7
+La Plata,2020-04-05,60.39
+La Plata,2020-04-06,60.39
+La Plata,2020-04-07,64.28
+La Plata,2020-04-08,64.28
+La Plata,2020-04-09,62.34
+La Plata,2020-04-10,60.39
+La Plata,2020-04-11,50.65
+La Plata,2020-04-12,44.8
+La Plata,2020-04-13,44.8
+La Plata,2020-04-14,40.91
+La Plata,2020-04-15,44.8
+La Plata,2020-04-16,44.8
+La Plata,2020-04-17,50.65
+La Plata,2020-04-18,52.6
+La Plata,2020-04-19,40.91
+La Plata,2020-04-20,37.01
+La Plata,2020-04-21,33.12
+La Plata,2020-04-22,37.01
+La Plata,2020-04-23,35.06
+La Plata,2020-04-24,23.38
+La Plata,2020-04-25,31.17
+La Plata,2020-04-26,29.22
+La Plata,2020-04-27,29.22
+La Plata,2020-04-28,29.22
+La Plata,2020-04-29,31.17
+La Plata,2020-04-30,29.22
+La Plata,2020-05-01,23.38
+La Plata,2020-05-02,21.43
+La Plata,2020-05-03,21.43
+La Plata,2020-05-04,23.38
+La Plata,2020-05-05,23.38
+La Plata,2020-05-06,19.48
+La Plata,2020-05-07,15.58
+La Plata,2020-05-08,15.58
+La Plata,2020-05-09,11.69
+La Plata,2020-05-10,11.69
+La Plata,2020-05-11,11.69
+La Plata,2020-05-12,13.64
+La Plata,2020-05-13,7.79
+La Plata,2020-05-14,7.79
+La Plata,2020-05-15,5.84
+La Plata,2020-05-16,9.74
+La Plata,2020-05-17,9.74
+La Plata,2020-05-18,9.74
+La Plata,2020-05-19,17.53
+La Plata,2020-05-20,17.53
+La Plata,2020-05-21,38.96
+La Plata,2020-05-22,17.53
+La Plata,2020-05-23,21.43
+La Plata,2020-05-24,23.38
+La Plata,2020-05-25,23.38
+La Plata,2020-05-26,25.32
+La Plata,2020-05-27,21.43
+La Plata,2020-05-28,21.43
+La Plata,2020-05-29,27.27
+La Plata,2020-05-30,23.38
+La Plata,2020-05-31,25.32
+La Plata,2020-06-01,27.27
+La Plata,2020-06-02,19.48
+La Plata,2020-06-03,19.48
+La Plata,2020-06-04,-1.95
+La Plata,2020-06-05,17.53
+La Plata,2020-06-06,11.69
+La Plata,2020-06-07,9.74
+La Plata,2020-06-08,9.74
+La Plata,2020-06-09,9.74
+La Plata,2020-06-10,13.64
+La Plata,2020-06-11,13.64
+La Plata,2020-06-12,7.79
+La Plata,2020-06-13,7.79
+La Plata,2020-06-14,5.84
+La Plata,2020-06-15,5.84
+La Plata,2020-06-16,7.79
+La Plata,2020-06-17,5.84
+La Plata,2020-06-18,7.79
+La Plata,2020-06-19,5.84
+La Plata,2020-06-20,7.79
+La Plata,2020-06-21,7.79
+La Plata,2020-06-22,7.79
+La Plata,2020-06-23,7.79
+La Plata,2020-06-24,9.74
+La Plata,2020-06-25,11.69
+La Plata,2020-06-26,19.48
+La Plata,2020-06-27,19.48
+La Plata,2020-06-28,33.12
+La Plata,2020-06-29,40.91
+La Plata,2020-06-30,50.65
+La Plata,2020-07-01,60.39
+La Plata,2020-07-02,58.44
+La Plata,2020-07-03,62.34
+La Plata,2020-07-04,68.18
+La Plata,2020-07-05,72.08
+La Plata,2020-07-06,70.13
+La Plata,2020-07-07,75.97
+La Plata,2020-07-08,79.87
+La Plata,2020-07-09,77.92
+La Plata,2020-07-10,75.97
+La Plata,2020-07-11,77.92
+La Plata,2020-07-12,68.18
+La Plata,2020-07-13,58.44
+La Plata,2020-07-14,66.23
+La Plata,2020-07-15,58.44
+La Plata,2020-07-16,68.18
+La Plata,2020-07-17,72.08
+La Plata,2020-07-18,70.13
+La Plata,2020-07-19,70.13
+La Plata,2020-07-20,83.77
+La Plata,2020-07-21,83.77
+La Plata,2020-07-22,85.71
+La Plata,2020-07-23,97.4
+La Plata,2020-07-24,91.56
+La Plata,2020-07-25,99.35
+La Plata,2020-07-26,99.35
+La Plata,2020-07-27,101.3
+La Plata,2020-07-28,89.61
+La Plata,2020-07-29,97.4
+La Plata,2020-07-30,89.61
+La Plata,2020-07-31,83.77
+La Plata,2020-08-01,79.87
+La Plata,2020-08-02,77.92
+La Plata,2020-08-03,64.28
+La Plata,2020-08-04,60.39
+La Plata,2020-08-05,52.6
+La Plata,2020-08-06,46.75
+La Plata,2020-08-07,46.75
+La Plata,2020-08-08,42.86
+La Plata,2020-08-09,48.7
+La Plata,2020-08-10,60.39
+La Plata,2020-08-11,58.44
+La Plata,2020-08-12,56.49
+La Plata,2020-08-13,56.49
+La Plata,2020-08-14,62.34
+La Plata,2020-08-15,56.49
+La Plata,2020-08-16,56.49
+La Plata,2020-08-17,68.18
+La Plata,2020-08-18,62.34
+La Plata,2020-08-19,54.54
+La Plata,2020-08-20,48.7
+La Plata,2020-08-21,50.65
+La Plata,2020-08-22,44.8
+La Plata,2020-08-23,37.01
+La Plata,2020-08-24,25.32
+La Plata,2020-08-25,23.38
+La Plata,2020-08-26,17.53
+La Plata,2020-08-27,13.64
+La Plata,2020-08-28,17.53
+La Plata,2020-08-29,23.38
+La Plata,2020-08-30,23.38
+La Plata,2020-08-31,13.64
+La Plata,2020-09-01,15.58
+La Plata,2020-09-02,25.32
+La Plata,2020-09-03,25.32
+La Plata,2020-09-04,23.38
+La Plata,2020-09-05,27.27
+La Plata,2020-09-06,29.22
+La Plata,2020-09-07,29.22
+La Plata,2020-09-08,25.32
+La Plata,2020-09-09,25.32
+La Plata,2020-09-10,25.32
+La Plata,2020-09-11,17.53
+La Plata,2020-09-12,17.53
+La Plata,2020-09-13,13.64
+La Plata,2020-09-14,13.64
+La Plata,2020-09-15,13.64
+La Plata,2020-09-16,11.69
+La Plata,2020-09-17,11.69
+La Plata,2020-09-18,9.74
+La Plata,2020-09-19,11.69
+La Plata,2020-09-20,7.79
+La Plata,2020-09-21,5.84
+La Plata,2020-09-22,9.74
+La Plata,2020-09-23,15.58
+La Plata,2020-09-24,25.32
+La Plata,2020-09-25,23.38
+La Plata,2020-09-26,23.38
+La Plata,2020-09-27,25.32
+La Plata,2020-09-28,29.22
+La Plata,2020-09-29,29.22
+La Plata,2020-09-30,29.22
+La Plata,2020-10-01,35.06
+La Plata,2020-10-02,38.96
+La Plata,2020-10-03,35.06
+La Plata,2020-10-04,35.06
+La Plata,2020-10-05,35.06
+La Plata,2020-10-06,33.12
+La Plata,2020-10-07,40.91
+La Plata,2020-10-08,44.8
+La Plata,2020-10-09,54.54
+La Plata,2020-10-10,60.39
+La Plata,2020-10-11,68.18
+La Plata,2020-10-12,75.97
+La Plata,2020-10-13,74.03
+La Plata,2020-10-14,75.97
+La Plata,2020-10-15,75.97
+La Plata,2020-10-16,99.35
+La Plata,2020-10-17,101.3
+La Plata,2020-10-18,101.3
+La Plata,2020-10-19,111.04
+La Plata,2020-10-20,118.83
+La Plata,2020-10-21,107.14
+La Plata,2020-10-22,95.45
+La Plata,2020-10-23,105.19
+La Plata,2020-10-24,109.09
+La Plata,2020-10-25,107.14
+La Plata,2020-10-26,103.25
+La Plata,2020-10-27,122.73
+La Plata,2020-10-28,120.78
+La Plata,2020-10-29,136.36
+La Plata,2020-10-30,132.47
+La Plata,2020-10-31,140.26
+La Plata,2020-11-01,146.1
+La Plata,2020-11-02,138.31
+La Plata,2020-11-03,138.31
+La Plata,2020-11-04,144.15
+La Plata,2020-11-05,165.58
+La Plata,2020-11-06,175.32
+La Plata,2020-11-07,208.44
+La Plata,2020-11-08,237.66
+La Plata,2020-11-09,282.46
+La Plata,2020-11-10,274.67
+La Plata,2020-11-11,307.79
+La Plata,2020-11-12,350.64
+La Plata,2020-11-13,366.23
+La Plata,2020-11-14,412.98
+La Plata,2020-11-15,465.58
+La Plata,2020-11-16,483.11
+La Plata,2020-11-17,504.54
+La Plata,2020-11-18,539.6
+La Plata,2020-11-19,572.72
+La Plata,2020-11-20,627.26
+La Plata,2020-11-21,656.48
+La Plata,2020-11-22,722.72
+La Plata,2020-11-23,677.91
+La Plata,2020-11-24,1040.25
+La Plata,2020-11-25,1174.66
+La Plata,2020-11-26,1274.01
+La Plata,2020-11-27,1322.71
+La Plata,2020-11-28,1359.72
+La Plata,2020-11-29,1371.41
+La Plata,2020-11-30,1429.85
+La Plata,2020-12-01,1418.16
+La Plata,2020-12-02,1422.06
+La Plata,2020-12-03,1536.99
+La Plata,2020-12-04,1574.01
+La Plata,2020-12-05,1581.8
+Larimer,2020-03-09,0.33
+Larimer,2020-03-10,0.33
+Larimer,2020-03-11,0.33
+Larimer,2020-03-12,0.33
+Larimer,2020-03-13,0.33
+Larimer,2020-03-14,0.33
+Larimer,2020-03-15,0.33
+Larimer,2020-03-16,0.67
+Larimer,2020-03-17,0.67
+Larimer,2020-03-18,1.33
+Larimer,2020-03-19,1.67
+Larimer,2020-03-20,2.34
+Larimer,2020-03-21,6.34
+Larimer,2020-03-22,10.68
+Larimer,2020-03-23,11.01
+Larimer,2020-03-24,14.02
+Larimer,2020-03-25,14.68
+Larimer,2020-03-26,20.02
+Larimer,2020-03-27,22.03
+Larimer,2020-03-28,26.03
+Larimer,2020-03-29,27.7
+Larimer,2020-03-30,30.04
+Larimer,2020-03-31,32.37
+Larimer,2020-04-01,34.38
+Larimer,2020-04-02,39.72
+Larimer,2020-04-03,42.39
+Larimer,2020-04-04,41.72
+Larimer,2020-04-05,40.38
+Larimer,2020-04-06,41.38
+Larimer,2020-04-07,39.38
+Larimer,2020-04-08,40.72
+Larimer,2020-04-09,37.71
+Larimer,2020-04-10,36.71
+Larimer,2020-04-11,33.71
+Larimer,2020-04-12,34.38
+Larimer,2020-04-13,33.71
+Larimer,2020-04-14,33.04
+Larimer,2020-04-15,31.71
+Larimer,2020-04-16,31.04
+Larimer,2020-04-17,30.04
+Larimer,2020-04-18,29.04
+Larimer,2020-04-19,28.7
+Larimer,2020-04-20,29.04
+Larimer,2020-04-21,29.7
+Larimer,2020-04-22,33.04
+Larimer,2020-04-23,33.37
+Larimer,2020-04-24,38.05
+Larimer,2020-04-25,41.05
+Larimer,2020-04-26,41.72
+Larimer,2020-04-27,42.72
+Larimer,2020-04-28,45.39
+Larimer,2020-04-29,48.73
+Larimer,2020-04-30,48.73
+Larimer,2020-05-01,51.06
+Larimer,2020-05-02,51.06
+Larimer,2020-05-03,52.06
+Larimer,2020-05-04,49.39
+Larimer,2020-05-05,53.07
+Larimer,2020-05-06,49.73
+Larimer,2020-05-07,49.73
+Larimer,2020-05-08,48.73
+Larimer,2020-05-09,47.06
+Larimer,2020-05-10,45.39
+Larimer,2020-05-11,43.72
+Larimer,2020-05-12,40.38
+Larimer,2020-05-13,36.04
+Larimer,2020-05-14,33.37
+Larimer,2020-05-15,31.71
+Larimer,2020-05-16,33.71
+Larimer,2020-05-17,31.37
+Larimer,2020-05-18,34.04
+Larimer,2020-05-19,33.04
+Larimer,2020-05-20,32.37
+Larimer,2020-05-21,31.37
+Larimer,2020-05-22,27.7
+Larimer,2020-05-23,28.7
+Larimer,2020-05-24,29.7
+Larimer,2020-05-25,29.37
+Larimer,2020-05-26,29.7
+Larimer,2020-05-27,32.04
+Larimer,2020-05-28,34.71
+Larimer,2020-05-29,32.71
+Larimer,2020-05-30,30.37
+Larimer,2020-05-31,31.37
+Larimer,2020-06-01,31.37
+Larimer,2020-06-02,27.03
+Larimer,2020-06-03,31.37
+Larimer,2020-06-04,31.04
+Larimer,2020-06-05,31.04
+Larimer,2020-06-06,28.7
+Larimer,2020-06-07,27.37
+Larimer,2020-06-08,29.37
+Larimer,2020-06-09,29.37
+Larimer,2020-06-10,28.03
+Larimer,2020-06-11,22.69
+Larimer,2020-06-12,22.36
+Larimer,2020-06-13,21.69
+Larimer,2020-06-14,21.36
+Larimer,2020-06-15,21.03
+Larimer,2020-06-16,23.36
+Larimer,2020-06-17,17.35
+Larimer,2020-06-18,17.02
+Larimer,2020-06-19,18.36
+Larimer,2020-06-20,19.02
+Larimer,2020-06-21,20.36
+Larimer,2020-06-22,17.35
+Larimer,2020-06-23,17.02
+Larimer,2020-06-24,16.69
+Larimer,2020-06-25,19.02
+Larimer,2020-06-26,21.36
+Larimer,2020-06-27,24.03
+Larimer,2020-06-28,23.7
+Larimer,2020-06-29,23.7
+Larimer,2020-06-30,25.7
+Larimer,2020-07-01,29.7
+Larimer,2020-07-02,32.04
+Larimer,2020-07-03,36.38
+Larimer,2020-07-04,39.38
+Larimer,2020-07-05,41.05
+Larimer,2020-07-06,42.72
+Larimer,2020-07-07,45.06
+Larimer,2020-07-08,52.4
+Larimer,2020-07-09,59.07
+Larimer,2020-07-10,61.08
+Larimer,2020-07-11,62.08
+Larimer,2020-07-12,66.42
+Larimer,2020-07-13,74.43
+Larimer,2020-07-14,74.43
+Larimer,2020-07-15,78.43
+Larimer,2020-07-16,84.1
+Larimer,2020-07-17,88.11
+Larimer,2020-07-18,88.11
+Larimer,2020-07-19,92.11
+Larimer,2020-07-20,101.46
+Larimer,2020-07-21,104.46
+Larimer,2020-07-22,105.13
+Larimer,2020-07-23,104.8
+Larimer,2020-07-24,107.8
+Larimer,2020-07-25,113.14
+Larimer,2020-07-26,112.81
+Larimer,2020-07-27,105.13
+Larimer,2020-07-28,113.47
+Larimer,2020-07-29,110.8
+Larimer,2020-07-30,108.8
+Larimer,2020-07-31,106.13
+Larimer,2020-08-01,107.13
+Larimer,2020-08-02,106.8
+Larimer,2020-08-03,101.79
+Larimer,2020-08-04,96.45
+Larimer,2020-08-05,99.46
+Larimer,2020-08-06,97.45
+Larimer,2020-08-07,95.45
+Larimer,2020-08-08,97.79
+Larimer,2020-08-09,99.79
+Larimer,2020-08-10,104.8
+Larimer,2020-08-11,97.12
+Larimer,2020-08-12,97.12
+Larimer,2020-08-13,98.45
+Larimer,2020-08-14,97.45
+Larimer,2020-08-15,97.12
+Larimer,2020-08-16,96.12
+Larimer,2020-08-17,94.45
+Larimer,2020-08-18,97.12
+Larimer,2020-08-19,89.78
+Larimer,2020-08-20,90.44
+Larimer,2020-08-21,90.78
+Larimer,2020-08-22,86.44
+Larimer,2020-08-23,83.44
+Larimer,2020-08-24,80.77
+Larimer,2020-08-25,83.44
+Larimer,2020-08-26,81.43
+Larimer,2020-08-27,83.44
+Larimer,2020-08-28,84.77
+Larimer,2020-08-29,87.44
+Larimer,2020-08-30,83.77
+Larimer,2020-08-31,84.44
+Larimer,2020-09-01,88.44
+Larimer,2020-09-02,86.77
+Larimer,2020-09-03,90.78
+Larimer,2020-09-04,92.78
+Larimer,2020-09-05,91.45
+Larimer,2020-09-06,90.78
+Larimer,2020-09-07,89.44
+Larimer,2020-09-08,87.77
+Larimer,2020-09-09,87.11
+Larimer,2020-09-10,80.1
+Larimer,2020-09-11,77.43
+Larimer,2020-09-12,79.77
+Larimer,2020-09-13,82.1
+Larimer,2020-09-14,83.77
+Larimer,2020-09-15,81.43
+Larimer,2020-09-16,83.77
+Larimer,2020-09-17,84.1
+Larimer,2020-09-18,88.44
+Larimer,2020-09-19,88.11
+Larimer,2020-09-20,91.45
+Larimer,2020-09-21,96.12
+Larimer,2020-09-22,100.46
+Larimer,2020-09-23,104.8
+Larimer,2020-09-24,109.8
+Larimer,2020-09-25,117.48
+Larimer,2020-09-26,115.81
+Larimer,2020-09-27,115.48
+Larimer,2020-09-28,118.81
+Larimer,2020-09-29,127.16
+Larimer,2020-09-30,133.5
+Larimer,2020-10-01,130.83
+Larimer,2020-10-02,131.16
+Larimer,2020-10-03,134.5
+Larimer,2020-10-04,132.5
+Larimer,2020-10-05,134.17
+Larimer,2020-10-06,137.17
+Larimer,2020-10-07,158.86
+Larimer,2020-10-08,162.2
+Larimer,2020-10-09,167.87
+Larimer,2020-10-10,188.23
+Larimer,2020-10-11,193.91
+Larimer,2020-10-12,199.91
+Larimer,2020-10-13,205.59
+Larimer,2020-10-14,207.92
+Larimer,2020-10-15,221.94
+Larimer,2020-10-16,229.95
+Larimer,2020-10-17,243.97
+Larimer,2020-10-18,251.31
+Larimer,2020-10-19,257.65
+Larimer,2020-10-20,261.99
+Larimer,2020-10-21,246.97
+Larimer,2020-10-22,261.32
+Larimer,2020-10-23,270.0
+Larimer,2020-10-24,268.33
+Larimer,2020-10-25,273.34
+Larimer,2020-10-26,285.02
+Larimer,2020-10-27,285.02
+Larimer,2020-10-28,282.35
+Larimer,2020-10-29,285.69
+Larimer,2020-10-30,295.03
+Larimer,2020-10-31,326.4
+Larimer,2020-11-01,352.1
+Larimer,2020-11-02,360.44
+Larimer,2020-11-03,372.46
+Larimer,2020-11-04,388.48
+Larimer,2020-11-05,419.52
+Larimer,2020-11-06,447.55
+Larimer,2020-11-07,470.91
+Larimer,2020-11-08,498.95
+Larimer,2020-11-09,519.97
+Larimer,2020-11-10,564.36
+Larimer,2020-11-11,624.44
+Larimer,2020-11-12,671.49
+Larimer,2020-11-13,701.53
+Larimer,2020-11-14,756.6
+Larimer,2020-11-15,790.98
+Larimer,2020-11-16,830.36
+Larimer,2020-11-17,900.78
+Larimer,2020-11-18,953.84
+Larimer,2020-11-19,988.55
+Larimer,2020-11-20,1011.91
+Larimer,2020-11-21,1053.63
+Larimer,2020-11-22,1076.66
+Larimer,2020-11-23,1072.99
+Larimer,2020-11-24,1090.34
+Larimer,2020-11-25,1101.02
+Larimer,2020-11-26,1118.05
+Larimer,2020-11-27,1118.05
+Larimer,2020-11-28,1081.0
+Larimer,2020-11-29,1064.65
+Larimer,2020-11-30,1047.29
+Larimer,2020-12-01,1005.24
+Larimer,2020-12-02,989.55
+Larimer,2020-12-03,999.57
+Larimer,2020-12-04,997.9
+Larimer,2020-12-05,1023.93
+Pueblo,2020-03-13,0.63
+Pueblo,2020-03-14,0.63
+Pueblo,2020-03-15,0.63
+Pueblo,2020-03-16,0.63
+Pueblo,2020-03-17,0.63
+Pueblo,2020-03-18,0.63
+Pueblo,2020-03-19,1.26
+Pueblo,2020-03-20,1.89
+Pueblo,2020-03-21,1.89
+Pueblo,2020-03-22,1.89
+Pueblo,2020-03-23,1.89
+Pueblo,2020-03-24,1.89
+Pueblo,2020-03-25,1.89
+Pueblo,2020-03-26,3.14
+Pueblo,2020-03-27,3.77
+Pueblo,2020-03-28,5.03
+Pueblo,2020-03-29,10.69
+Pueblo,2020-03-30,12.57
+Pueblo,2020-03-31,12.57
+Pueblo,2020-04-01,16.97
+Pueblo,2020-04-02,16.35
+Pueblo,2020-04-03,22.63
+Pueblo,2020-04-04,22.63
+Pueblo,2020-04-05,25.78
+Pueblo,2020-04-06,25.78
+Pueblo,2020-04-07,27.03
+Pueblo,2020-04-08,27.03
+Pueblo,2020-04-09,27.03
+Pueblo,2020-04-10,27.03
+Pueblo,2020-04-11,27.66
+Pueblo,2020-04-12,25.15
+Pueblo,2020-04-13,27.03
+Pueblo,2020-04-14,27.03
+Pueblo,2020-04-15,25.15
+Pueblo,2020-04-16,27.66
+Pueblo,2020-04-17,24.52
+Pueblo,2020-04-18,28.29
+Pueblo,2020-04-19,27.03
+Pueblo,2020-04-20,27.66
+Pueblo,2020-04-21,28.92
+Pueblo,2020-04-22,38.35
+Pueblo,2020-04-23,37.72
+Pueblo,2020-04-24,41.49
+Pueblo,2020-04-25,42.75
+Pueblo,2020-04-26,45.89
+Pueblo,2020-04-27,44.01
+Pueblo,2020-04-28,45.27
+Pueblo,2020-04-29,42.75
+Pueblo,2020-04-30,42.12
+Pueblo,2020-05-01,42.75
+Pueblo,2020-05-02,41.49
+Pueblo,2020-05-03,44.64
+Pueblo,2020-05-04,43.38
+Pueblo,2020-05-05,41.49
+Pueblo,2020-05-06,33.95
+Pueblo,2020-05-07,34.58
+Pueblo,2020-05-08,33.95
+Pueblo,2020-05-09,34.58
+Pueblo,2020-05-10,32.06
+Pueblo,2020-05-11,32.06
+Pueblo,2020-05-12,32.69
+Pueblo,2020-05-13,32.69
+Pueblo,2020-05-14,29.55
+Pueblo,2020-05-15,30.81
+Pueblo,2020-05-16,32.69
+Pueblo,2020-05-17,28.92
+Pueblo,2020-05-18,37.72
+Pueblo,2020-05-19,38.35
+Pueblo,2020-05-20,37.09
+Pueblo,2020-05-21,42.12
+Pueblo,2020-05-22,39.61
+Pueblo,2020-05-23,52.81
+Pueblo,2020-05-24,50.92
+Pueblo,2020-05-25,49.04
+Pueblo,2020-05-26,47.78
+Pueblo,2020-05-27,56.58
+Pueblo,2020-05-28,57.84
+Pueblo,2020-05-29,54.07
+Pueblo,2020-05-30,54.7
+Pueblo,2020-05-31,57.21
+Pueblo,2020-06-01,50.29
+Pueblo,2020-06-02,49.04
+Pueblo,2020-06-03,50.29
+Pueblo,2020-06-04,45.27
+Pueblo,2020-06-05,45.89
+Pueblo,2020-06-06,33.32
+Pueblo,2020-06-07,35.83
+Pueblo,2020-06-08,35.83
+Pueblo,2020-06-09,37.09
+Pueblo,2020-06-10,28.92
+Pueblo,2020-06-11,30.18
+Pueblo,2020-06-12,32.06
+Pueblo,2020-06-13,35.83
+Pueblo,2020-06-14,35.83
+Pueblo,2020-06-15,34.58
+Pueblo,2020-06-16,33.95
+Pueblo,2020-06-17,32.06
+Pueblo,2020-06-18,30.81
+Pueblo,2020-06-19,28.29
+Pueblo,2020-06-20,26.4
+Pueblo,2020-06-21,23.26
+Pueblo,2020-06-22,23.89
+Pueblo,2020-06-23,22.0
+Pueblo,2020-06-24,27.66
+Pueblo,2020-06-25,27.03
+Pueblo,2020-06-26,25.15
+Pueblo,2020-06-27,20.12
+Pueblo,2020-06-28,19.49
+Pueblo,2020-06-29,20.75
+Pueblo,2020-06-30,24.52
+Pueblo,2020-07-01,26.4
+Pueblo,2020-07-02,26.4
+Pueblo,2020-07-03,28.29
+Pueblo,2020-07-04,30.81
+Pueblo,2020-07-05,31.43
+Pueblo,2020-07-06,31.43
+Pueblo,2020-07-07,33.32
+Pueblo,2020-07-08,30.18
+Pueblo,2020-07-09,30.18
+Pueblo,2020-07-10,31.43
+Pueblo,2020-07-11,32.69
+Pueblo,2020-07-12,30.81
+Pueblo,2020-07-13,37.09
+Pueblo,2020-07-14,37.72
+Pueblo,2020-07-15,40.86
+Pueblo,2020-07-16,47.78
+Pueblo,2020-07-17,52.18
+Pueblo,2020-07-18,49.04
+Pueblo,2020-07-19,47.78
+Pueblo,2020-07-20,59.1
+Pueblo,2020-07-21,71.04
+Pueblo,2020-07-22,74.81
+Pueblo,2020-07-23,76.07
+Pueblo,2020-07-24,79.21
+Pueblo,2020-07-25,76.7
+Pueblo,2020-07-26,79.84
+Pueblo,2020-07-27,74.81
+Pueblo,2020-07-28,78.59
+Pueblo,2020-07-29,74.81
+Pueblo,2020-07-30,76.07
+Pueblo,2020-07-31,74.18
+Pueblo,2020-08-01,81.1
+Pueblo,2020-08-02,81.73
+Pueblo,2020-08-03,71.04
+Pueblo,2020-08-04,58.47
+Pueblo,2020-08-05,69.15
+Pueblo,2020-08-06,76.7
+Pueblo,2020-08-07,79.21
+Pueblo,2020-08-08,84.87
+Pueblo,2020-08-09,84.24
+Pueblo,2020-08-10,85.5
+Pueblo,2020-08-11,84.24
+Pueblo,2020-08-12,84.24
+Pueblo,2020-08-13,83.61
+Pueblo,2020-08-14,82.99
+Pueblo,2020-08-15,87.39
+Pueblo,2020-08-16,88.64
+Pueblo,2020-08-17,89.27
+Pueblo,2020-08-18,89.9
+Pueblo,2020-08-19,78.59
+Pueblo,2020-08-20,74.81
+Pueblo,2020-08-21,72.3
+Pueblo,2020-08-22,69.78
+Pueblo,2020-08-23,66.01
+Pueblo,2020-08-24,64.75
+Pueblo,2020-08-25,60.98
+Pueblo,2020-08-26,69.15
+Pueblo,2020-08-27,74.18
+Pueblo,2020-08-28,81.73
+Pueblo,2020-08-29,72.3
+Pueblo,2020-08-30,70.41
+Pueblo,2020-08-31,69.78
+Pueblo,2020-09-01,72.3
+Pueblo,2020-09-02,72.93
+Pueblo,2020-09-03,72.93
+Pueblo,2020-09-04,72.93
+Pueblo,2020-09-05,76.7
+Pueblo,2020-09-06,81.73
+Pueblo,2020-09-07,79.84
+Pueblo,2020-09-08,81.73
+Pueblo,2020-09-09,81.73
+Pueblo,2020-09-10,74.81
+Pueblo,2020-09-11,66.64
+Pueblo,2020-09-12,65.38
+Pueblo,2020-09-13,67.9
+Pueblo,2020-09-14,70.41
+Pueblo,2020-09-15,71.67
+Pueblo,2020-09-16,72.3
+Pueblo,2020-09-17,67.9
+Pueblo,2020-09-18,68.53
+Pueblo,2020-09-19,65.38
+Pueblo,2020-09-20,67.27
+Pueblo,2020-09-21,70.41
+Pueblo,2020-09-22,63.5
+Pueblo,2020-09-23,63.5
+Pueblo,2020-09-24,62.87
+Pueblo,2020-09-25,67.27
+Pueblo,2020-09-26,69.15
+Pueblo,2020-09-27,72.93
+Pueblo,2020-09-28,69.78
+Pueblo,2020-09-29,78.59
+Pueblo,2020-09-30,80.47
+Pueblo,2020-10-01,89.9
+Pueblo,2020-10-02,91.16
+Pueblo,2020-10-03,95.56
+Pueblo,2020-10-04,101.85
+Pueblo,2020-10-05,108.13
+Pueblo,2020-10-06,113.16
+Pueblo,2020-10-07,130.14
+Pueblo,2020-10-08,140.82
+Pueblo,2020-10-09,154.03
+Pueblo,2020-10-10,159.06
+Pueblo,2020-10-11,176.03
+Pueblo,2020-10-12,174.77
+Pueblo,2020-10-13,183.58
+Pueblo,2020-10-14,194.89
+Pueblo,2020-10-15,217.52
+Pueblo,2020-10-16,223.18
+Pueblo,2020-10-17,231.35
+Pueblo,2020-10-18,242.04
+Pueblo,2020-10-19,251.47
+Pueblo,2020-10-20,260.27
+Pueblo,2020-10-21,275.36
+Pueblo,2020-10-22,277.25
+Pueblo,2020-10-23,279.76
+Pueblo,2020-10-24,287.94
+Pueblo,2020-10-25,335.72
+Pueblo,2020-10-26,385.38
+Pueblo,2020-10-27,402.98
+Pueblo,2020-10-28,413.04
+Pueblo,2020-10-29,408.01
+Pueblo,2020-10-30,448.25
+Pueblo,2020-10-31,494.77
+Pueblo,2020-11-01,536.89
+Pueblo,2020-11-02,563.3
+Pueblo,2020-11-03,631.2
+Pueblo,2020-11-04,643.77
+Pueblo,2020-11-05,692.18
+Pueblo,2020-11-06,755.68
+Pueblo,2020-11-07,811.63
+Pueblo,2020-11-08,789.62
+Pueblo,2020-11-09,817.91
+Pueblo,2020-11-10,873.24
+Pueblo,2020-11-11,1004.0
+Pueblo,2020-11-12,1157.4
+Pueblo,2020-11-13,1282.51
+Pueblo,2020-11-14,1417.05
+Pueblo,2020-11-15,1523.92
+Pueblo,2020-11-16,1604.4
+Pueblo,2020-11-17,1659.72
+Pueblo,2020-11-18,1757.17
+Pueblo,2020-11-19,1829.46
+Pueblo,2020-11-20,1977.83
+Pueblo,2020-11-21,2118.03
+Pueblo,2020-11-22,2249.42
+Pueblo,2020-11-23,2354.41
+Pueblo,2020-11-24,2363.21
+Pueblo,2020-11-25,2348.75
+Pueblo,2020-11-26,2275.83
+Pueblo,2020-11-27,2258.85
+Pueblo,2020-11-28,2195.36
+Pueblo,2020-11-29,2143.18
+Pueblo,2020-11-30,2221.13
+Pueblo,2020-12-01,2251.31
+Pueblo,2020-12-02,2220.5
+Pueblo,2020-12-03,2262.63
+Pueblo,2020-12-04,2156.38
+Pueblo,2020-12-05,2074.02
+Routt,2020-03-13,4.25
+Routt,2020-03-14,4.25
+Routt,2020-03-15,4.25
+Routt,2020-03-16,8.51
+Routt,2020-03-17,8.51
+Routt,2020-03-18,8.51
+Routt,2020-03-19,8.51
+Routt,2020-03-20,8.51
+Routt,2020-03-21,8.51
+Routt,2020-03-22,12.76
+Routt,2020-03-23,12.76
+Routt,2020-03-24,17.01
+Routt,2020-03-25,25.52
+Routt,2020-03-26,38.28
+Routt,2020-03-27,46.79
+Routt,2020-03-28,55.3
+Routt,2020-03-29,63.81
+Routt,2020-03-30,59.55
+Routt,2020-03-31,63.81
+Routt,2020-04-01,72.31
+Routt,2020-04-02,89.33
+Routt,2020-04-03,110.6
+Routt,2020-04-04,114.85
+Routt,2020-04-05,110.6
+Routt,2020-04-06,110.6
+Routt,2020-04-07,119.1
+Routt,2020-04-08,110.6
+Routt,2020-04-09,97.83
+Routt,2020-04-10,97.83
+Routt,2020-04-11,89.33
+Routt,2020-04-12,85.07
+Routt,2020-04-13,106.34
+Routt,2020-04-14,102.09
+Routt,2020-04-15,93.58
+Routt,2020-04-16,85.07
+Routt,2020-04-17,76.57
+Routt,2020-04-18,85.07
+Routt,2020-04-19,85.07
+Routt,2020-04-20,85.07
+Routt,2020-04-21,80.82
+Routt,2020-04-22,85.07
+Routt,2020-04-23,85.07
+Routt,2020-04-24,72.31
+Routt,2020-04-25,72.31
+Routt,2020-04-26,76.57
+Routt,2020-04-27,55.3
+Routt,2020-04-28,59.55
+Routt,2020-04-29,55.3
+Routt,2020-04-30,55.3
+Routt,2020-05-01,38.28
+Routt,2020-05-02,29.78
+Routt,2020-05-03,29.78
+Routt,2020-05-04,29.78
+Routt,2020-05-05,29.78
+Routt,2020-05-06,25.52
+Routt,2020-05-07,25.52
+Routt,2020-05-08,25.52
+Routt,2020-05-09,25.52
+Routt,2020-05-10,17.01
+Routt,2020-05-11,17.01
+Routt,2020-05-12,17.01
+Routt,2020-05-13,21.27
+Routt,2020-05-14,12.76
+Routt,2020-05-15,17.01
+Routt,2020-05-16,12.76
+Routt,2020-05-17,12.76
+Routt,2020-05-18,17.01
+Routt,2020-05-19,4.25
+Routt,2020-05-20,4.25
+Routt,2020-05-21,4.25
+Routt,2020-05-22,4.25
+Routt,2020-05-23,4.25
+Routt,2020-05-24,4.25
+Routt,2020-05-25,4.25
+Routt,2020-05-26,0.0
+Routt,2020-05-27,8.51
+Routt,2020-05-28,8.51
+Routt,2020-05-29,8.51
+Routt,2020-05-30,8.51
+Routt,2020-05-31,12.76
+Routt,2020-06-01,8.51
+Routt,2020-06-02,12.76
+Routt,2020-06-03,12.76
+Routt,2020-06-04,12.76
+Routt,2020-06-05,12.76
+Routt,2020-06-06,12.76
+Routt,2020-06-07,12.76
+Routt,2020-06-08,12.76
+Routt,2020-06-09,12.76
+Routt,2020-06-10,8.51
+Routt,2020-06-11,12.76
+Routt,2020-06-12,12.76
+Routt,2020-06-13,12.76
+Routt,2020-06-14,8.51
+Routt,2020-06-15,4.25
+Routt,2020-06-16,4.25
+Routt,2020-06-17,4.25
+Routt,2020-06-18,4.25
+Routt,2020-06-19,4.25
+Routt,2020-06-20,4.25
+Routt,2020-06-21,8.51
+Routt,2020-06-22,12.76
+Routt,2020-06-23,21.27
+Routt,2020-06-24,17.01
+Routt,2020-06-25,21.27
+Routt,2020-06-26,25.52
+Routt,2020-06-27,29.78
+Routt,2020-06-28,34.03
+Routt,2020-06-29,42.54
+Routt,2020-06-30,42.54
+Routt,2020-07-01,51.04
+Routt,2020-07-02,51.04
+Routt,2020-07-03,55.3
+Routt,2020-07-04,59.55
+Routt,2020-07-05,55.3
+Routt,2020-07-06,55.3
+Routt,2020-07-07,46.79
+Routt,2020-07-08,51.04
+Routt,2020-07-09,42.54
+Routt,2020-07-10,46.79
+Routt,2020-07-11,42.54
+Routt,2020-07-12,42.54
+Routt,2020-07-13,46.79
+Routt,2020-07-14,46.79
+Routt,2020-07-15,46.79
+Routt,2020-07-16,46.79
+Routt,2020-07-17,38.28
+Routt,2020-07-18,42.54
+Routt,2020-07-19,42.54
+Routt,2020-07-20,38.28
+Routt,2020-07-21,55.3
+Routt,2020-07-22,59.55
+Routt,2020-07-23,63.81
+Routt,2020-07-24,55.3
+Routt,2020-07-25,55.3
+Routt,2020-07-26,51.04
+Routt,2020-07-27,46.79
+Routt,2020-07-28,51.04
+Routt,2020-07-29,42.54
+Routt,2020-07-30,51.04
+Routt,2020-07-31,59.55
+Routt,2020-08-01,80.82
+Routt,2020-08-02,85.07
+Routt,2020-08-03,89.33
+Routt,2020-08-04,80.82
+Routt,2020-08-05,72.31
+Routt,2020-08-06,72.31
+Routt,2020-08-07,97.83
+Routt,2020-08-08,119.1
+Routt,2020-08-09,131.86
+Routt,2020-08-10,127.61
+Routt,2020-08-11,123.36
+Routt,2020-08-12,119.1
+Routt,2020-08-13,110.6
+Routt,2020-08-14,110.6
+Routt,2020-08-15,89.33
+Routt,2020-08-16,85.07
+Routt,2020-08-17,85.07
+Routt,2020-08-18,80.82
+Routt,2020-08-19,80.82
+Routt,2020-08-20,85.07
+Routt,2020-08-21,59.55
+Routt,2020-08-22,38.28
+Routt,2020-08-23,25.52
+Routt,2020-08-24,25.52
+Routt,2020-08-25,25.52
+Routt,2020-08-26,34.03
+Routt,2020-08-27,34.03
+Routt,2020-08-28,29.78
+Routt,2020-08-29,21.27
+Routt,2020-08-30,21.27
+Routt,2020-08-31,25.52
+Routt,2020-09-01,21.27
+Routt,2020-09-02,21.27
+Routt,2020-09-03,17.01
+Routt,2020-09-04,17.01
+Routt,2020-09-05,12.76
+Routt,2020-09-06,12.76
+Routt,2020-09-07,12.76
+Routt,2020-09-08,12.76
+Routt,2020-09-09,12.76
+Routt,2020-09-10,12.76
+Routt,2020-09-11,17.01
+Routt,2020-09-12,25.52
+Routt,2020-09-13,25.52
+Routt,2020-09-14,17.01
+Routt,2020-09-15,21.27
+Routt,2020-09-16,21.27
+Routt,2020-09-17,21.27
+Routt,2020-09-18,25.52
+Routt,2020-09-19,38.28
+Routt,2020-09-20,42.54
+Routt,2020-09-21,46.79
+Routt,2020-09-22,59.55
+Routt,2020-09-23,55.3
+Routt,2020-09-24,68.06
+Routt,2020-09-25,68.06
+Routt,2020-09-26,63.81
+Routt,2020-09-27,72.31
+Routt,2020-09-28,85.07
+Routt,2020-09-29,80.82
+Routt,2020-09-30,85.07
+Routt,2020-10-01,80.82
+Routt,2020-10-02,85.07
+Routt,2020-10-03,76.57
+Routt,2020-10-04,72.31
+Routt,2020-10-05,76.57
+Routt,2020-10-06,68.06
+Routt,2020-10-07,68.06
+Routt,2020-10-08,68.06
+Routt,2020-10-09,80.82
+Routt,2020-10-10,76.57
+Routt,2020-10-11,72.31
+Routt,2020-10-12,55.3
+Routt,2020-10-13,55.3
+Routt,2020-10-14,55.3
+Routt,2020-10-15,68.06
+Routt,2020-10-16,80.82
+Routt,2020-10-17,102.09
+Routt,2020-10-18,110.6
+Routt,2020-10-19,102.09
+Routt,2020-10-20,123.36
+Routt,2020-10-21,136.12
+Routt,2020-10-22,127.61
+Routt,2020-10-23,123.36
+Routt,2020-10-24,131.86
+Routt,2020-10-25,127.61
+Routt,2020-10-26,140.37
+Routt,2020-10-27,170.15
+Routt,2020-10-28,182.91
+Routt,2020-10-29,187.16
+Routt,2020-10-30,174.4
+Routt,2020-10-31,191.42
+Routt,2020-11-01,182.91
+Routt,2020-11-02,182.91
+Routt,2020-11-03,195.67
+Routt,2020-11-04,199.92
+Routt,2020-11-05,216.94
+Routt,2020-11-06,259.48
+Routt,2020-11-07,323.28
+Routt,2020-11-08,357.31
+Routt,2020-11-09,399.85
+Routt,2020-11-10,416.86
+Routt,2020-11-11,467.91
+Routt,2020-11-12,493.43
+Routt,2020-11-13,582.76
+Routt,2020-11-14,633.8
+Routt,2020-11-15,680.59
+Routt,2020-11-16,718.87
+Routt,2020-11-17,761.41
+Routt,2020-11-18,850.74
+Routt,2020-11-19,952.83
+Routt,2020-11-20,1016.63
+Routt,2020-11-21,1012.38
+Routt,2020-11-22,991.11
+Routt,2020-11-23,969.84
+Routt,2020-11-24,1067.68
+Routt,2020-11-25,1148.5
+Routt,2020-11-26,1191.03
+Routt,2020-11-27,1199.54
+Routt,2020-11-28,1127.23
+Routt,2020-11-29,1135.74
+Routt,2020-11-30,1118.72
+Routt,2020-12-01,1135.74
+Routt,2020-12-02,1127.23
+Routt,2020-12-03,1046.41
+Routt,2020-12-04,957.08
+Routt,2020-12-05,944.32
+Weld,2020-03-13,0.4
+Weld,2020-03-14,0.79
+Weld,2020-03-15,1.58
+Weld,2020-03-16,1.58
+Weld,2020-03-17,1.98
+Weld,2020-03-18,3.56
+Weld,2020-03-19,3.56
+Weld,2020-03-20,5.93
+Weld,2020-03-21,8.31
+Weld,2020-03-22,14.63
+Weld,2020-03-23,19.78
+Weld,2020-03-24,30.06
+Weld,2020-03-25,34.41
+Weld,2020-03-26,42.32
+Weld,2020-03-27,50.63
+Weld,2020-03-28,62.89
+Weld,2020-03-29,69.61
+Weld,2020-03-30,83.46
+Weld,2020-03-31,98.88
+Weld,2020-04-01,112.33
+Weld,2020-04-02,126.57
+Weld,2020-04-03,143.97
+Weld,2020-04-04,159.4
+Weld,2020-04-05,171.26
+Weld,2020-04-06,179.57
+Weld,2020-04-07,182.34
+Weld,2020-04-08,192.23
+Weld,2020-04-09,200.53
+Weld,2020-04-10,205.68
+Weld,2020-04-11,206.47
+Weld,2020-04-12,220.71
+Weld,2020-04-13,234.55
+Weld,2020-04-14,238.5
+Weld,2020-04-15,251.16
+Weld,2020-04-16,249.58
+Weld,2020-04-17,240.09
+Weld,2020-04-18,239.3
+Weld,2020-04-19,237.32
+Weld,2020-04-20,244.04
+Weld,2020-04-21,254.33
+Weld,2020-04-22,262.63
+Weld,2020-04-23,256.7
+Weld,2020-04-24,278.45
+Weld,2020-04-25,295.46
+Weld,2020-04-26,289.13
+Weld,2020-04-27,291.11
+Weld,2020-04-28,300.6
+Weld,2020-04-29,306.93
+Weld,2020-04-30,322.75
+Weld,2020-05-01,322.75
+Weld,2020-05-02,319.19
+Weld,2020-05-03,317.22
+Weld,2020-05-04,306.93
+Weld,2020-05-05,306.54
+Weld,2020-05-06,297.04
+Weld,2020-05-07,308.12
+Weld,2020-05-08,290.32
+Weld,2020-05-09,272.92
+Weld,2020-05-10,265.01
+Weld,2020-05-11,243.25
+Weld,2020-05-12,226.24
+Weld,2020-05-13,200.53
+Weld,2020-05-14,180.36
+Weld,2020-05-15,181.15
+Weld,2020-05-16,176.01
+Weld,2020-05-17,167.31
+Weld,2020-05-18,161.38
+Weld,2020-05-19,146.74
+Weld,2020-05-20,138.44
+Weld,2020-05-21,124.99
+Weld,2020-05-22,110.75
+Weld,2020-05-23,107.19
+Weld,2020-05-24,105.61
+Weld,2020-05-25,100.07
+Weld,2020-05-26,92.16
+Weld,2020-05-27,86.62
+Weld,2020-05-28,83.85
+Weld,2020-05-29,83.85
+Weld,2020-05-30,78.71
+Weld,2020-05-31,76.34
+Weld,2020-06-01,77.52
+Weld,2020-06-02,70.8
+Weld,2020-06-03,72.38
+Weld,2020-06-04,69.61
+Weld,2020-06-05,68.43
+Weld,2020-06-06,69.22
+Weld,2020-06-07,70.01
+Weld,2020-06-08,73.57
+Weld,2020-06-09,71.59
+Weld,2020-06-10,73.57
+Weld,2020-06-11,73.17
+Weld,2020-06-12,68.82
+Weld,2020-06-13,68.03
+Weld,2020-06-14,66.45
+Weld,2020-06-15,65.26
+Weld,2020-06-16,65.66
+Weld,2020-06-17,68.03
+Weld,2020-06-18,64.87
+Weld,2020-06-19,65.26
+Weld,2020-06-20,58.54
+Weld,2020-06-21,54.58
+Weld,2020-06-22,49.84
+Weld,2020-06-23,49.84
+Weld,2020-06-24,51.42
+Weld,2020-06-25,50.63
+Weld,2020-06-26,50.23
+Weld,2020-06-27,51.81
+Weld,2020-06-28,52.21
+Weld,2020-06-29,52.21
+Weld,2020-06-30,51.81
+Weld,2020-07-01,51.42
+Weld,2020-07-02,55.77
+Weld,2020-07-03,58.93
+Weld,2020-07-04,58.54
+Weld,2020-07-05,59.33
+Weld,2020-07-06,64.08
+Weld,2020-07-07,68.43
+Weld,2020-07-08,72.78
+Weld,2020-07-09,80.69
+Weld,2020-07-10,84.64
+Weld,2020-07-11,81.08
+Weld,2020-07-12,83.46
+Weld,2020-07-13,96.11
+Weld,2020-07-14,106.0
+Weld,2020-07-15,111.54
+Weld,2020-07-16,124.99
+Weld,2020-07-17,130.53
+Weld,2020-07-18,129.34
+Weld,2020-07-19,134.08
+Weld,2020-07-20,146.74
+Weld,2020-07-21,149.51
+Weld,2020-07-22,149.51
+Weld,2020-07-23,151.88
+Weld,2020-07-24,144.76
+Weld,2020-07-25,157.42
+Weld,2020-07-26,161.77
+Weld,2020-07-27,160.98
+Weld,2020-07-28,155.05
+Weld,2020-07-29,147.53
+Weld,2020-07-30,132.9
+Weld,2020-07-31,134.08
+Weld,2020-08-01,132.9
+Weld,2020-08-02,132.9
+Weld,2020-08-03,126.97
+Weld,2020-08-04,124.99
+Weld,2020-08-05,126.17
+Weld,2020-08-06,114.7
+Weld,2020-08-07,129.34
+Weld,2020-08-08,122.61
+Weld,2020-08-09,119.05
+Weld,2020-08-10,116.68
+Weld,2020-08-11,111.14
+Weld,2020-08-12,112.73
+Weld,2020-08-13,117.08
+Weld,2020-08-14,109.56
+Weld,2020-08-15,109.17
+Weld,2020-08-16,110.35
+Weld,2020-08-17,105.21
+Weld,2020-08-18,104.42
+Weld,2020-08-19,94.14
+Weld,2020-08-20,99.67
+Weld,2020-08-21,85.43
+Weld,2020-08-22,88.2
+Weld,2020-08-23,90.58
+Weld,2020-08-24,84.25
+Weld,2020-08-25,87.81
+Weld,2020-08-26,85.43
+Weld,2020-08-27,84.64
+Weld,2020-08-28,90.58
+Weld,2020-08-29,94.53
+Weld,2020-08-30,89.39
+Weld,2020-08-31,85.43
+Weld,2020-09-01,88.6
+Weld,2020-09-02,92.16
+Weld,2020-09-03,89.39
+Weld,2020-09-04,94.93
+Weld,2020-09-05,94.14
+Weld,2020-09-06,94.93
+Weld,2020-09-07,95.72
+Weld,2020-09-08,100.46
+Weld,2020-09-09,100.46
+Weld,2020-09-10,96.51
+Weld,2020-09-11,90.18
+Weld,2020-09-12,96.9
+Weld,2020-09-13,100.07
+Weld,2020-09-14,105.21
+Weld,2020-09-15,107.19
+Weld,2020-09-16,119.85
+Weld,2020-09-17,124.59
+Weld,2020-09-18,124.59
+Weld,2020-09-19,132.5
+Weld,2020-09-20,130.13
+Weld,2020-09-21,135.27
+Weld,2020-09-22,141.2
+Weld,2020-09-23,143.97
+Weld,2020-09-24,149.91
+Weld,2020-09-25,157.42
+Weld,2020-09-26,157.03
+Weld,2020-09-27,161.38
+Weld,2020-09-28,164.15
+Weld,2020-09-29,160.98
+Weld,2020-09-30,151.49
+Weld,2020-10-01,160.59
+Weld,2020-10-02,167.31
+Weld,2020-10-03,164.94
+Weld,2020-10-04,174.82
+Weld,2020-10-05,166.91
+Weld,2020-10-06,162.56
+Weld,2020-10-07,168.89
+Weld,2020-10-08,170.47
+Weld,2020-10-09,169.29
+Weld,2020-10-10,172.06
+Weld,2020-10-11,173.64
+Weld,2020-10-12,168.5
+Weld,2020-10-13,171.66
+Weld,2020-10-14,175.22
+Weld,2020-10-15,170.08
+Weld,2020-10-16,171.26
+Weld,2020-10-17,181.15
+Weld,2020-10-18,175.22
+Weld,2020-10-19,189.85
+Weld,2020-10-20,205.68
+Weld,2020-10-21,213.19
+Weld,2020-10-22,230.99
+Weld,2020-10-23,247.21
+Weld,2020-10-24,274.1
+Weld,2020-10-25,294.27
+Weld,2020-10-26,331.06
+Weld,2020-10-27,343.32
+Weld,2020-10-28,354.0
+Weld,2020-10-29,391.97
+Weld,2020-10-30,429.94
+Weld,2020-10-31,480.97
+Weld,2020-11-01,543.46
+Weld,2020-11-02,577.47
+Weld,2020-11-03,597.25
+Weld,2020-11-04,634.43
+Weld,2020-11-05,719.47
+Weld,2020-11-06,781.57
+Weld,2020-11-07,783.15
+Weld,2020-11-08,817.17
+Weld,2020-11-09,866.61
+Weld,2020-11-10,911.7
+Weld,2020-11-11,1040.25
+Weld,2020-11-12,1111.84
+Weld,2020-11-13,1204.79
+Weld,2020-11-14,1158.11
+Weld,2020-11-15,1217.44
+Weld,2020-11-16,1335.71
+Weld,2020-11-17,1372.1
+Weld,2020-11-18,1444.08
+Weld,2020-11-19,1487.19
+Weld,2020-11-20,1556.41
+Weld,2020-11-21,1570.65
+Weld,2020-11-22,1604.67
+Weld,2020-11-23,1662.02
+Weld,2020-11-24,1677.44
+Weld,2020-11-25,1673.09
+Weld,2020-11-26,1599.92
+Weld,2020-11-27,1637.1
+Weld,2020-11-28,1625.23
+Weld,2020-11-29,1569.86
+Weld,2020-11-30,1567.09
+Weld,2020-12-01,1551.27
+Weld,2020-12-02,1554.04
+Weld,2020-12-03,1533.47
+Weld,2020-12-04,1491.15
+Weld,2020-12-05,1473.35
