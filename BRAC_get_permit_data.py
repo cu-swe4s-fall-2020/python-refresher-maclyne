@@ -91,8 +91,10 @@ def get_county_names_all(file_name):
     countys_yes = BRAC_permits_yes[0]
     countys_no = BRAC_permits_no[0]
 
-    # make all_countys unique list of all countys involved
+    # make all_countys unique sorted list of all countys involved
     all_countys = remove_list_duplicates(countys_yes + countys_no)
+    all_countys = remove_list_duplicates(countys_yes + countys_no)
+    all_countys.sort()
     print(all_countys)
     return all_countys
 
@@ -143,11 +145,6 @@ def BRAC_permit_data_with_caserates(BRAC_county_caserates_file,
     BRAC_races_countys = BRAC_races[1]
     BRAC_races_dates = BRAC_races[2]
     BRAC_races_permits = BRAC_races[3]
-    print(BRAC_races_racenames, 'BRAC_races_racenames')
-    print(BRAC_races_countys, 'BRAC_races_countys')
-    print(BRAC_races_dates, 'BRAC_races_dates')
-    print(BRAC_races_permits, 'BRAC_races_permits')
-
 
     # get list of unique BRAC countys involved
     all_countys = remove_list_duplicates(BRAC_races_countys)
@@ -179,9 +176,7 @@ def BRAC_permit_data_with_caserates(BRAC_county_caserates_file,
     caserate_races = []
     for race in range(len(BRAC_races_racenames)):
             county_ind = cases_data_countys.index(BRAC_races_countys[race])
-            print(county_ind, race, 'county_ind, race #')
             date_ind = cases_data_dates_lists[county_ind].index(BRAC_races_dates[race])
-            print(date_ind, race, 'date_ind, race #')
             caserate_atrace = cases_data_rates_lists[county_ind][date_ind]
             caserate_races.append(caserate_atrace)
 
@@ -203,7 +198,6 @@ def BRAC_permit_data_with_caserates(BRAC_county_caserates_file,
                 county caserate per capita 100000 ppl \n")
     # print all lines of previus file but with caserates added as new column
     for line in range(len(BRAC_races_racenames)):
-        #out_line_list[line] = join(out_line_list[line].rstrip().split(',') + ','+str(caserate_races[line]))
         new_out_line_list = out_line_list[line].strip()+','+str(caserate_races[line])+ '\n'
         fout.write(new_out_line_list)
 

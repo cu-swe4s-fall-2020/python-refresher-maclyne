@@ -37,6 +37,7 @@ def main():
     census_file_name: str
     daily_new: bool     default=True
     running_avg: bool   default=False
+    running_sum: bool   default=False
     window: int
     coviddata_county_column: int *
     cases_column: int *
@@ -139,17 +140,24 @@ def main():
                         help='running average of cases.\
                                 default is False, window size is required')
 
+    parser.add_argument('--running_sum',
+                        type=bool,
+                        default=False,
+                        help='running sum of cases over a window.\
+                                default is False, window size is required.\
+                                cannot be switched on at same time as running_avg')
+
     parser.add_argument('--window',
                         type=int,
                         default=5,
-                        help='Window size of running average')
+                        help='Window size of running average or running sum')
 
     # parse arguments and store them in args
     args = parser.parse_args()
 
     # assign arguments
     state = args.state
-    coviddata_countys_list = args.coviddata_countys_list
+    coviddata_countys_list = [i.replace('-',' ') for i in args.coviddata_countys_list]
     data_out_file = args.data_out_file
     coviddata_file_name = args.covid_file_name
     coviddata_county_column = args.coviddata_county_column
@@ -157,6 +165,7 @@ def main():
     date_column = args.date_column
     daily_new = args.daily_new
     running_avg = args.running_avg
+    running_summation = args.running_sum
     window = args.window
     census_file_name = args.census_file_name
     census_state_column = args.census_state_column
@@ -165,7 +174,6 @@ def main():
 
 
     # make CSV file copy of only state covid-19-data
-    # TODO: make this ^ into Snakefile
     if coviddata_file_name == 'covid-19-data/us-counties.csv':
         state_coviddata_file_name ='covid-19-data/'+state+'-counties.csv'
         try:
@@ -220,7 +228,6 @@ def main():
                                            result_columns=[cases_column],
                                            date_column=date_column,
                                            return_dates=True)
-
         # convert cases from type str to int
         cases_data_cumulative[0] = list(map(int, cases_data_cumulative[0]))
 
@@ -234,10 +241,13 @@ def main():
         else:
             cases = cases_data_cumulative[0]
 
-        # print runing average cases option
+        # print running average OR running sum cases option OR neither
         if running_avg is True:
             from my_utils import running_average
             cases = running_average(cases, window)
+        elif running_summation is True:
+            from my_utils import running_sum
+            cases = running_sum(cases, window)
 
         # use binary search to get county pop census data out of state data
         census_county_name = coviddata_county_name + ' County'
@@ -271,7 +281,6 @@ def main():
         fout = open(data_out_file, 'w')
         fout.write("county,date,per_capita_rate \n" )
         for county_index in range(0, len(out_data[0])):
-            print(out_data[0][county_index],'out_data[0][county_index]')
             for date_ind in range(0, len(out_data[1][county_index][0])):
                 #print(out_data[1][county_index][0][date_ind],'out_data[1][county_index][0][date_ind]')
                 fout.write(out_data[0][county_index]+','+ str(out_data[1][county_index][0][date_ind])+','+ str(out_data[2][county_index][0][date_ind])+'\n')
