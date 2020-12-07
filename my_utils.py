@@ -10,6 +10,8 @@
     * running_average - running average of an array (moving forward) using \
                         a given window size \
                         note: moving window covers only past and current values
+    * running_sum   - same as running average, except gives the runinng sum\
+                      of the window.
     * binary_search - a binary search of sorted data
 
     * plot_lines - Take a list of list of points and plot each list as a line
@@ -268,6 +270,37 @@ def running_average(daily_values, window=5):
 
     return running_avg_values
 
+
+def running_sum(daily_values, window=5):
+    """
+    calculated the running sum of an array over a given window.
+    Sum taken over the current and previous values, not future values.
+    During the first days when the cumulative number of days is below \
+            the window, the running sum until that point is taken
+
+    Parameters
+    ----------
+    daily_values        : array of int
+                        number daily new cases (or deaths, etc)
+
+    window              : int
+                        number of days to do the running sum window
+
+    Returns
+    ---------
+    running_sum_values  : array of floats
+                        running sum at each day for given window size
+    """
+    running_sum_values = np.zeros(len(daily_values))
+    # running sum while cumulative number of days < window:
+    for d in np.arange(0, min(len(daily_values), window)):
+        running_sum_values[d] = np.sum(daily_values[0:d+1])
+    # once cumulative number of days has reached window size, \
+    # use that same window size for the rest of the data
+    for d in np.arange(window, len(daily_values)):
+        running_sum_values[d] = np.sum(daily_values[d-window+1:d+1])
+
+    return running_sum_values
 
 def binary_search(key, data):
     """
