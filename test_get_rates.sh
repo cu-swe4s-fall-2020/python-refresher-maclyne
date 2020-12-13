@@ -2,7 +2,7 @@ test -e ssshtest || wget -q https://raw.githubusercontent.com/ryanlayer/ssshtest
 . ssshtest
 
 # functional tests for get_rates.py on real data daily new cases
-run test_real_Boulder python get_rates.py --covid_file_name 'covid-19-data/us-counties.csv' --census_file_name 'census-data/co-est2019-alldata.csv' --state 'Colorado' --plot_file_name 'plots/Boulder_daily_new_caserates' --coviddata_county 'Boulder' --census_county 'Boulder County' --coviddata_county_column 1 --cases_column 4 --date_column 0 --census_state_column 5 --census_county_column 6 --pop_column 7 --daily_new True --running_avg False
+run test_real_Boulder python get_rates.py --covid_file_name 'covid-19-data/us-counties.csv' --census_file_name 'census-data/co-est2019-alldata.csv' --state 'Colorado' --plot_file_name 'plots/Boulder_daily_new_caserates' --coviddata_countys_list 'Boulder' --census_county 'Boulder County' --coviddata_county_column 1 --cases_column 4 --date_column 0 --census_state_column 5 --census_county_column 6 --pop_column 7 --daily_new True --running_avg False
 
 assert_no_stderr
 

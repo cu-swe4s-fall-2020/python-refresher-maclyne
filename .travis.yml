@@ -10,8 +10,9 @@ before_install:
     - conda activate test
     - conda install --yes python=3.8
     - conda install -y pycodestyle
-    - conda install --yes numpy
-    - conda install --yes datetime
+    - conda install -y numpy
+    - conda install -y matplotlib
+    - git submodule update --init
 
 script:
     - python test_my_utils.py
@@ -26,3 +27,4 @@ script:
     - pycodestyle get_rates.py
     - pycodestyle hash_table.py
     - pycodestyle get_daily_rates.py
+    - pycodestyle BRAC_get_permit_data.py

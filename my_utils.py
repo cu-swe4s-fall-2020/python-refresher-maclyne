@@ -26,16 +26,17 @@ import datetime
 from datetime import date
 from datetime import timedelta
 
+
 def make_statefile(state):
     '''
     extracts and makes state file of covid CSV file county \
     data specifically from covid-19-data/us-counties.csv
-    
+
     Parameters:
     ------------
     state   : str
               USA State name (capitalized first letter)
-    
+
     Out:
     -----------
     state_outfile_name: str
@@ -45,27 +46,28 @@ def make_statefile(state):
     state_outfile_name = 'covid-19-data/'+state+'-counties.csv'
     query_column = 2
     query_value = state
-    
+
     f = open(infile_name, 'r')
     out_line_list = []
     # parse through file lines
-    for l in f:
-        A = l.rstrip().split(',')
-        # filter lines by where query_value is met and append results to output array
+    for line in f:
+        A = line.rstrip().split(',')
+        # filter lines by where query_value met, append results to output array
         if A[query_column] == query_value:
-            out_line_list.append(l)
+            out_line_list.append(line)
 
     f.close()
 
     fout = open(state_outfile_name, 'w')
     # write header
-    fout.write("date,county,state,fips,cases,deaths \n" )
+    fout.write("date,county,state,fips,cases,deaths \n")
     # print all lines where query_column == query_value
     for line in range(len(out_line_list)):
         fout.write(out_line_list[line])
 
     fout.close()
     return state_outfile_name
+
 
 def get_column(file_name, query_column, query_value, result_columns=[1],
                date_column=None, return_dates=False):
@@ -114,7 +116,7 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
     # catch possible exceptions when opening files
     try:
         f = open(file_name, 'r', encoding='ISO-8859-1')
-        f.close()  # NOTE: added line to rm file not closed error. idk if right
+        f.close()
     except FileNotFoundError:
         print("Couldn't find file " + file_name)
         sys.exit(1)
@@ -160,13 +162,12 @@ def get_column(file_name, query_column, query_value, result_columns=[1],
                         print('dates out of order, system exit')
                         sys.exit(4)
                     else:
-                        add_day = 1 # added 11/9
+                        add_day = 1
                         while gap > 1:
                             for ind in np.arange(len(result_columns)):
                                 hits[ind].append(hits[ind][-1])
-                                dates_list.append(date_last + datetime.timedelta(days=add_day)) #added 11/9
-                                ##dates_list.append(date_last)
-                            add_day = add_day + 1 # added 11/9
+                                dates_list.append(date_last + datetime.timedelta(days=add_day))
+                            add_day = add_day + 1
                             gap = gap - 1
                         # now that gap is closed, append new data
                         for ind in np.arange(len(result_columns)):
@@ -302,6 +303,7 @@ def running_sum(daily_values, window=5):
 
     return running_sum_values
 
+
 def binary_search(key, data):
     """
     binary search of sorted data
@@ -371,11 +373,12 @@ def plot_lines(points, labels, file_name):
 
     plt.savefig(file_name, bbox_inches='tight')
 
+
 def remove_list_duplicates(in_list):
     """
     Take a list and remove duplicate entries \
                         so all remaining entries are unique.
-    
+
     Method: Create a dictionary, using the List items as keys. \
             This will automatically remove any duplicates because \
             dictionaries cannot have duplicate keys.
@@ -386,11 +389,12 @@ def remove_list_duplicates(in_list):
 
     Returns:
     --------
-    unique_list: list   copy of that list with only unique 
+    unique_list: list   copy of that list with only unique\
                         entries remaining
     """
     unique_list = list(dict.fromkeys(in_list))
     return unique_list
+
 
 def main():
     """

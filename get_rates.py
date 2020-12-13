@@ -19,6 +19,7 @@ from operator import itemgetter
 from datetime import datetime
 import numpy as np
 
+
 def main():
     """
     get Covid19 case data and census data and convert to per-capita rates
@@ -29,7 +30,7 @@ def main():
     ---------------
     state: str        Name of USA State (No abbreviations)
     coviddata_countys_list: list of str
-    
+
     Optional Args (have defaults): see argparser section
     -------------------------------------------
     data_out_file: str  name of CSV file if want one to be made. or '[]'
@@ -88,7 +89,7 @@ def main():
                                 out to. If not wanted, is "[]", which\
                                 is coded to not return any data_out_file',
                         default='[]')
-    
+
     parser.add_argument('--covid_file_name',
                         type=str,
                         help='Name of the input covid cases data file',
@@ -145,7 +146,8 @@ def main():
                         default=False,
                         help='running sum of cases over a window.\
                                 default is False, window size is required.\
-                                cannot be switched on at same time as running_avg')
+                                cannot be switched on at same \
+                                time as running_avg')
 
     parser.add_argument('--window',
                         type=int,
@@ -157,7 +159,7 @@ def main():
 
     # assign arguments
     state = args.state
-    coviddata_countys_list = [i.replace('-',' ') for i in args.coviddata_countys_list]
+    coviddata_countys_list = [i.replace('-', ' ') for i in args.coviddata_countys_list]
     data_out_file = args.data_out_file
     coviddata_file_name = args.covid_file_name
     coviddata_county_column = args.coviddata_county_column
@@ -172,10 +174,9 @@ def main():
     census_county_column = args.census_county_column
     pop_column = args.pop_column
 
-
     # make CSV file copy of only state covid-19-data
     if coviddata_file_name == 'covid-19-data/us-counties.csv':
-        state_coviddata_file_name ='covid-19-data/'+state+'-counties.csv'
+        state_coviddata_file_name = 'covid-19-data/'+state+'-counties.csv'
         try:
             f1 = open(state_coviddata_file_name, 'r')
             f1.close()
@@ -183,9 +184,9 @@ def main():
             print('creating state_covidfile')
             state_coviddata_file_name = make_statefile(state)
             print(state_coviddata_file_name, 'state_coviddata_file_name')
-    
+
     elif coviddata_file_name == 'covid-19-data/'+state+'-counties.csv':
-            state_coviddata_file_name = coviddata_file_name
+        state_coviddata_file_name = coviddata_file_name
     else:
         Warning('This script must be run on data within only \
                 one state or else has error if counties of \
@@ -203,7 +204,7 @@ def main():
                                    result_columns=[census_county_column,
                                                    pop_column],
                                    date_column=None)
-   
+
     # sort census_state_data by county name
     # census_state_data is of list [[county_names], [census2010pops])
     sorted_pairs = sorted(zip(census_state_data[0], census_state_data[1]))
@@ -237,7 +238,7 @@ def main():
         # daily cases option
         if daily_new is True:
             from my_utils import get_daily_count
-            cases = get_daily_count(cases_data_cumulative[0])  # not dates column
+            cases = get_daily_count(cases_data_cumulative[0])
         else:
             cases = cases_data_cumulative[0]
 
@@ -251,7 +252,8 @@ def main():
 
         # use binary search to get county pop census data out of state data
         census_county_name = coviddata_county_name + ' County'
-        county_pop = binary_search(census_county_name, census_state_data_sorted)
+        county_pop = binary_search(census_county_name,
+                                   census_state_data_sorted)
 
         # raise error if county census not found
         if county_pop is None:
@@ -261,11 +263,11 @@ def main():
 
         county_pop = int(county_pop)
 
-        # convert cases to per-capita rates by dividing county case by population
+        # convert cases to per-capita rates by dividing county case by pop
         if type(cases) == list:
             cases = np.asarray(cases)
 
-        per_capita_rates = np.round(cases / county_pop * 100000,2)
+        per_capita_rates = np.round(cases / county_pop * 100000, 2)
 
         # convert per_capita_rates back from nparray to list
         per_capita_rates = per_capita_rates.tolist()
@@ -274,16 +276,13 @@ def main():
         out_data[1].append([dates])
         out_data[2].append([per_capita_rates])
 
-##    print(out_data)
-
     # write out_data to a CSV file in format 'County','date','per_capita_rate'
     if data_out_file != '[]':
         fout = open(data_out_file, 'w')
-        fout.write("county,date,per_capita_rate \n" )
+        fout.write("county,date,per_capita_rate \n")
         for county_index in range(0, len(out_data[0])):
             for date_ind in range(0, len(out_data[1][county_index][0])):
-                #print(out_data[1][county_index][0][date_ind],'out_data[1][county_index][0][date_ind]')
-                fout.write(out_data[0][county_index]+','+ str(out_data[1][county_index][0][date_ind])+','+ str(out_data[2][county_index][0][date_ind])+'\n')
+                fout.write(out_data[0][county_index] + ',' + str(out_data[1][county_index][0][date_ind]) + ',' + str(out_data[2][county_index][0][date_ind])+'\n')
         fout.close()
 
     return out_data

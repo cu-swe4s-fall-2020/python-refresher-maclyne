@@ -2,8 +2,9 @@
 
     Initial date: 1 Oct 2020
     Author: Margot Clyne
-    
-    Updated Oct 22 get_column to take a list or target columns and return a list of lists
+
+    Updated Oct 22 get_column to take a list or\
+            target columns and return a list of lists
 
 """
 import unittest
@@ -22,21 +23,22 @@ class TestCalc(unittest.TestCase):
         # check that this is the correct CSV file of covid data \
         # for comparing tests with (subset of last 20 days of Boulder county)
         self.assertEqual(my_utils.get_column(
-                        'covid-19-data/us-counties-testfile-Boulder.csv',
-                         0, '2020-09-04', result_columns=[4]),
-                        [['2399']])
-    
+                         'covid-19-data-old/us-counties-testfile-Boulder.csv',
+                         0, '2020-09-04',
+                         result_columns=[4]),
+                         [['2399']])
+
     def test_get_column_multipleresultcolumns(self):
         # test that I get what I think for result_columns of len>1
         self.assertEqual(my_utils.get_column(
-                        'covid-19-data/us-counties-testfile-Boulder.csv',
-                        0, '2020-09-04', result_columns=[4,5]),
-                        [['2399'],['79']])
+                         'covid-19-data-old/us-counties-testfile-Boulder.csv',
+                         0, '2020-09-04', result_columns=[4, 5]),
+                         [['2399'], ['79']])
 
     def test_get_column_querynotmatched(self):
         # empty array of int if the query value is not in the file.
         self.assertEqual(my_utils.get_column(
-                        'covid-19-data/us-counties-testfile-Boulder.csv',
+                         'covid-19-data-old/us-counties-testfile-Boulder.csv',
                          1, 'Denver', result_columns=[4]), [[]])
 
 #    def test_get_column_badfile(self):
@@ -47,7 +49,7 @@ class TestCalc(unittest.TestCase):
 
     def test_get_column_missingdates(self):
         self.assertEqual(my_utils.get_column(
-                         'covid-19-data/'
+                         'covid-19-data-old/'
                          + 'us-counties-testfile-Boulder-fakemissingdates.csv',
                          1, 'Boulder', result_columns=[4], date_column=0),
                          [['2289', '2289', '2289', '2324', '2344',
@@ -56,35 +58,36 @@ class TestCalc(unittest.TestCase):
 
     def test_get_column_missingdates_returndates(self):
         self.assertEqual(my_utils.get_column(
-                        'covid-19-data/'
-                        + 'us-counties-testfile-Boulder-fakemissingdates.csv',
-                        1, 'Boulder', result_columns=[4], date_column=0,
-                        return_dates=True),
-                        [['2289', '2289', '2289', '2324', '2344',
-                          '2361', '2399', '2399', '2399', '2399',
-                          '2399', '2574', '2574', '2671'],
-                         [date.fromisoformat('2020-08-29'),
-                          date.fromisoformat('2020-08-30'),
-                          date.fromisoformat('2020-08-31'),
-                          date.fromisoformat('2020-09-01'),
-                          date.fromisoformat('2020-09-02'),
-                          date.fromisoformat('2020-09-03'),
-                          date.fromisoformat('2020-09-04'),
-                          date.fromisoformat('2020-09-05'),
-                          date.fromisoformat('2020-09-06'),
-                          date.fromisoformat('2020-09-07'),
-                          date.fromisoformat('2020-09-08'),
-                          date.fromisoformat('2020-09-09'),
-                          date.fromisoformat('2020-09-10'),
-                          date.fromisoformat('2020-09-11')]])
+                         'covid-19-data-old/'
+                         + 'us-counties-testfile-Boulder-fakemissingdates.csv',
+                         1, 'Boulder', result_columns=[4], date_column=0,
+                         return_dates=True),
+                         [['2289', '2289', '2289', '2324', '2344',
+                           '2361', '2399', '2399', '2399', '2399',
+                           '2399', '2574', '2574', '2671'],
+                          [date.fromisoformat('2020-08-29'),
+                           date.fromisoformat('2020-08-30'),
+                           date.fromisoformat('2020-08-31'),
+                           date.fromisoformat('2020-09-01'),
+                           date.fromisoformat('2020-09-02'),
+                           date.fromisoformat('2020-09-03'),
+                           date.fromisoformat('2020-09-04'),
+                           date.fromisoformat('2020-09-05'),
+                           date.fromisoformat('2020-09-06'),
+                           date.fromisoformat('2020-09-07'),
+                           date.fromisoformat('2020-09-08'),
+                           date.fromisoformat('2020-09-09'),
+                           date.fromisoformat('2020-09-10'),
+                           date.fromisoformat('2020-09-11')]])
 
     def test_get_column_withdeaths(self):
-        # test this works for missing dates and two result_columns 
+        # test this works for missing dates and two result_columns
         self.assertEqual(my_utils.get_column(
-                         'covid-19-data/'
+                         'covid-19-data-old/'
                          + 'us-counties-testfile-Boulder-shorter.csv',
-                         1, 'Boulder', result_columns=[4,5], date_column=0),
-                         [['2289', '2324', '2344', '2361', '2399', '2574', '2671'],
+                         1, 'Boulder', result_columns=[4, 5], date_column=0),
+                         [['2289', '2324', '2344', '2361',
+                           '2399', '2574', '2671'],
                           ['79', '79', '79', '80', '80', '81', '83']])
 
     def test_get_daily_count(self):
@@ -134,18 +137,20 @@ class TestCalc(unittest.TestCase):
         # I dont see how this would have any other error modes
 
     def test_binary_search(self):
-        self.assertEqual(my_utils.binary_search('c',[['a','b','c','d','e'],
-                                                     [2, 4, 5, 6, 7]]), 5)
+        self.assertEqual(my_utils.binary_search('c',
+                                                [['a', 'b', 'c', 'd', 'e'],
+                                                 [2, 4, 5, 6, 7]]), 5)
 
-        self.assertEqual(my_utils.binary_search('2020-09-16',[['2020-09-05', 
-                                                               '2020-09-06',
-                                                               '2020-09-10',
-                                                               '2020-09-14',
-                                                               '2020-09-16',
-                                                               '2020-09-19'],
+        self.assertEqual(my_utils.binary_search('2020-09-16', [['2020-09-05',
+                                                                '2020-09-06',
+                                                                '2020-09-10',
+                                                                '2020-09-14',
+                                                                '2020-09-16',
+                                                                '2020-09-19'],
                                                                [0, 3, 4, 10,
                                                                 15, 20]]
                                                 ), 15)
+
 
 if __name__ == '__main__':
     unittest.main()
