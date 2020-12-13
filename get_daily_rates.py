@@ -5,7 +5,8 @@
     Author: Margot Clyne
 
     File: get_daily_rates.py (based on code from get_rates.py) but now\
-            upgraded by using hash tables instead of sorting and searching lists
+            upgraded by using hash tables \
+            instead of sorting and searching lists
 
     Summary:
     --------
@@ -31,7 +32,7 @@ def main():
     calculate the number of covid19 cases per capita\
     for each county in a given State for a given date.
     Cases are per 100,000 people and rounded to 1 decimal
-   
+
     Required Args:
     ---------------
     state: str        Name of USA State (No abbreviations)
@@ -51,7 +52,7 @@ def main():
     census_county_column: int *
     pop_column: int *
 
-    Note: *= only needs to be changed if format of 
+    Note: *= only needs to be changed if format of\
          covid19 and census data files are changed
 
     Returns:
@@ -83,7 +84,7 @@ def main():
                         type=str,
                         help='Name of the input census data file',
                         default='census-data/co-est2019-alldata.csv')
-    
+
     parser.add_argument('--coviddata_county_column',
                         type=int,
                         help='column ind for county names in covid CSVfile',
@@ -149,9 +150,8 @@ def main():
     query_date = date.fromisoformat(args.query_date)
 
     # make CSV file copy of only state covid-19-data
-    # TODO: make this ^ into Snakefile
     if coviddata_file_name == 'covid-19-data/us-counties.csv':
-        state_coviddata_file_name ='covid-19-data/'+state+'-counties.csv'
+        state_coviddata_file_name = 'covid-19-data/'+state+'-counties.csv'
         try:
             f1 = open(state_coviddata_file_name, 'r')
             f1.close()
@@ -169,7 +169,7 @@ def main():
                 state_coviddata_file_name = args.covid_file_name ;\
                 Watch out for errors from this issue.')
         state_coviddata_file_name = args.covid_file_name
-    
+
     # get state county names and population data from census file
     census_state_data = get_column(census_file_name, census_state_column,
                                    state,
@@ -177,7 +177,7 @@ def main():
                                                    pop_column],
                                    date_column=None)
     county_pop_list = census_state_data[1][1:]
-    
+
     # census file has names as "countyname + County", so rm " County"
     county_names_list_withcounty = census_state_data[0][1:]
     county_names_list = []
@@ -185,8 +185,8 @@ def main():
         county_names_list.append(county_names_list_withcounty[c][:-7])
 
     # make hashtable of (key-county_name, value= county_pop)
-    N = 260  #hashtable size. Max number of counties in a State is Texas with 254
-    census_hashtable = [ [] for i in range(N) ]
+    N = 260  # hashtable size. Max number counties in a State is Texas with 254
+    census_hashtable = [[] for i in range(N)]
     for c in range(len(county_names_list)):
         hash_table.put(census_hashtable, N, county_names_list[c],
                        county_pop_list[c], method='rolling')
@@ -196,7 +196,7 @@ def main():
         from my_utils import get_daily_count
     if running_avg is True:
         from my_utils import running_average
-    
+
     # Loop through each county in state
     out_lists = []
     for c in range(len(county_names_list)):
@@ -227,7 +227,7 @@ def main():
                                             county_names_list[c],
                                             method='rolling'))
             out_lists.append([county_names_list[c],
-                             round(county_caserate_at_date,1)])
+                             round(county_caserate_at_date, 1)])
     print(out_lists)
     return out_lists
 
