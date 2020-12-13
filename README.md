@@ -131,25 +131,53 @@ python ss_plots/timeseries.py --in_file 'potential_BRAC_county_cases_2weeksum.tx
 ### Class Name: MCDB6440: Software Engineering for Scientists
 
 Repository name: python-refresher
-
-Objective: become familiar with python
 Initial date: 17 Sept 2020
-Updated last: 7 Dec 2020
+Updated last: 12 Dec 2020
 
+File: BRAC_races_permits.csv
+    - database of BRAC race details manually entered by Margot Clyne
+
+File: Snakefile
+    The snakemake file to run everything for the cycling races project
+    
+File: BRAC_get_permit_data.py
+    Get Cycling race permit data during the Covid19 pandemic
+    - get_county_names_all: make master list of all BRAC counties \
+            involved with this dataset
+    - BRAC_get_permit_data_with_caserates: for each race, \
+            get county caserate per capita at that date.\
+            return output: a copy of the BRAC permit dataset file with an\
+            extra new column of county caserate per capita.
+            
 File: my_utils.py
-    This file imports a CSV file and outputs desired data
-    - function make_statefile to copy covid19 case State data to its own CSV file
-    - function get_column(file_name, query_column, query_value, result_columns=[1])
-    - function has_decreasing_values() for an array of int
-    - function get_daily_count(cumulative_values, allow_decreasing=True)
-    - includes function running_average(daily_values, window=5)
+    Various utilities functions:
+    - make_statefile: extracts and makes state file of covid CSV file county \
+                       data specifically from covid-19-data/us-counties.csv
+    - get_column: reads a CSV file and gets results filtered by query value
+    - has_decreasing_values: tells if array of ints has any decreasing vals \
+                              when read in order(returns bool)
+    - get_daily_count: takes cumulative values of cases deliminated daily \
+                        and returns daily numbers (today minus yesterday)
+    - running_average: running average of an array (moving forward) using \
+                        a given window size \
+                        note: moving window covers only past and current values
+    - running_sum:    same as running average, except gives the runinng sum\
+                      of the window.
+    - binary_search: a binary search of sorted data
+    - plot_lines: Take a list of list of points and plot each list as a line
+    - remove_list_duplicates: take a list and remove duplicate entries \
+                        so all remaining entries are unique
 
-
+         
 File: print_cases.py
     Uses get_column() from my_utils.py to read Covid19 cases and output desired data
         - optionally runs get_daily_count()
         - optionally runs running_average()
 
+
+File: get_rates.py
+    get Covid19 rates for plotting
+    Per Captia Rates are per 100,000 people
 
 File: run.sh
     - runs print_cases.py
